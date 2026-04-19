@@ -1,8 +1,8 @@
 {
   "repo": "Papieya-API-Cognito",
   "status": "passed",
-  "updatedAt": "2026-04-19T03:01:09.021Z",
-  "runUrl": "https://github.com/Konnectable/Papieya-API-Cognito/actions/runs/24619575638",
+  "updatedAt": "2026-04-19T20:09:27.833Z",
+  "runUrl": "https://github.com/Konnectable/Papieya-API-Cognito/actions/runs/24638028827",
   "suites": [
     {
       "name": "CognitoService disables a user in the XP pool and wraps the provider response",
