@@ -1,0 +1,13 @@
+{
+  "repo": "Papieya-API-events",
+  "status": "passed",
+  "suites": 1,
+  "tests": 5,
+  "failures": 0,
+  "errors": 0,
+  "skipped": 0,
+  "branch": "master",
+  "commit": "3469943b31614351de3ab46ad0e9a28a479ea145",
+  "runUrl": "https://github.com/Konnectable/Papieya-API-events/actions/runs/24619491390",
+  "updatedAt": "2026-04-19T02:55:29.681Z"
+}
