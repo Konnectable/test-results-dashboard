@@ -1,9 +1,109 @@
 {
   "repo": "papieya-api-demodata",
   "status": "passed",
-  "updatedAt": "2026-04-19T20:09:19.186Z",
-  "runUrl": "https://github.com/Konnectable/papieya-api-demodata/actions/runs/24638030711",
+  "updatedAt": "2026-04-19T20:32:10.833Z",
+  "runUrl": "https://github.com/Konnectable/papieya-api-demodata/actions/runs/24638479280",
   "suites": [
+    {
+      "name": "deleteDataService regressions deleteAllRestaurantData rejects invalid ids instead of defaulting to 0",
+      "tests": [
+        {
+          "name": "deleteDataService regressions deleteAllRestaurantData rejects invalid ids instead of defaulting to 0",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "deleteDataService regressions deleteAllRestaurantData passes a validated numeric id to each delete step",
+      "tests": [
+        {
+          "name": "deleteDataService regressions deleteAllRestaurantData passes a validated numeric id to each delete step",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "deleteDataService regressions deleteAllRestaurantData blocks SQL injection strings before any delete step runs",
+      "tests": [
+        {
+          "name": "deleteDataService regressions deleteAllRestaurantData blocks SQL injection strings before any delete step runs",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "deleteDataService regressions deleteCustomers returns success without awaiting a result set",
+      "tests": [
+        {
+          "name": "deleteDataService regressions deleteCustomers returns success without awaiting a result set",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "deleteDataService regressions deleteReservations removes orders before reservations",
+      "tests": [
+        {
+          "name": "deleteDataService regressions deleteReservations removes orders before reservations",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "deleteDataService regressions deleteTableInformation clears each table-related collection",
+      "tests": [
+        {
+          "name": "deleteDataService regressions deleteTableInformation clears each table-related collection",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "deleteDataService regressions deleteTabsAndMenus clears pairings before menus and tabs",
+      "tests": [
+        {
+          "name": "deleteDataService regressions deleteTabsAndMenus clears pairings before menus and tabs",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "deleteDataService regressions deleteTeamMembers deletes member-linked rows and calls the helper per member",
+      "tests": [
+        {
+          "name": "deleteDataService regressions deleteTeamMembers deletes member-linked rows and calls the helper per member",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "deleteDataService regressions deleteAllRestaurantData returns a 503 when a delete step throws unexpectedly",
+      "tests": [
+        {
+          "name": "deleteDataService regressions deleteAllRestaurantData returns a 503 when a delete step throws unexpectedly",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "deleteDataService regressions deleteTabsAndMenus returns a 503 envelope on query failures",
+      "tests": [
+        {
+          "name": "deleteDataService regressions deleteTabsAndMenus returns a 503 envelope on query failures",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
     {
       "name": "demoDataService regressions createStandardMenu rejects invalid restaurant ids instead of coercing to 0",
       "tests": [
@@ -69,36 +169,6 @@
       "tests": [
         {
           "name": "demoDataService regressions updateDemoOrders does not query Orders with an empty IN clause",
-          "status": "passed",
-          "failureMessage": ""
-        }
-      ]
-    },
-    {
-      "name": "deleteDataService regressions deleteAllRestaurantData rejects invalid ids instead of defaulting to 0",
-      "tests": [
-        {
-          "name": "deleteDataService regressions deleteAllRestaurantData rejects invalid ids instead of defaulting to 0",
-          "status": "passed",
-          "failureMessage": ""
-        }
-      ]
-    },
-    {
-      "name": "deleteDataService regressions deleteAllRestaurantData passes a validated numeric id to each delete step",
-      "tests": [
-        {
-          "name": "deleteDataService regressions deleteAllRestaurantData passes a validated numeric id to each delete step",
-          "status": "passed",
-          "failureMessage": ""
-        }
-      ]
-    },
-    {
-      "name": "deleteDataService regressions deleteAllRestaurantData blocks SQL injection strings before any delete step runs",
-      "tests": [
-        {
-          "name": "deleteDataService regressions deleteAllRestaurantData blocks SQL injection strings before any delete step runs",
           "status": "passed",
           "failureMessage": ""
         }

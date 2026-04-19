@@ -2,12 +2,12 @@
   "repo": "papieya-api-demodata",
   "status": "passed",
   "suites": 2,
-  "tests": 10,
+  "tests": 17,
   "failures": 0,
   "errors": 0,
   "skipped": 0,
   "branch": "main",
-  "commit": "1bdb35fe365fd43a64ef5a2562c5627a0b4fa784",
-  "runUrl": "https://github.com/Konnectable/papieya-api-demodata/actions/runs/24638030711",
-  "updatedAt": "2026-04-19T20:09:19.186Z"
+  "commit": "93780b03d1ebc5c4b949204c9b5cd6aa3e28f62a",
+  "runUrl": "https://github.com/Konnectable/papieya-api-demodata/actions/runs/24638479280",
+  "updatedAt": "2026-04-19T20:32:10.833Z"
 }
