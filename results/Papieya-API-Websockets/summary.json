@@ -2,12 +2,12 @@
   "repo": "Papieya-API-Websockets",
   "status": "passed",
   "suites": 1,
-  "tests": 4,
+  "tests": 7,
   "failures": 0,
   "errors": 0,
   "skipped": 0,
   "branch": "master",
-  "commit": "624a2d85fc8ca518e9717ccfdb6d87e5b59164e2",
-  "runUrl": "https://github.com/Konnectable/Papieya-API-Websockets/actions/runs/24638039576",
-  "updatedAt": "2026-04-19T20:10:00.144Z"
+  "commit": "04061fd99352972573bbef2e89c9cd8f5577f34a",
+  "runUrl": "https://github.com/Konnectable/Papieya-API-Websockets/actions/runs/24638486817",
+  "updatedAt": "2026-04-19T20:32:38.930Z"
 }
