@@ -1,8 +1,8 @@
 {
   "repo": "papieya-api-demodata",
   "status": "passed",
-  "updatedAt": "2026-04-19T03:01:06.228Z",
-  "runUrl": "https://github.com/Konnectable/papieya-api-demodata/actions/runs/24619577311",
+  "updatedAt": "2026-04-19T20:09:19.186Z",
+  "runUrl": "https://github.com/Konnectable/papieya-api-demodata/actions/runs/24638030711",
   "suites": [
     {
       "name": "demoDataService regressions createStandardMenu rejects invalid restaurant ids instead of coercing to 0",

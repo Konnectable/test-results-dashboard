@@ -1,0 +1,67 @@
+{
+  "available": true,
+  "message": "",
+  "rows": [
+    {
+      "file": "All files",
+      "statementsPct": 80.15,
+      "branchesPct": 65.85,
+      "functionsPct": 85.71,
+      "linesPct": 80.15,
+      "uncoveredLines": []
+    },
+    {
+      "file": "commons/helpers.js",
+      "statementsPct": 70,
+      "branchesPct": 100,
+      "functionsPct": 70,
+      "linesPct": 70,
+      "uncoveredLines": [
+        70,
+        71,
+        72,
+        79,
+        82,
+        85,
+        88,
+        89,
+        95,
+        98,
+        104,
+        105
+      ]
+    },
+    {
+      "file": "handler.js",
+      "statementsPct": 86.67,
+      "branchesPct": 0,
+      "functionsPct": 100,
+      "linesPct": 86.67,
+      "uncoveredLines": [
+        24,
+        25
+      ]
+    },
+    {
+      "file": "service/cognitoService.js",
+      "statementsPct": 84.21,
+      "branchesPct": 61.29,
+      "functionsPct": 100,
+      "linesPct": 84.21,
+      "uncoveredLines": [
+        23,
+        48,
+        49,
+        53,
+        62,
+        127,
+        137,
+        143,
+        164,
+        175,
+        176,
+        190
+      ]
+    }
+  ]
+}
