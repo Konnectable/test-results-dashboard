@@ -1,0 +1,13 @@
+{
+  "repo": "Papieya-API-Users",
+  "status": "passed",
+  "suites": 2,
+  "tests": 19,
+  "failures": 0,
+  "errors": 0,
+  "skipped": 0,
+  "branch": "main",
+  "commit": "4159fa285c51d8afac142102eaef58d52f3f7141",
+  "runUrl": "https://github.com/Konnectable/Papieya-API-Users/actions/runs/24619533344",
+  "updatedAt": "2026-04-19T02:58:30.668Z"
+}
