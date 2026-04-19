@@ -77,6 +77,32 @@ function createRepoCard(repo, summary) {
   meta.appendChild(commit);
 
   article.appendChild(meta);
+
+  const actions = document.createElement("div");
+  actions.className = "repo-actions";
+
+  if (summary) {
+    const detailsLink = document.createElement("a");
+    detailsLink.className = "action-link";
+    detailsLink.href = `./details.html?repo=${encodeURIComponent(repo.name)}`;
+    detailsLink.textContent = "View details";
+    actions.appendChild(detailsLink);
+  }
+
+  if (summary?.runUrl) {
+    const runLink = document.createElement("a");
+    runLink.className = "action-link";
+    runLink.href = summary.runUrl;
+    runLink.target = "_blank";
+    runLink.rel = "noreferrer";
+    runLink.textContent = "Open workflow run";
+    actions.appendChild(runLink);
+  }
+
+  if (actions.children.length > 0) {
+    article.appendChild(actions);
+  }
+
   return article;
 }
 
