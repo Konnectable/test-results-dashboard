@@ -2,12 +2,12 @@
   "repo": "Papieya-API-main",
   "status": "passed",
   "suites": 9,
-  "tests": 59,
+  "tests": 62,
   "failures": 0,
   "errors": 0,
   "skipped": 0,
   "branch": "master",
-  "commit": "224b611cb0b5630264b1eb03698316839ba04d4b",
-  "runUrl": "https://github.com/Konnectable/Papieya-API-main/actions/runs/24638033186",
-  "updatedAt": "2026-04-19T20:09:37.593Z"
+  "commit": "18a10c79b8f5846aeabc3984e68e324043283b78",
+  "runUrl": "https://github.com/Konnectable/Papieya-API-main/actions/runs/24638481039",
+  "updatedAt": "2026-04-19T20:32:23.427Z"
 }

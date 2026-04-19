@@ -1,8 +1,8 @@
 {
   "repo": "Papieya-API-main",
   "status": "passed",
-  "updatedAt": "2026-04-19T20:09:37.593Z",
-  "runUrl": "https://github.com/Konnectable/Papieya-API-main/actions/runs/24638033186",
+  "updatedAt": "2026-04-19T20:32:23.427Z",
+  "runUrl": "https://github.com/Konnectable/Papieya-API-main/actions/runs/24638481039",
   "suites": [
     {
       "name": "CustomerService creates a customer",
@@ -105,6 +105,16 @@
       ]
     },
     {
+      "name": "ImageDetailsService replaces customer-specific images and notifies the customer channel",
+      "tests": [
+        {
+          "name": "ImageDetailsService replaces customer-specific images and notifies the customer channel",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
       "name": "ImageDetailsService updates image details",
       "tests": [
         {
@@ -129,6 +139,16 @@
       "tests": [
         {
           "name": "ImageDetailsService deletes images",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "ImageDetailsService returns service errors from updateImageDetails",
+      "tests": [
+        {
+          "name": "ImageDetailsService returns service errors from updateImageDetails",
           "status": "passed",
           "failureMessage": ""
         }
@@ -494,6 +514,16 @@
       "tests": [
         {
           "name": "VendorService creates interested vendors",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "VendorService returns a 503 envelope when vendor writes fail",
+      "tests": [
+        {
+          "name": "VendorService returns a 503 envelope when vendor writes fail",
           "status": "passed",
           "failureMessage": ""
         }
