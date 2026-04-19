@@ -1,0 +1,173 @@
+{
+  "available": true,
+  "message": "",
+  "rows": [
+    {
+      "file": "All files",
+      "statementsPct": 85.89,
+      "branchesPct": 61.33,
+      "functionsPct": 95.95,
+      "linesPct": 85.89,
+      "uncoveredLines": []
+    },
+    {
+      "file": "commons/helpers.js",
+      "statementsPct": 98.68,
+      "branchesPct": 79.31,
+      "functionsPct": 100,
+      "linesPct": 98.68,
+      "uncoveredLines": [
+        66
+      ]
+    },
+    {
+      "file": "commons/S3CommonService.js",
+      "statementsPct": 100,
+      "branchesPct": 100,
+      "functionsPct": 100,
+      "linesPct": 100,
+      "uncoveredLines": []
+    },
+    {
+      "file": "handler.js",
+      "statementsPct": 94.29,
+      "branchesPct": 0,
+      "functionsPct": 100,
+      "linesPct": 94.29,
+      "uncoveredLines": [
+        75,
+        76
+      ]
+    },
+    {
+      "file": "handlerImageDetails.js",
+      "statementsPct": 88.24,
+      "branchesPct": 0,
+      "functionsPct": 100,
+      "linesPct": 88.24,
+      "uncoveredLines": [
+        31,
+        32
+      ]
+    },
+    {
+      "file": "service/customerService.js",
+      "statementsPct": 79.52,
+      "branchesPct": 59.41,
+      "functionsPct": 82.35,
+      "linesPct": 79.52,
+      "uncoveredLines": [
+        16,
+        58,
+        107,
+        201,
+        202,
+        213,
+        214,
+        217,
+        218,
+        220,
+        221,
+        223,
+        224,
+        225,
+        226,
+        227,
+        228,
+        230,
+        232,
+        238,
+        239,
+        240,
+        244,
+        248,
+        249,
+        250,
+        251,
+        263,
+        270,
+        285,
+        300,
+        337,
+        363,
+        384,
+        443,
+        465,
+        483,
+        491,
+        501,
+        520,
+        528,
+        537,
+        559
+      ]
+    },
+    {
+      "file": "service/emailService.js",
+      "statementsPct": 100,
+      "branchesPct": 100,
+      "functionsPct": 100,
+      "linesPct": 100,
+      "uncoveredLines": []
+    },
+    {
+      "file": "service/imageDetailsService.js",
+      "statementsPct": 77.05,
+      "branchesPct": 56.14,
+      "functionsPct": 100,
+      "linesPct": 77.05,
+      "uncoveredLines": [
+        14,
+        66,
+        95,
+        96,
+        100,
+        102,
+        103,
+        106,
+        107,
+        111,
+        113,
+        114,
+        117,
+        118,
+        122,
+        124,
+        125,
+        137,
+        157,
+        170,
+        182,
+        194,
+        226,
+        234,
+        244,
+        314,
+        315,
+        317
+      ]
+    },
+    {
+      "file": "service/pushNotificationsService.js",
+      "statementsPct": 97.78,
+      "branchesPct": 64.29,
+      "functionsPct": 100,
+      "linesPct": 97.78,
+      "uncoveredLines": [
+        146
+      ]
+    },
+    {
+      "file": "service/vendorService.js",
+      "statementsPct": 88,
+      "branchesPct": 75,
+      "functionsPct": 100,
+      "linesPct": 88,
+      "uncoveredLines": [
+        13,
+        46,
+        58
+      ]
+    }
+  ]
+}
