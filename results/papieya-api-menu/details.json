@@ -1,8 +1,8 @@
 {
   "repo": "papieya-api-menu",
   "status": "passed",
-  "updatedAt": "2026-04-19T20:09:33.658Z",
-  "runUrl": "https://github.com/Konnectable/papieya-api-menu/actions/runs/24638034347",
+  "updatedAt": "2026-04-19T20:32:22.070Z",
+  "runUrl": "https://github.com/Konnectable/papieya-api-menu/actions/runs/24638482029",
   "suites": [
     {
       "name": "service/menuService update flows updateMenu generates an escaped update clause and published timestamp branch",
@@ -35,6 +35,46 @@
       ]
     },
     {
+      "name": "commons/helpers.getSetClauseForUpdate escapes identifiers, excludes id, and normalizes empty values to null",
+      "tests": [
+        {
+          "name": "commons/helpers.getSetClauseForUpdate escapes identifiers, excludes id, and normalizes empty values to null",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "commons/helpers.getSetClauseForUpdate returns an empty clause when only id is present",
+      "tests": [
+        {
+          "name": "commons/helpers.getSetClauseForUpdate returns an empty clause when only id is present",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "commons/helpers.getSetClauseForUpdate covers the shared helper utilities used by menu APIs",
+      "tests": [
+        {
+          "name": "commons/helpers.getSetClauseForUpdate covers the shared helper utilities used by menu APIs",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "commons/helpers.getSetClauseForUpdate deleteImages skips empty payloads and forwards valid payloads through lambda",
+      "tests": [
+        {
+          "name": "commons/helpers.getSetClauseForUpdate deleteImages skips empty payloads and forwards valid payloads through lambda",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
       "name": "database skips connection ping in test mode and promisifies query",
       "tests": [
         {
@@ -55,20 +95,10 @@
       ]
     },
     {
-      "name": "commons/helpers.getSetClauseForUpdate escapes identifiers, excludes id, and normalizes empty values to null",
+      "name": "database logs connection failures outside test mode",
       "tests": [
         {
-          "name": "commons/helpers.getSetClauseForUpdate escapes identifiers, excludes id, and normalizes empty values to null",
-          "status": "passed",
-          "failureMessage": ""
-        }
-      ]
-    },
-    {
-      "name": "commons/helpers.getSetClauseForUpdate returns an empty clause when only id is present",
-      "tests": [
-        {
-          "name": "commons/helpers.getSetClauseForUpdate returns an empty clause when only id is present",
+          "name": "database logs connection failures outside test mode",
           "status": "passed",
           "failureMessage": ""
         }

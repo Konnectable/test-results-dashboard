@@ -2,12 +2,12 @@
   "repo": "papieya-api-menu",
   "status": "passed",
   "suites": 3,
-  "tests": 7,
+  "tests": 10,
   "failures": 0,
   "errors": 0,
   "skipped": 0,
   "branch": "main",
-  "commit": "eae657802e06a75f7d2f5aa7e359e8014c2ab10b",
-  "runUrl": "https://github.com/Konnectable/papieya-api-menu/actions/runs/24638034347",
-  "updatedAt": "2026-04-19T20:09:33.658Z"
+  "commit": "ccd5880189ab47941b945f996c8500c32c111379",
+  "runUrl": "https://github.com/Konnectable/papieya-api-menu/actions/runs/24638482029",
+  "updatedAt": "2026-04-19T20:32:22.070Z"
 }
