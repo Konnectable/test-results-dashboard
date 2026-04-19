@@ -1,0 +1,13 @@
+{
+  "repo": "papieya-api-stripe",
+  "status": "passed",
+  "suites": 11,
+  "tests": 98,
+  "failures": 0,
+  "errors": 0,
+  "skipped": 0,
+  "branch": "main",
+  "commit": "8d416e6bfc68fdc6342e8fed6a0d68bb0793615c",
+  "runUrl": "https://github.com/Konnectable/papieya-api-stripe/actions/runs/24619527518",
+  "updatedAt": "2026-04-19T02:58:22.263Z"
+}
