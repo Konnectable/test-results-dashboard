@@ -1,0 +1,988 @@
+{
+  "repo": "papieya-api-stripe",
+  "status": "passed",
+  "updatedAt": "2026-04-19T03:01:49.577Z",
+  "runUrl": "https://github.com/Konnectable/papieya-api-stripe/actions/runs/24619585091",
+  "suites": [
+    {
+      "name": "handler delegation { name: &apos;listTransactions&apos;, fn: [Function] } delegates to the matching service",
+      "tests": [
+        {
+          "name": "handler delegation { name: &apos;listTransactions&apos;, fn: [Function] } delegates to the matching service",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "handler delegation { name: &apos;createStripeCustomer&apos;, fn: [Function] } delegates to the matching service",
+      "tests": [
+        {
+          "name": "handler delegation { name: &apos;createStripeCustomer&apos;, fn: [Function] } delegates to the matching service",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "handler delegation { name: &apos;listCustomers&apos;, fn: [Function] } delegates to the matching service",
+      "tests": [
+        {
+          "name": "handler delegation { name: &apos;listCustomers&apos;, fn: [Function] } delegates to the matching service",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "handler delegation { name: &apos;getCustomerPaymentMethods&apos;, fn: [Function] } delegates to the matching service",
+      "tests": [
+        {
+          "name": "handler delegation { name: &apos;getCustomerPaymentMethods&apos;, fn: [Function] } delegates to the matching service",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "handler delegation { name: &apos;attachCustomerPaymentMethod&apos;, fn: [Function] } delegates to the matching service",
+      "tests": [
+        {
+          "name": "handler delegation { name: &apos;attachCustomerPaymentMethod&apos;, fn: [Function] } delegates to the matching service",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "handler delegation { name: &apos;detachCustomerPaymentMethod&apos;, fn: [Function] } delegates to the matching service",
+      "tests": [
+        {
+          "name": "handler delegation { name: &apos;detachCustomerPaymentMethod&apos;, fn: [Function] } delegates to the matching service",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "handler delegation { name: &apos;getCustomerPaymentInfo&apos;, fn: [Function] } delegates to the matching service",
+      "tests": [
+        {
+          "name": "handler delegation { name: &apos;getCustomerPaymentInfo&apos;, fn: [Function] } delegates to the matching service",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "handler delegation { name: &apos;getPayment&apos;, fn: [Function] } delegates to the matching service",
+      "tests": [
+        {
+          "name": "handler delegation { name: &apos;getPayment&apos;, fn: [Function] } delegates to the matching service",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "handler delegation { name: &apos;refundPayment&apos;, fn: [Function] } delegates to the matching service",
+      "tests": [
+        {
+          "name": "handler delegation { name: &apos;refundPayment&apos;, fn: [Function] } delegates to the matching service",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "handler delegation { name: &apos;createReplaceRestaurantCard&apos;, fn: [Function] } delegates to the matching service",
+      "tests": [
+        {
+          "name": "handler delegation { name: &apos;createReplaceRestaurantCard&apos;, fn: [Function] } delegates to the matching service",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "handler delegation { name: &apos;createRestaurantBasePayment&apos;, fn: [Function] } delegates to the matching service",
+      "tests": [
+        {
+          "name": "handler delegation { name: &apos;createRestaurantBasePayment&apos;, fn: [Function] } delegates to the matching service",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "handler delegation { name: &apos;createConnectedAccount&apos;, fn: [Function] } delegates to the matching service",
+      "tests": [
+        {
+          "name": "handler delegation { name: &apos;createConnectedAccount&apos;, fn: [Function] } delegates to the matching service",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "handler delegation { name: &apos;getOnBoardingLink&apos;, fn: [Function] } delegates to the matching service",
+      "tests": [
+        {
+          "name": "handler delegation { name: &apos;getOnBoardingLink&apos;, fn: [Function] } delegates to the matching service",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "handler delegation { name: &apos;getConnectedAccountDetails&apos;, fn: [Function] } delegates to the matching service",
+      "tests": [
+        {
+          "name": "handler delegation { name: &apos;getConnectedAccountDetails&apos;, fn: [Function] } delegates to the matching service",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "handler delegation { name: &apos;getBalance&apos;, fn: [Function] } delegates to the matching service",
+      "tests": [
+        {
+          "name": "handler delegation { name: &apos;getBalance&apos;, fn: [Function] } delegates to the matching service",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "handler delegation { name: &apos;createPayout&apos;, fn: [Function] } delegates to the matching service",
+      "tests": [
+        {
+          "name": "handler delegation { name: &apos;createPayout&apos;, fn: [Function] } delegates to the matching service",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "handler delegation { name: &apos;createInstantPayout&apos;, fn: [Function] } delegates to the matching service",
+      "tests": [
+        {
+          "name": "handler delegation { name: &apos;createInstantPayout&apos;, fn: [Function] } delegates to the matching service",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "handler delegation { name: &apos;updatePayoutSchedule&apos;, fn: [Function] } delegates to the matching service",
+      "tests": [
+        {
+          "name": "handler delegation { name: &apos;updatePayoutSchedule&apos;, fn: [Function] } delegates to the matching service",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "handler delegation { name: &apos;updatePayoutCalculations&apos;, fn: [Function] } delegates to the matching service",
+      "tests": [
+        {
+          "name": "handler delegation { name: &apos;updatePayoutCalculations&apos;, fn: [Function] } delegates to the matching service",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "handler delegation { name: &apos;checkoutReservation&apos;, fn: [Function] } delegates to the matching service",
+      "tests": [
+        {
+          "name": "handler delegation { name: &apos;checkoutReservation&apos;, fn: [Function] } delegates to the matching service",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "handler delegation { name: &apos;checkoutPickupReservation&apos;, fn: [Function] } delegates to the matching service",
+      "tests": [
+        {
+          "name": "handler delegation { name: &apos;checkoutPickupReservation&apos;, fn: [Function] } delegates to the matching service",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "handler delegation { name: &apos;chargeCancelationFee&apos;, fn: [Function] } delegates to the matching service",
+      "tests": [
+        {
+          "name": "handler delegation { name: &apos;chargeCancelationFee&apos;, fn: [Function] } delegates to the matching service",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "handler delegation { name: &apos;handleWebhook&apos;, fn: [Function] } delegates to the matching service",
+      "tests": [
+        {
+          "name": "handler delegation { name: &apos;handleWebhook&apos;, fn: [Function] } delegates to the matching service",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "handler delegation { name: &apos;handleConnectWebhook&apos;, fn: [Function] } delegates to the matching service",
+      "tests": [
+        {
+          "name": "handler delegation { name: &apos;handleConnectWebhook&apos;, fn: [Function] } delegates to the matching service",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "handler delegation { name: &apos;getPaymentSheetDetails&apos;, fn: [Function] } delegates to the matching service",
+      "tests": [
+        {
+          "name": "handler delegation { name: &apos;getPaymentSheetDetails&apos;, fn: [Function] } delegates to the matching service",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "handler delegation { name: &apos;getCardSetupIntentDetails&apos;, fn: [Function] } delegates to the matching service",
+      "tests": [
+        {
+          "name": "handler delegation { name: &apos;getCardSetupIntentDetails&apos;, fn: [Function] } delegates to the matching service",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "handler delegation { name: &apos;processServerPayout&apos;, fn: [Function], args: [] } delegates to the matching service",
+      "tests": [
+        {
+          "name": "handler delegation { name: &apos;processServerPayout&apos;, fn: [Function], args: [] } delegates to the matching service",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "handler delegation { name: &apos;processRestaurantPayout&apos;, fn: [Function], args: [] } delegates to the matching service",
+      "tests": [
+        {
+          "name": "handler delegation { name: &apos;processRestaurantPayout&apos;, fn: [Function], args: [] } delegates to the matching service",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "handler delegation { name: &apos;createTipDistribution&apos;, fn: [Function] } delegates to the matching service",
+      "tests": [
+        {
+          "name": "handler delegation { name: &apos;createTipDistribution&apos;, fn: [Function] } delegates to the matching service",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "handler delegation { name: &apos;updateTipDistribution&apos;, fn: [Function] } delegates to the matching service",
+      "tests": [
+        {
+          "name": "handler delegation { name: &apos;updateTipDistribution&apos;, fn: [Function] } delegates to the matching service",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "handler delegation { name: &apos;deleteTipDistribution&apos;, fn: [Function] } delegates to the matching service",
+      "tests": [
+        {
+          "name": "handler delegation { name: &apos;deleteTipDistribution&apos;, fn: [Function] } delegates to the matching service",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "handler delegation { name: &apos;transferToConnectedAccount&apos;, fn: [Function] } delegates to the matching service",
+      "tests": [
+        {
+          "name": "handler delegation { name: &apos;transferToConnectedAccount&apos;, fn: [Function] } delegates to the matching service",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "handler delegation { name: &apos;createTransfer&apos;, fn: [Function] } delegates to the matching service",
+      "tests": [
+        {
+          "name": "handler delegation { name: &apos;createTransfer&apos;, fn: [Function] } delegates to the matching service",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "handler delegation { name: &apos;createLocation&apos;, fn: [Function] } delegates to the matching service",
+      "tests": [
+        {
+          "name": "handler delegation { name: &apos;createLocation&apos;, fn: [Function] } delegates to the matching service",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "handler delegation { name: &apos;registerReader&apos;, fn: [Function] } delegates to the matching service",
+      "tests": [
+        {
+          "name": "handler delegation { name: &apos;registerReader&apos;, fn: [Function] } delegates to the matching service",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "handler delegation { name: &apos;createPaymentIntent&apos;, fn: [Function] } delegates to the matching service",
+      "tests": [
+        {
+          "name": "handler delegation { name: &apos;createPaymentIntent&apos;, fn: [Function] } delegates to the matching service",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "handler delegation { name: &apos;simulatePayment&apos;, fn: [Function] } delegates to the matching service",
+      "tests": [
+        {
+          "name": "handler delegation { name: &apos;simulatePayment&apos;, fn: [Function] } delegates to the matching service",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "handler delegation { name: &apos;capturePaymentIntent&apos;, fn: [Function] } delegates to the matching service",
+      "tests": [
+        {
+          "name": "handler delegation { name: &apos;capturePaymentIntent&apos;, fn: [Function] } delegates to the matching service",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "handler delegation { name: &apos;createConnectionToken&apos;, fn: [Function] } delegates to the matching service",
+      "tests": [
+        {
+          "name": "handler delegation { name: &apos;createConnectionToken&apos;, fn: [Function] } delegates to the matching service",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "handler delegation { name: &apos;updatePaymentIntentForReader&apos;, fn: [Function] } delegates to the matching service",
+      "tests": [
+        {
+          "name": "handler delegation { name: &apos;updatePaymentIntentForReader&apos;, fn: [Function] } delegates to the matching service",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "handler delegation { name: &apos;getStripeFeeForPaymentIntent&apos;, fn: [Function] } delegates to the matching service",
+      "tests": [
+        {
+          "name": "handler delegation { name: &apos;getStripeFeeForPaymentIntent&apos;, fn: [Function] } delegates to the matching service",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "handler delegation { name: &apos;getTaxAmount&apos;, fn: [Function] } delegates to the matching service",
+      "tests": [
+        {
+          "name": "handler delegation { name: &apos;getTaxAmount&apos;, fn: [Function] } delegates to the matching service",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "handler delegation { name: &apos;getReservationBalanceForDisplay&apos;, fn: [Function] } delegates to the matching service",
+      "tests": [
+        {
+          "name": "handler delegation { name: &apos;getReservationBalanceForDisplay&apos;, fn: [Function] } delegates to the matching service",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "handler delegation { name: &apos;getStripeBalaceHistory&apos;, fn: [Function] } delegates to the matching service",
+      "tests": [
+        {
+          "name": "handler delegation { name: &apos;getStripeBalaceHistory&apos;, fn: [Function] } delegates to the matching service",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "handler delegation { name: &apos;changePaymentMethodRestaurant&apos;, fn: [Function] } delegates to the matching service",
+      "tests": [
+        {
+          "name": "handler delegation { name: &apos;changePaymentMethodRestaurant&apos;, fn: [Function] } delegates to the matching service",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "handler delegation { name: &apos;deleteRestaurantPaymentMethod&apos;, fn: [Function] } delegates to the matching service",
+      "tests": [
+        {
+          "name": "handler delegation { name: &apos;deleteRestaurantPaymentMethod&apos;, fn: [Function] } delegates to the matching service",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "handler delegation { name: &apos;getStripeTransferFee&apos;, fn: [Function] } delegates to the matching service",
+      "tests": [
+        {
+          "name": "handler delegation { name: &apos;getStripeTransferFee&apos;, fn: [Function] } delegates to the matching service",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "handler delegation { name: &apos;getInstantPayoutFee&apos;, fn: [Function] } delegates to the matching service",
+      "tests": [
+        {
+          "name": "handler delegation { name: &apos;getInstantPayoutFee&apos;, fn: [Function] } delegates to the matching service",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "handler delegation { name: &apos;createTestPaymentMethod&apos;, fn: [Function], args: [] } delegates to the matching service",
+      "tests": [
+        {
+          "name": "handler delegation { name: &apos;createTestPaymentMethod&apos;, fn: [Function], args: [] } delegates to the matching service",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "handler delegation { name: &apos;getCancelationFee&apos;, fn: [Function] } delegates to the matching service",
+      "tests": [
+        {
+          "name": "handler delegation { name: &apos;getCancelationFee&apos;, fn: [Function] } delegates to the matching service",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "handler delegation { name: &apos;cancelReservation&apos;, fn: [Function] } delegates to the matching service",
+      "tests": [
+        {
+          "name": "handler delegation { name: &apos;cancelReservation&apos;, fn: [Function] } delegates to the matching service",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "handler delegation { name: &apos;waiveCancelationFee&apos;, fn: [Function] } delegates to the matching service",
+      "tests": [
+        {
+          "name": "handler delegation { name: &apos;waiveCancelationFee&apos;, fn: [Function] } delegates to the matching service",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "handler delegation { name: &apos;updateReservationStatusWOFee&apos;, fn: [Function] } delegates to the matching service",
+      "tests": [
+        {
+          "name": "handler delegation { name: &apos;updateReservationStatusWOFee&apos;, fn: [Function] } delegates to the matching service",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "handler delegation { name: &apos;getPendingCanceledReservations&apos;, fn: [Function] } delegates to the matching service",
+      "tests": [
+        {
+          "name": "handler delegation { name: &apos;getPendingCanceledReservations&apos;, fn: [Function] } delegates to the matching service",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "handler delegation handleStripeRefresh succeeds with html output",
+      "tests": [
+        {
+          "name": "handler delegation handleStripeRefresh succeeds with html output",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "handler delegation handleStripeCallback succeeds with html output",
+      "tests": [
+        {
+          "name": "handler delegation handleStripeCallback succeeds with html output",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "stripeCustomerService creates a stripe customer",
+      "tests": [
+        {
+          "name": "stripeCustomerService creates a stripe customer",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "stripeCustomerService lists a single customer when customerId is provided",
+      "tests": [
+        {
+          "name": "stripeCustomerService lists a single customer when customerId is provided",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "stripeCustomerService lists payment methods and validates input",
+      "tests": [
+        {
+          "name": "stripeCustomerService lists payment methods and validates input",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "stripeCustomerService attaches and detaches payment methods",
+      "tests": [
+        {
+          "name": "stripeCustomerService attaches and detaches payment methods",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "stripeCustomerService reads payment info and sheet details",
+      "tests": [
+        {
+          "name": "stripeCustomerService reads payment info and sheet details",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "stripeCustomerService gets card setup details and customer helpers",
+      "tests": [
+        {
+          "name": "stripeCustomerService gets card setup details and customer helpers",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "stripeCustomerService loads and updates local customers",
+      "tests": [
+        {
+          "name": "stripeCustomerService loads and updates local customers",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "stripePaymentService creates orders and retrieves payments",
+      "tests": [
+        {
+          "name": "stripePaymentService creates orders and retrieves payments",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "stripePaymentService calculates taxes and balances",
+      "tests": [
+        {
+          "name": "stripePaymentService calculates taxes and balances",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "stripePaymentService handles cancelation-related actions",
+      "tests": [
+        {
+          "name": "stripePaymentService handles cancelation-related actions",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "stripePaymentService creates test payment methods and transfers",
+      "tests": [
+        {
+          "name": "stripePaymentService creates test payment methods and transfers",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "stripePaymentService returns pending canceled reservations",
+      "tests": [
+        {
+          "name": "stripePaymentService returns pending canceled reservations",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "stripeRestaurantService calculates payout fees",
+      "tests": [
+        {
+          "name": "stripeRestaurantService calculates payout fees",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "stripeRestaurantService returns transfer and payout fees",
+      "tests": [
+        {
+          "name": "stripeRestaurantService returns transfer and payout fees",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "stripeRestaurantService checks stripe account active state",
+      "tests": [
+        {
+          "name": "stripeRestaurantService checks stripe account active state",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "stripeRestaurantService creates connected accounts and onboarding links",
+      "tests": [
+        {
+          "name": "stripeRestaurantService creates connected accounts and onboarding links",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "stripeRestaurantService returns empty connected account details when no account id exists",
+      "tests": [
+        {
+          "name": "stripeRestaurantService returns empty connected account details when no account id exists",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "stripeRestaurantService replaces restaurant cards and updates base payments",
+      "tests": [
+        {
+          "name": "stripeRestaurantService replaces restaurant cards and updates base payments",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "stripeRestaurantService creates base payments internally",
+      "tests": [
+        {
+          "name": "stripeRestaurantService creates base payments internally",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "stripeRestaurantService updates payout schedules",
+      "tests": [
+        {
+          "name": "stripeRestaurantService updates payout schedules",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "stripeReaderService creates locations and readers",
+      "tests": [
+        {
+          "name": "stripeReaderService creates locations and readers",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "stripeReaderService updates a payment intent for a reader",
+      "tests": [
+        {
+          "name": "stripeReaderService updates a payment intent for a reader",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "commons/helpers detects empty values",
+      "tests": [
+        {
+          "name": "commons/helpers detects empty values",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "commons/helpers builds error responses",
+      "tests": [
+        {
+          "name": "commons/helpers builds error responses",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "commons/helpers validates and parses request body",
+      "tests": [
+        {
+          "name": "commons/helpers validates and parses request body",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "commons/helpers returns response envelopes",
+      "tests": [
+        {
+          "name": "commons/helpers returns response envelopes",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "commons/helpers formats customers and sql fragments",
+      "tests": [
+        {
+          "name": "commons/helpers formats customers and sql fragments",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "commons/helpers builds APNS payloads",
+      "tests": [
+        {
+          "name": "commons/helpers builds APNS payloads",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "commons/helpers formats money and fees",
+      "tests": [
+        {
+          "name": "commons/helpers formats money and fees",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "commons/S3CommonService skips delete work when the key is empty",
+      "tests": [
+        {
+          "name": "commons/S3CommonService skips delete work when the key is empty",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "commons/S3CommonService deletes an image from s3 and db",
+      "tests": [
+        {
+          "name": "commons/S3CommonService deletes an image from s3 and db",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "commons/S3CommonService uploads an image to s3",
+      "tests": [
+        {
+          "name": "commons/S3CommonService uploads an image to s3",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "commons/S3CommonService reads config data from s3",
+      "tests": [
+        {
+          "name": "commons/S3CommonService reads config data from s3",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "stripeWebhookService handles an unrecognized event type",
+      "tests": [
+        {
+          "name": "stripeWebhookService handles an unrecognized event type",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "stripeWebhookService dispatches payment intent success events",
+      "tests": [
+        {
+          "name": "stripeWebhookService dispatches payment intent success events",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "stripeWebhookService handles connect webhooks",
+      "tests": [
+        {
+          "name": "stripeWebhookService handles connect webhooks",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "paymentCalcService calculates totals for shared items",
+      "tests": [
+        {
+          "name": "paymentCalcService calculates totals for shared items",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "paymentCalcService builds broken totals objects",
+      "tests": [
+        {
+          "name": "paymentCalcService builds broken totals objects",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "mailService sends a known mail type",
+      "tests": [
+        {
+          "name": "mailService sends a known mail type",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "mailService skips unknown mail types",
+      "tests": [
+        {
+          "name": "mailService skips unknown mail types",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "stripeService lists transactions with default limit",
+      "tests": [
+        {
+          "name": "stripeService lists transactions with default limit",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "stripeService returns service errors as 503 responses",
+      "tests": [
+        {
+          "name": "stripeService returns service errors as 503 responses",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    }
+  ]
+}
