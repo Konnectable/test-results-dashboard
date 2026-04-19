@@ -1,8 +1,8 @@
 {
   "repo": "papieya-api-menu",
   "status": "passed",
-  "updatedAt": "2026-04-19T20:32:22.070Z",
-  "runUrl": "https://github.com/Konnectable/papieya-api-menu/actions/runs/24638482029",
+  "updatedAt": "2026-04-19T23:55:52.913Z",
+  "runUrl": "https://github.com/Konnectable/papieya-api-menu/actions/runs/24642239501",
   "suites": [
     {
       "name": "service/menuService update flows updateMenu generates an escaped update clause and published timestamp branch",
