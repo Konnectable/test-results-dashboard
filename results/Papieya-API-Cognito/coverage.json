@@ -4,32 +4,19 @@
   "rows": [
     {
       "file": "All files",
-      "statementsPct": 80.15,
-      "branchesPct": 65.85,
-      "functionsPct": 85.71,
-      "linesPct": 80.15,
+      "statementsPct": 91.6,
+      "branchesPct": 70.73,
+      "functionsPct": 100,
+      "linesPct": 91.6,
       "uncoveredLines": []
     },
     {
       "file": "commons/helpers.js",
-      "statementsPct": 70,
+      "statementsPct": 100,
       "branchesPct": 100,
-      "functionsPct": 70,
-      "linesPct": 70,
-      "uncoveredLines": [
-        70,
-        71,
-        72,
-        79,
-        82,
-        85,
-        88,
-        89,
-        95,
-        98,
-        104,
-        105
-      ]
+      "functionsPct": 100,
+      "linesPct": 100,
+      "uncoveredLines": []
     },
     {
       "file": "handler.js",
@@ -44,16 +31,13 @@
     },
     {
       "file": "service/cognitoService.js",
-      "statementsPct": 84.21,
-      "branchesPct": 61.29,
+      "statementsPct": 88.16,
+      "branchesPct": 67.74,
       "functionsPct": 100,
-      "linesPct": 84.21,
+      "linesPct": 88.16,
       "uncoveredLines": [
         23,
-        48,
-        49,
         53,
-        62,
         127,
         137,
         143,

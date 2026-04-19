@@ -2,12 +2,12 @@
   "repo": "Papieya-API-Cognito",
   "status": "passed",
   "suites": 3,
-  "tests": 16,
+  "tests": 21,
   "failures": 0,
   "errors": 0,
   "skipped": 0,
   "branch": "master",
-  "commit": "7ecfe220c2c7bbf6e0845f4ad59603534cfa02e4",
-  "runUrl": "https://github.com/Konnectable/Papieya-API-Cognito/actions/runs/24638028827",
-  "updatedAt": "2026-04-19T20:09:27.833Z"
+  "commit": "40ff626cdba67e469a11f568134fcd5e4e94155e",
+  "runUrl": "https://github.com/Konnectable/Papieya-API-Cognito/actions/runs/24638478632",
+  "updatedAt": "2026-04-19T20:32:15.967Z"
 }

@@ -1,8 +1,8 @@
 {
   "repo": "Papieya-API-Cognito",
   "status": "passed",
-  "updatedAt": "2026-04-19T20:09:27.833Z",
-  "runUrl": "https://github.com/Konnectable/Papieya-API-Cognito/actions/runs/24638028827",
+  "updatedAt": "2026-04-19T20:32:15.967Z",
+  "runUrl": "https://github.com/Konnectable/Papieya-API-Cognito/actions/runs/24638478632",
   "suites": [
     {
       "name": "CognitoService disables a user in the XP pool and wraps the provider response",
@@ -75,6 +75,96 @@
       ]
     },
     {
+      "name": "CognitoService deletes a user successfully when Cognito accepts the request",
+      "tests": [
+        {
+          "name": "CognitoService deletes a user successfully when Cognito accepts the request",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "helpers treats empty and undefined values as empty",
+      "tests": [
+        {
+          "name": "helpers treats empty and undefined values as empty",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "helpers parses a valid JSON event body",
+      "tests": [
+        {
+          "name": "helpers parses a valid JSON event body",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "helpers throws the existing regression error code for malformed JSON",
+      "tests": [
+        {
+          "name": "helpers throws the existing regression error code for malformed JSON",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "helpers formats dietary preferences into a trimmed array",
+      "tests": [
+        {
+          "name": "helpers formats dietary preferences into a trimmed array",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "helpers builds an update set clause without the id field",
+      "tests": [
+        {
+          "name": "helpers builds an update set clause without the id field",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "helpers returns serialized responses and logs non-200 payloads",
+      "tests": [
+        {
+          "name": "helpers returns serialized responses and logs non-200 payloads",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "helpers validates time formatting and date helpers",
+      "tests": [
+        {
+          "name": "helpers validates time formatting and date helpers",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "helpers creates timestamped error envelopes",
+      "tests": [
+        {
+          "name": "helpers creates timestamped error envelopes",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
       "name": "handler exports delegates disableUser to CognitoService.create().disableUser",
       "tests": [
         {
@@ -119,46 +209,6 @@
       "tests": [
         {
           "name": "handler exports delegates adminUpdatePassword to CognitoService.create().adminUpdatePassword",
-          "status": "passed",
-          "failureMessage": ""
-        }
-      ]
-    },
-    {
-      "name": "helpers parses a valid JSON event body",
-      "tests": [
-        {
-          "name": "helpers parses a valid JSON event body",
-          "status": "passed",
-          "failureMessage": ""
-        }
-      ]
-    },
-    {
-      "name": "helpers throws the existing regression error code for malformed JSON",
-      "tests": [
-        {
-          "name": "helpers throws the existing regression error code for malformed JSON",
-          "status": "passed",
-          "failureMessage": ""
-        }
-      ]
-    },
-    {
-      "name": "helpers formats dietary preferences into a trimmed array",
-      "tests": [
-        {
-          "name": "helpers formats dietary preferences into a trimmed array",
-          "status": "passed",
-          "failureMessage": ""
-        }
-      ]
-    },
-    {
-      "name": "helpers builds an update set clause without the id field",
-      "tests": [
-        {
-          "name": "helpers builds an update set clause without the id field",
           "status": "passed",
           "failureMessage": ""
         }
