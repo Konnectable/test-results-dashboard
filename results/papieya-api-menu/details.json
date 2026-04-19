@@ -1,0 +1,78 @@
+{
+  "repo": "papieya-api-menu",
+  "status": "passed",
+  "updatedAt": "2026-04-19T03:01:28.604Z",
+  "runUrl": "https://github.com/Konnectable/papieya-api-menu/actions/runs/24619581144",
+  "suites": [
+    {
+      "name": "service/menuService update flows updateMenu generates an escaped update clause and published timestamp branch",
+      "tests": [
+        {
+          "name": "service/menuService update flows updateMenu generates an escaped update clause and published timestamp branch",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "service/menuService update flows updateMenuCategory preserves escaped identifiers and null values",
+      "tests": [
+        {
+          "name": "service/menuService update flows updateMenuCategory preserves escaped identifiers and null values",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "service/menuService update flows updateMenuEntry builds the update with escaped identifiers before pairings refresh",
+      "tests": [
+        {
+          "name": "service/menuService update flows updateMenuEntry builds the update with escaped identifiers before pairings refresh",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "database skips connection ping in test mode and promisifies query",
+      "tests": [
+        {
+          "name": "database skips connection ping in test mode and promisifies query",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "database pings the database and releases the connection outside test mode",
+      "tests": [
+        {
+          "name": "database pings the database and releases the connection outside test mode",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "commons/helpers.getSetClauseForUpdate escapes identifiers, excludes id, and normalizes empty values to null",
+      "tests": [
+        {
+          "name": "commons/helpers.getSetClauseForUpdate escapes identifiers, excludes id, and normalizes empty values to null",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "commons/helpers.getSetClauseForUpdate returns an empty clause when only id is present",
+      "tests": [
+        {
+          "name": "commons/helpers.getSetClauseForUpdate returns an empty clause when only id is present",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    }
+  ]
+}
