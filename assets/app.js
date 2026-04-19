@@ -89,16 +89,6 @@ function createRepoCard(repo, summary) {
     actions.appendChild(detailsLink);
   }
 
-  if (summary?.runUrl) {
-    const runLink = document.createElement("a");
-    runLink.className = "action-link";
-    runLink.href = summary.runUrl;
-    runLink.target = "_blank";
-    runLink.rel = "noreferrer";
-    runLink.textContent = "Open workflow run";
-    actions.appendChild(runLink);
-  }
-
   if (actions.children.length > 0) {
     article.appendChild(actions);
   }
