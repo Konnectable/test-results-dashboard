@@ -1,0 +1,198 @@
+{
+  "repo": "Papieya-API-Users",
+  "status": "passed",
+  "updatedAt": "2026-04-19T03:01:37.828Z",
+  "runUrl": "https://github.com/Konnectable/Papieya-API-Users/actions/runs/24619586343",
+  "suites": [
+    {
+      "name": "UsersService getRestaurantUserInfo should return user info successfully",
+      "tests": [
+        {
+          "name": "UsersService getRestaurantUserInfo should return user info successfully",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "UsersService getRestaurantUserInfo should handle errors",
+      "tests": [
+        {
+          "name": "UsersService getRestaurantUserInfo should handle errors",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "UsersService getRestaurantUserNotifications should return notifications",
+      "tests": [
+        {
+          "name": "UsersService getRestaurantUserNotifications should return notifications",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "UsersService updateRestaurantUserInfo should update policy acknowledgement",
+      "tests": [
+        {
+          "name": "UsersService updateRestaurantUserInfo should update policy acknowledgement",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "UsersService updateRestaurantUserInfo should sanitize update payload before building the set clause",
+      "tests": [
+        {
+          "name": "UsersService updateRestaurantUserInfo should sanitize update payload before building the set clause",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "UsersService updateRestaurantUserInfo should force group tip method for owner updates before persisting",
+      "tests": [
+        {
+          "name": "UsersService updateRestaurantUserInfo should force group tip method for owner updates before persisting",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "UsersService addRestaurantUserInfo should add new user successfully",
+      "tests": [
+        {
+          "name": "UsersService addRestaurantUserInfo should add new user successfully",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "UsersService getAvailableRoles should return available roles",
+      "tests": [
+        {
+          "name": "UsersService getAvailableRoles should return available roles",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "UsersService markDeleteRestaurantUser should mark user as deleted",
+      "tests": [
+        {
+          "name": "UsersService markDeleteRestaurantUser should mark user as deleted",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "UsersService updateEmailAddress should update email address",
+      "tests": [
+        {
+          "name": "UsersService updateEmailAddress should update email address",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "UsersService getLastLoginTime should get last login time",
+      "tests": [
+        {
+          "name": "UsersService getLastLoginTime should get last login time",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "UsersService updateLastLoginTime should update last login time",
+      "tests": [
+        {
+          "name": "UsersService updateLastLoginTime should update last login time",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "UsersService checkIfUserBelongsToOWnerGroup should check if user is owner",
+      "tests": [
+        {
+          "name": "UsersService checkIfUserBelongsToOWnerGroup should check if user is owner",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "UsersService updateMemberNotifications should update notifications using the computed set clause",
+      "tests": [
+        {
+          "name": "UsersService updateMemberNotifications should update notifications using the computed set clause",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "UsersService updateMemberNotifications should bypass the set clause helper when marking all read",
+      "tests": [
+        {
+          "name": "UsersService updateMemberNotifications should bypass the set clause helper when marking all read",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "UsersService deleteMemberNotifications should delete notifications",
+      "tests": [
+        {
+          "name": "UsersService deleteMemberNotifications should delete notifications",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "helpers.getSetClauseForUpdate should omit id and normalize empty values to null",
+      "tests": [
+        {
+          "name": "helpers.getSetClauseForUpdate should omit id and normalize empty values to null",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "helpers.getSetClauseForUpdate should preserve falsy but meaningful values",
+      "tests": [
+        {
+          "name": "helpers.getSetClauseForUpdate should preserve falsy but meaningful values",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "helpers.getSetClauseForUpdate should return an object with a null prototype for empty input",
+      "tests": [
+        {
+          "name": "helpers.getSetClauseForUpdate should return an object with a null prototype for empty input",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    }
+  ]
+}

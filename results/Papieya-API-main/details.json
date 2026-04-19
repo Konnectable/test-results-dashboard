@@ -1,0 +1,583 @@
+{
+  "repo": "Papieya-API-main",
+  "status": "passed",
+  "updatedAt": "2026-04-19T03:01:24.087Z",
+  "runUrl": "https://github.com/Konnectable/Papieya-API-main/actions/runs/24619579934",
+  "suites": [
+    {
+      "name": "CustomerService creates a customer",
+      "tests": [
+        {
+          "name": "CustomerService creates a customer",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "CustomerService logs a customer in and enriches the response",
+      "tests": [
+        {
+          "name": "CustomerService logs a customer in and enriches the response",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "CustomerService falls back to phone lookup and returns 404 when no customer exists",
+      "tests": [
+        {
+          "name": "CustomerService falls back to phone lookup and returns 404 when no customer exists",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "CustomerService updates a customer and respects policy acknowledgement",
+      "tests": [
+        {
+          "name": "CustomerService updates a customer and respects policy acknowledgement",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "CustomerService fetches customers with a restaurant filter",
+      "tests": [
+        {
+          "name": "CustomerService fetches customers with a restaurant filter",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "CustomerService adds and removes customer favourites",
+      "tests": [
+        {
+          "name": "CustomerService adds and removes customer favourites",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "CustomerService marks a user deleted and invokes the cognito cleanup",
+      "tests": [
+        {
+          "name": "CustomerService marks a user deleted and invokes the cognito cleanup",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "CustomerService creates, updates and deletes notifications",
+      "tests": [
+        {
+          "name": "CustomerService creates, updates and deletes notifications",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "CustomerService signs a customer out",
+      "tests": [
+        {
+          "name": "CustomerService signs a customer out",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "ImageDetailsService uploads image details and replaces chef images",
+      "tests": [
+        {
+          "name": "ImageDetailsService uploads image details and replaces chef images",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "ImageDetailsService updates image details",
+      "tests": [
+        {
+          "name": "ImageDetailsService updates image details",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "ImageDetailsService fetches image details by restaurant and customer",
+      "tests": [
+        {
+          "name": "ImageDetailsService fetches image details by restaurant and customer",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "ImageDetailsService deletes images",
+      "tests": [
+        {
+          "name": "ImageDetailsService deletes images",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "ImageDetailsService rejects invalid banner types and updates valid banners",
+      "tests": [
+        {
+          "name": "ImageDetailsService rejects invalid banner types and updates valid banners",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "commons/helpers generates a 6 character nano id",
+      "tests": [
+        {
+          "name": "commons/helpers generates a 6 character nano id",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "commons/helpers detects empty values",
+      "tests": [
+        {
+          "name": "commons/helpers detects empty values",
+          "status": "passed",
+          "failureMessage": ""
+        },
+        {
+          "name": "commons/helpers detects empty values",
+          "status": "passed",
+          "failureMessage": ""
+        },
+        {
+          "name": "commons/helpers detects empty values",
+          "status": "passed",
+          "failureMessage": ""
+        },
+        {
+          "name": "commons/helpers detects empty values",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "commons/helpers returns an error response envelope",
+      "tests": [
+        {
+          "name": "commons/helpers returns an error response envelope",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "commons/helpers parses valid event bodies and rejects invalid JSON",
+      "tests": [
+        {
+          "name": "commons/helpers parses valid event bodies and rejects invalid JSON",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "commons/helpers returns API response objects",
+      "tests": [
+        {
+          "name": "commons/helpers returns API response objects",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "commons/helpers formats customer data in place",
+      "tests": [
+        {
+          "name": "commons/helpers formats customer data in place",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "commons/helpers builds a SQL set clause from an update payload",
+      "tests": [
+        {
+          "name": "commons/helpers builds a SQL set clause from an update payload",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "commons/helpers validates 24 hour time strings",
+      "tests": [
+        {
+          "name": "commons/helpers validates 24 hour time strings",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "commons/helpers formats dates and times",
+      "tests": [
+        {
+          "name": "commons/helpers formats dates and times",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "commons/helpers fetches stripe cards through the lambda helper",
+      "tests": [
+        {
+          "name": "commons/helpers fetches stripe cards through the lambda helper",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "commons/helpers short circuits stripe card lookup when no customer id exists",
+      "tests": [
+        {
+          "name": "commons/helpers short circuits stripe card lookup when no customer id exists",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "PushNotificationsService sends push notifications and saves them when enabled",
+      "tests": [
+        {
+          "name": "PushNotificationsService sends push notifications and saves them when enabled",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "PushNotificationsService stores notifications and sends the websocket message",
+      "tests": [
+        {
+          "name": "PushNotificationsService stores notifications and sends the websocket message",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "PushNotificationsService invokes the websocket lambda",
+      "tests": [
+        {
+          "name": "PushNotificationsService invokes the websocket lambda",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "handler exports delegates updateVendorInformation",
+      "tests": [
+        {
+          "name": "handler exports delegates updateVendorInformation",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "handler exports delegates createInterestedVendor",
+      "tests": [
+        {
+          "name": "handler exports delegates createInterestedVendor",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "handler exports delegates getCustomerLogin",
+      "tests": [
+        {
+          "name": "handler exports delegates getCustomerLogin",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "handler exports delegates createCustomer",
+      "tests": [
+        {
+          "name": "handler exports delegates createCustomer",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "handler exports delegates updateCustomer",
+      "tests": [
+        {
+          "name": "handler exports delegates updateCustomer",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "handler exports delegates getAllCustomers",
+      "tests": [
+        {
+          "name": "handler exports delegates getAllCustomers",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "handler exports delegates addCustomerFavourite",
+      "tests": [
+        {
+          "name": "handler exports delegates addCustomerFavourite",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "handler exports delegates deleteCustomerFavourite",
+      "tests": [
+        {
+          "name": "handler exports delegates deleteCustomerFavourite",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "handler exports delegates markDeleteUser",
+      "tests": [
+        {
+          "name": "handler exports delegates markDeleteUser",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "handler exports delegates addUserNotifications",
+      "tests": [
+        {
+          "name": "handler exports delegates addUserNotifications",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "handler exports delegates updateUserNotifications",
+      "tests": [
+        {
+          "name": "handler exports delegates updateUserNotifications",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "handler exports delegates deleteUserNotifications",
+      "tests": [
+        {
+          "name": "handler exports delegates deleteUserNotifications",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "handler exports delegates customerSignOut",
+      "tests": [
+        {
+          "name": "handler exports delegates customerSignOut",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "handler exports delegates sendEmail",
+      "tests": [
+        {
+          "name": "handler exports delegates sendEmail",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "commons/S3CommonService deletes the image from s3 and the image table",
+      "tests": [
+        {
+          "name": "commons/S3CommonService deletes the image from s3 and the image table",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "commons/S3CommonService skips delete work when image key is empty",
+      "tests": [
+        {
+          "name": "commons/S3CommonService skips delete work when image key is empty",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "commons/S3CommonService uploads an image to s3 and returns the location",
+      "tests": [
+        {
+          "name": "commons/S3CommonService uploads an image to s3 and returns the location",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "commons/S3CommonService loads config data from s3",
+      "tests": [
+        {
+          "name": "commons/S3CommonService loads config data from s3",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "VendorService updates vendor information",
+      "tests": [
+        {
+          "name": "VendorService updates vendor information",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "VendorService creates interested vendors",
+      "tests": [
+        {
+          "name": "VendorService creates interested vendors",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "handlerImageDetails exports delegates addToImageDetails",
+      "tests": [
+        {
+          "name": "handlerImageDetails exports delegates addToImageDetails",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "handlerImageDetails exports delegates updateImageDetails",
+      "tests": [
+        {
+          "name": "handlerImageDetails exports delegates updateImageDetails",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "handlerImageDetails exports delegates getImageDetailsByRestaurant",
+      "tests": [
+        {
+          "name": "handlerImageDetails exports delegates getImageDetailsByRestaurant",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "handlerImageDetails exports delegates getImageDetailsByCustomer",
+      "tests": [
+        {
+          "name": "handlerImageDetails exports delegates getImageDetailsByCustomer",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "handlerImageDetails exports delegates deleteImages",
+      "tests": [
+        {
+          "name": "handlerImageDetails exports delegates deleteImages",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "handlerImageDetails exports delegates updateResturantBrandBannerImage",
+      "tests": [
+        {
+          "name": "handlerImageDetails exports delegates updateResturantBrandBannerImage",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "EmailService sends the welcome email",
+      "tests": [
+        {
+          "name": "EmailService sends the welcome email",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "EmailService returns a 500 wrapper when SES fails",
+      "tests": [
+        {
+          "name": "EmailService returns a 500 wrapper when SES fails",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    }
+  ]
+}

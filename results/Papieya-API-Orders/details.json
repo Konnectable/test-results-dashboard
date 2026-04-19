@@ -1,0 +1,818 @@
+{
+  "repo": "Papieya-API-Orders",
+  "status": "passed",
+  "updatedAt": "2026-04-19T03:01:32.544Z",
+  "runUrl": "https://github.com/Konnectable/Papieya-API-Orders/actions/runs/24619582490",
+  "suites": [
+    {
+      "name": "OrdersService validateOrderType accepts standard and custom",
+      "tests": [
+        {
+          "name": "OrdersService validateOrderType accepts standard and custom",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "OrdersService validateOrderType rejects unknown order types",
+      "tests": [
+        {
+          "name": "OrdersService validateOrderType rejects unknown order types",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "OrdersService formatOrders normalizes order payloads",
+      "tests": [
+        {
+          "name": "OrdersService formatOrders normalizes order payloads",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "OrdersService getPaymentStatus returns the payment status",
+      "tests": [
+        {
+          "name": "OrdersService getPaymentStatus returns the payment status",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "OrdersService createOrders returns a 200 response on success",
+      "tests": [
+        {
+          "name": "OrdersService createOrders returns a 200 response on success",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "OrdersService createOrders returns an error when payment is already completed",
+      "tests": [
+        {
+          "name": "OrdersService createOrders returns an error when payment is already completed",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "OrdersService createOrdersInternal creates a standard order",
+      "tests": [
+        {
+          "name": "OrdersService createOrdersInternal creates a standard order",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "OrdersService createOrdersInternal rejects invalid shared order quantities",
+      "tests": [
+        {
+          "name": "OrdersService createOrdersInternal rejects invalid shared order quantities",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "OrdersService getOrders returns shared and individual order buckets",
+      "tests": [
+        {
+          "name": "OrdersService getOrders returns shared and individual order buckets",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "OrdersService deleteOrderByIds issues deletes for all related tables",
+      "tests": [
+        {
+          "name": "OrdersService deleteOrderByIds issues deletes for all related tables",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "OrdersService updatePurchaser updates purchaser details and notifies the reservation",
+      "tests": [
+        {
+          "name": "OrdersService updatePurchaser updates purchaser details and notifies the reservation",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "OrdersService updateTip rejects invalid tip values",
+      "tests": [
+        {
+          "name": "OrdersService updateTip rejects invalid tip values",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "OrdersService updatePaymentCard updates the payment card id",
+      "tests": [
+        {
+          "name": "OrdersService updatePaymentCard updates the payment card id",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "OrdersService transferUserOrders moves the orders and removes the dummy user",
+      "tests": [
+        {
+          "name": "OrdersService transferUserOrders moves the orders and removes the dummy user",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "OrdersService updateMassOrders rejects invalid field names",
+      "tests": [
+        {
+          "name": "OrdersService updateMassOrders rejects invalid field names",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "OrdersService updateSharedOrder rejects multi-customer shared orders",
+      "tests": [
+        {
+          "name": "OrdersService updateSharedOrder rejects multi-customer shared orders",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "handler wiring delegates createOrders to the matching service method",
+      "tests": [
+        {
+          "name": "handler wiring delegates createOrders to the matching service method",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "handler wiring delegates getOrders to the matching service method",
+      "tests": [
+        {
+          "name": "handler wiring delegates getOrders to the matching service method",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "handler wiring delegates deleteOrders to the matching service method",
+      "tests": [
+        {
+          "name": "handler wiring delegates deleteOrders to the matching service method",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "handler wiring delegates shareUnshare to the matching service method",
+      "tests": [
+        {
+          "name": "handler wiring delegates shareUnshare to the matching service method",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "handler wiring delegates updateOrders to the matching service method",
+      "tests": [
+        {
+          "name": "handler wiring delegates updateOrders to the matching service method",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "handler wiring delegates updatePurchaser to the matching service method",
+      "tests": [
+        {
+          "name": "handler wiring delegates updatePurchaser to the matching service method",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "handler wiring delegates addReservationInfo to the matching service method",
+      "tests": [
+        {
+          "name": "handler wiring delegates addReservationInfo to the matching service method",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "handler wiring delegates addReservationInfoFromMerchant to the matching service method",
+      "tests": [
+        {
+          "name": "handler wiring delegates addReservationInfoFromMerchant to the matching service method",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "handler wiring delegates removeGuestFromReservationByMerchant to the matching service method",
+      "tests": [
+        {
+          "name": "handler wiring delegates removeGuestFromReservationByMerchant to the matching service method",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "handler wiring delegates approveDeclineInvite to the matching service method",
+      "tests": [
+        {
+          "name": "handler wiring delegates approveDeclineInvite to the matching service method",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "handler wiring delegates joinInviteReservation to the matching service method",
+      "tests": [
+        {
+          "name": "handler wiring delegates joinInviteReservation to the matching service method",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "handler wiring delegates getReservationsInfo to the matching service method",
+      "tests": [
+        {
+          "name": "handler wiring delegates getReservationsInfo to the matching service method",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "handler wiring delegates getReservationsInfoFromMerchant to the matching service method",
+      "tests": [
+        {
+          "name": "handler wiring delegates getReservationsInfoFromMerchant to the matching service method",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "handler wiring delegates getReservationsInfoFromWeb to the matching service method",
+      "tests": [
+        {
+          "name": "handler wiring delegates getReservationsInfoFromWeb to the matching service method",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "handler wiring delegates changeHost to the matching service method",
+      "tests": [
+        {
+          "name": "handler wiring delegates changeHost to the matching service method",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "handler wiring delegates updateReservationsInfo to the matching service method",
+      "tests": [
+        {
+          "name": "handler wiring delegates updateReservationsInfo to the matching service method",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "handler wiring delegates updateReservationEndTime to the matching service method",
+      "tests": [
+        {
+          "name": "handler wiring delegates updateReservationEndTime to the matching service method",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "handler wiring delegates updateServerOnReservation to the matching service method",
+      "tests": [
+        {
+          "name": "handler wiring delegates updateServerOnReservation to the matching service method",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "handler wiring delegates updateReservationStatusNotify to the matching service method",
+      "tests": [
+        {
+          "name": "handler wiring delegates updateReservationStatusNotify to the matching service method",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "handler wiring delegates updateTableOnReservation to the matching service method",
+      "tests": [
+        {
+          "name": "handler wiring delegates updateTableOnReservation to the matching service method",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "handler wiring delegates updateMassOrders to the matching service method",
+      "tests": [
+        {
+          "name": "handler wiring delegates updateMassOrders to the matching service method",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "handler wiring delegates updateTip to the matching service method",
+      "tests": [
+        {
+          "name": "handler wiring delegates updateTip to the matching service method",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "handler wiring delegates updatePaymentCard to the matching service method",
+      "tests": [
+        {
+          "name": "handler wiring delegates updatePaymentCard to the matching service method",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "handler wiring delegates getUpdateTimestampsFromMerchant to the matching service method",
+      "tests": [
+        {
+          "name": "handler wiring delegates getUpdateTimestampsFromMerchant to the matching service method",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "handler wiring delegates getUpdateTimestamps to the matching service method",
+      "tests": [
+        {
+          "name": "handler wiring delegates getUpdateTimestamps to the matching service method",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "handler wiring delegates getServerTip to the matching service method",
+      "tests": [
+        {
+          "name": "handler wiring delegates getServerTip to the matching service method",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "handler wiring delegates removeServerFromReservations to the matching service method",
+      "tests": [
+        {
+          "name": "handler wiring delegates removeServerFromReservations to the matching service method",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "handler wiring delegates updateTableRequiresAttn to the matching service method",
+      "tests": [
+        {
+          "name": "handler wiring delegates updateTableRequiresAttn to the matching service method",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "handler wiring delegates addDummyUserToReservation to the matching service method",
+      "tests": [
+        {
+          "name": "handler wiring delegates addDummyUserToReservation to the matching service method",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "handler wiring delegates addUserToReservation to the matching service method",
+      "tests": [
+        {
+          "name": "handler wiring delegates addUserToReservation to the matching service method",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "handler wiring delegates transferUserOrders to the matching service method",
+      "tests": [
+        {
+          "name": "handler wiring delegates transferUserOrders to the matching service method",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "handler wiring delegates getCustomerReservationTotals to the matching service method",
+      "tests": [
+        {
+          "name": "handler wiring delegates getCustomerReservationTotals to the matching service method",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "handler wiring delegates updateResrvCompletionAcknowledged to the matching service method",
+      "tests": [
+        {
+          "name": "handler wiring delegates updateResrvCompletionAcknowledged to the matching service method",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "handler wiring delegates addSelfOrderReservation to the matching service method",
+      "tests": [
+        {
+          "name": "handler wiring delegates addSelfOrderReservation to the matching service method",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "handler wiring delegates calculateSelfOrderTotals to the matching service method",
+      "tests": [
+        {
+          "name": "handler wiring delegates calculateSelfOrderTotals to the matching service method",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "handler wiring delegates updateSharedOrder to the matching service method",
+      "tests": [
+        {
+          "name": "handler wiring delegates updateSharedOrder to the matching service method",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "helpers generates a 6 character uppercase nanoid",
+      "tests": [
+        {
+          "name": "helpers generates a 6 character uppercase nanoid",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "helpers detects empty values",
+      "tests": [
+        {
+          "name": "helpers detects empty values",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "helpers returns a structured error response",
+      "tests": [
+        {
+          "name": "helpers returns a structured error response",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "helpers parses event bodies and throws for invalid json",
+      "tests": [
+        {
+          "name": "helpers parses event bodies and throws for invalid json",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "helpers formats API responses",
+      "tests": [
+        {
+          "name": "helpers formats API responses",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "helpers formats customer data arrays",
+      "tests": [
+        {
+          "name": "helpers formats customer data arrays",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "helpers builds parameterized set clauses",
+      "tests": [
+        {
+          "name": "helpers builds parameterized set clauses",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "helpers rejects invalid SQL field names",
+      "tests": [
+        {
+          "name": "helpers rejects invalid SQL field names",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "helpers splits SQL list inputs",
+      "tests": [
+        {
+          "name": "helpers splits SQL list inputs",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "helpers validates 24 hour time strings",
+      "tests": [
+        {
+          "name": "helpers validates 24 hour time strings",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "helpers formats numbers and booleans",
+      "tests": [
+        {
+          "name": "helpers formats numbers and booleans",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "helpers formats dates and times",
+      "tests": [
+        {
+          "name": "helpers formats dates and times",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "helpers rounds minutes down to the nearest quarter",
+      "tests": [
+        {
+          "name": "helpers rounds minutes down to the nearest quarter",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "helpers fetches stripe cards through the stripe lambda bridge",
+      "tests": [
+        {
+          "name": "helpers fetches stripe cards through the stripe lambda bridge",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "helpers returns no stripe cards for empty customers",
+      "tests": [
+        {
+          "name": "helpers returns no stripe cards for empty customers",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "ReservationsService - addReservationInfo should successfully add a reservation and send email notifications",
+      "tests": [
+        {
+          "name": "ReservationsService - addReservationInfo should successfully add a reservation and send email notifications",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "ReservationsService - addReservationInfo should throw an error if paymentMethodId is missing",
+      "tests": [
+        {
+          "name": "ReservationsService - addReservationInfo should throw an error if paymentMethodId is missing",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "SelfOrderService adds a self order reservation and returns the reservation payload",
+      "tests": [
+        {
+          "name": "SelfOrderService adds a self order reservation and returns the reservation payload",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "SelfOrderService calculates self order totals",
+      "tests": [
+        {
+          "name": "SelfOrderService calculates self order totals",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "ReservationsService getReservationInfo delegates to the internal lookup",
+      "tests": [
+        {
+          "name": "ReservationsService getReservationInfo delegates to the internal lookup",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "ReservationsService getReservationsInfoFromWeb returns the cors wrapped payload",
+      "tests": [
+        {
+          "name": "ReservationsService getReservationsInfoFromWeb returns the cors wrapped payload",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "PaymentCalcService calculates broken totals for fulfilled and all orders",
+      "tests": [
+        {
+          "name": "PaymentCalcService calculates broken totals for fulfilled and all orders",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "PaymentCalcService calculates a grouped totals map",
+      "tests": [
+        {
+          "name": "PaymentCalcService calculates a grouped totals map",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "ChargeService returns a server tip total for a restaurant",
+      "tests": [
+        {
+          "name": "ChargeService returns a server tip total for a restaurant",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "ChargeService returns an error when neither serverId nor restaurantId is provided",
+      "tests": [
+        {
+          "name": "ChargeService returns an error when neither serverId nor restaurantId is provided",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "Email Module should validate a correct email format",
+      "tests": [
+        {
+          "name": "Email Module should validate a correct email format",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "Email Module should invalidate an incorrect email format",
+      "tests": [
+        {
+          "name": "Email Module should invalidate an incorrect email format",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "Email Module should return false for empty email",
+      "tests": [
+        {
+          "name": "Email Module should return false for empty email",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "Email Module should send an email through SES",
+      "tests": [
+        {
+          "name": "Email Module should send an email through SES",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    }
+  ]
+}

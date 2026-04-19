@@ -1,0 +1,168 @@
+{
+  "repo": "Papieya-API-Cognito",
+  "status": "passed",
+  "updatedAt": "2026-04-19T03:01:09.021Z",
+  "runUrl": "https://github.com/Konnectable/Papieya-API-Cognito/actions/runs/24619575638",
+  "suites": [
+    {
+      "name": "CognitoService disables a user in the XP pool and wraps the provider response",
+      "tests": [
+        {
+          "name": "CognitoService disables a user in the XP pool and wraps the provider response",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "CognitoService returns a 503 response for an invalid app name without calling Cognito",
+      "tests": [
+        {
+          "name": "CognitoService returns a 503 response for an invalid app name without calling Cognito",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "CognitoService creates a user with resend message action only when requested",
+      "tests": [
+        {
+          "name": "CognitoService creates a user with resend message action only when requested",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "CognitoService creates a user without resend message action by default",
+      "tests": [
+        {
+          "name": "CognitoService creates a user without resend message action by default",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "CognitoService updates email attributes for the targeted user",
+      "tests": [
+        {
+          "name": "CognitoService updates email attributes for the targeted user",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "CognitoService uses the username path parameter and default permanent password update payload",
+      "tests": [
+        {
+          "name": "CognitoService uses the username path parameter and default permanent password update payload",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "CognitoService returns a 503 response when deleting a user fails in Cognito",
+      "tests": [
+        {
+          "name": "CognitoService returns a 503 response when deleting a user fails in Cognito",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "handler exports delegates disableUser to CognitoService.create().disableUser",
+      "tests": [
+        {
+          "name": "handler exports delegates disableUser to CognitoService.create().disableUser",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "handler exports delegates deleteUser to CognitoService.create().deleteUser",
+      "tests": [
+        {
+          "name": "handler exports delegates deleteUser to CognitoService.create().deleteUser",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "handler exports delegates adminCreateUser to CognitoService.create().adminCreateUser",
+      "tests": [
+        {
+          "name": "handler exports delegates adminCreateUser to CognitoService.create().adminCreateUser",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "handler exports delegates updateUserEmailAddress to CognitoService.create().updateUserEmailAddress",
+      "tests": [
+        {
+          "name": "handler exports delegates updateUserEmailAddress to CognitoService.create().updateUserEmailAddress",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "handler exports delegates adminUpdatePassword to CognitoService.create().adminUpdatePassword",
+      "tests": [
+        {
+          "name": "handler exports delegates adminUpdatePassword to CognitoService.create().adminUpdatePassword",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "helpers parses a valid JSON event body",
+      "tests": [
+        {
+          "name": "helpers parses a valid JSON event body",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "helpers throws the existing regression error code for malformed JSON",
+      "tests": [
+        {
+          "name": "helpers throws the existing regression error code for malformed JSON",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "helpers formats dietary preferences into a trimmed array",
+      "tests": [
+        {
+          "name": "helpers formats dietary preferences into a trimmed array",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "helpers builds an update set clause without the id field",
+      "tests": [
+        {
+          "name": "helpers builds an update set clause without the id field",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    }
+  ]
+}

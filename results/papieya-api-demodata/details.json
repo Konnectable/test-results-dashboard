@@ -1,0 +1,108 @@
+{
+  "repo": "papieya-api-demodata",
+  "status": "passed",
+  "updatedAt": "2026-04-19T03:01:06.228Z",
+  "runUrl": "https://github.com/Konnectable/papieya-api-demodata/actions/runs/24619577311",
+  "suites": [
+    {
+      "name": "demoDataService regressions createStandardMenu rejects invalid restaurant ids instead of coercing to 0",
+      "tests": [
+        {
+          "name": "demoDataService regressions createStandardMenu rejects invalid restaurant ids instead of coercing to 0",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "demoDataService regressions createCustomMenu rejects invalid restaurant ids instead of coercing to 0",
+      "tests": [
+        {
+          "name": "demoDataService regressions createCustomMenu rejects invalid restaurant ids instead of coercing to 0",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "demoDataService regressions updateDemoReservations rejects a malicious restaurant id before building SQL",
+      "tests": [
+        {
+          "name": "demoDataService regressions updateDemoReservations rejects a malicious restaurant id before building SQL",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "demoDataService regressions updateDemoReservations skips reservation updates when there are no future reservations",
+      "tests": [
+        {
+          "name": "demoDataService regressions updateDemoReservations skips reservation updates when there are no future reservations",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "demoDataService regressions addDemoOrders rejects a malicious restaurant id before interpolating it",
+      "tests": [
+        {
+          "name": "demoDataService regressions addDemoOrders rejects a malicious restaurant id before interpolating it",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "demoDataService regressions updateDemoOrders rejects a malicious restaurant id before interpolating it",
+      "tests": [
+        {
+          "name": "demoDataService regressions updateDemoOrders rejects a malicious restaurant id before interpolating it",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "demoDataService regressions updateDemoOrders does not query Orders with an empty IN clause",
+      "tests": [
+        {
+          "name": "demoDataService regressions updateDemoOrders does not query Orders with an empty IN clause",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "deleteDataService regressions deleteAllRestaurantData rejects invalid ids instead of defaulting to 0",
+      "tests": [
+        {
+          "name": "deleteDataService regressions deleteAllRestaurantData rejects invalid ids instead of defaulting to 0",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "deleteDataService regressions deleteAllRestaurantData passes a validated numeric id to each delete step",
+      "tests": [
+        {
+          "name": "deleteDataService regressions deleteAllRestaurantData passes a validated numeric id to each delete step",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "deleteDataService regressions deleteAllRestaurantData blocks SQL injection strings before any delete step runs",
+      "tests": [
+        {
+          "name": "deleteDataService regressions deleteAllRestaurantData blocks SQL injection strings before any delete step runs",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    }
+  ]
+}
