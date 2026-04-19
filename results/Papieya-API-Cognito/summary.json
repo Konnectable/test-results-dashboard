@@ -1,0 +1,13 @@
+{
+  "repo": "Papieya-API-Cognito",
+  "status": "passed",
+  "suites": 3,
+  "tests": 16,
+  "failures": 0,
+  "errors": 0,
+  "skipped": 0,
+  "branch": "master",
+  "commit": "6fdba8968d84edd97fca114070dd89caec711135",
+  "runUrl": "https://github.com/Konnectable/Papieya-API-Cognito/actions/runs/24618975129",
+  "updatedAt": "2026-04-19T02:21:50.698Z"
+}
