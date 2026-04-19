@@ -1,8 +1,8 @@
 {
   "repo": "Papieya-API-Users",
   "status": "passed",
-  "updatedAt": "2026-04-19T20:09:51.401Z",
-  "runUrl": "https://github.com/Konnectable/Papieya-API-Users/actions/runs/24638038691",
+  "updatedAt": "2026-04-19T20:32:31.275Z",
+  "runUrl": "https://github.com/Konnectable/Papieya-API-Users/actions/runs/24638485664",
   "suites": [
     {
       "name": "UsersService getRestaurantUserInfo should return user info successfully",
@@ -165,30 +165,220 @@
       ]
     },
     {
-      "name": "helpers.getSetClauseForUpdate should omit id and normalize empty values to null",
+      "name": "users helpers getNanoId returns a six-character uppercase id",
       "tests": [
         {
-          "name": "helpers.getSetClauseForUpdate should omit id and normalize empty values to null",
+          "name": "users helpers getNanoId returns a six-character uppercase id",
           "status": "passed",
           "failureMessage": ""
         }
       ]
     },
     {
-      "name": "helpers.getSetClauseForUpdate should preserve falsy but meaningful values",
+      "name": "users helpers isEmpty and getErrorResponse capture edge values",
       "tests": [
         {
-          "name": "helpers.getSetClauseForUpdate should preserve falsy but meaningful values",
+          "name": "users helpers isEmpty and getErrorResponse capture edge values",
           "status": "passed",
           "failureMessage": ""
         }
       ]
     },
     {
-      "name": "helpers.getSetClauseForUpdate should return an object with a null prototype for empty input",
+      "name": "users helpers validateEventBody and returnResponse preserve the legacy contract",
       "tests": [
         {
-          "name": "helpers.getSetClauseForUpdate should return an object with a null prototype for empty input",
+          "name": "users helpers validateEventBody and returnResponse preserve the legacy contract",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "users helpers formats customer, number, dates, and push payloads",
+      "tests": [
+        {
+          "name": "users helpers formats customer, number, dates, and push payloads",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "users helpers createConnectedAccount unwraps the lambda payload id",
+      "tests": [
+        {
+          "name": "users helpers createConnectedAccount unwraps the lambda payload id",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "users helpers getConnectedAccountDetails returns parsed output and skips blank identifiers",
+      "tests": [
+        {
+          "name": "users helpers getConnectedAccountDetails returns parsed output and skips blank identifiers",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "users helpers should omit id and normalize empty values to null",
+      "tests": [
+        {
+          "name": "users helpers should omit id and normalize empty values to null",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "users helpers should preserve falsy but meaningful values",
+      "tests": [
+        {
+          "name": "users helpers should preserve falsy but meaningful values",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "users helpers should return an object with a null prototype for empty input",
+      "tests": [
+        {
+          "name": "users helpers should return an object with a null prototype for empty input",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "users handler delegates getRestaurantUserInfo to the service factory",
+      "tests": [
+        {
+          "name": "users handler delegates getRestaurantUserInfo to the service factory",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "users handler delegates updateRestaurantUserInfo to the service factory",
+      "tests": [
+        {
+          "name": "users handler delegates updateRestaurantUserInfo to the service factory",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "users handler delegates addRestaurantUserInfo to the service factory",
+      "tests": [
+        {
+          "name": "users handler delegates addRestaurantUserInfo to the service factory",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "users handler delegates getAvailableRoles to the service factory",
+      "tests": [
+        {
+          "name": "users handler delegates getAvailableRoles to the service factory",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "users handler delegates markDeleteRestaurantUser to the service factory",
+      "tests": [
+        {
+          "name": "users handler delegates markDeleteRestaurantUser to the service factory",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "users handler delegates updateEmailAddress to the service factory",
+      "tests": [
+        {
+          "name": "users handler delegates updateEmailAddress to the service factory",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "users handler delegates getLastLoginTime to the service factory",
+      "tests": [
+        {
+          "name": "users handler delegates getLastLoginTime to the service factory",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "users handler delegates updateLastLoginTime to the service factory",
+      "tests": [
+        {
+          "name": "users handler delegates updateLastLoginTime to the service factory",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "users handler delegates checkIfUserBelongsToOWnerGroup to the service factory",
+      "tests": [
+        {
+          "name": "users handler delegates checkIfUserBelongsToOWnerGroup to the service factory",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "users handler delegates updateMemberNotifications to the service factory",
+      "tests": [
+        {
+          "name": "users handler delegates updateMemberNotifications to the service factory",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "users handler delegates deleteMemberNotifications to the service factory",
+      "tests": [
+        {
+          "name": "users handler delegates deleteMemberNotifications to the service factory",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "users handler delegates getRestaurantUserNotifications to the service factory",
+      "tests": [
+        {
+          "name": "users handler delegates getRestaurantUserNotifications to the service factory",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "users handler delegates switchRestaurantAdminAccount to the service factory",
+      "tests": [
+        {
+          "name": "users handler delegates switchRestaurantAdminAccount to the service factory",
           "status": "passed",
           "failureMessage": ""
         }
