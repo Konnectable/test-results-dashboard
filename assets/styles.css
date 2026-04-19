@@ -1,0 +1,149 @@
+:root {
+  --bg: #f4efe6;
+  --panel: #fffaf2;
+  --panel-strong: #fdf4e6;
+  --text: #1b1c1d;
+  --muted: #66604f;
+  --border: #d8c6a6;
+  --accent: #0c7c59;
+  --danger: #b33a3a;
+  --shadow: 0 18px 45px rgba(64, 45, 12, 0.08);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Georgia, "Times New Roman", serif;
+  color: var(--text);
+  background:
+    radial-gradient(circle at top left, rgba(228, 190, 123, 0.25), transparent 30%),
+    linear-gradient(180deg, #efe5d4 0%, var(--bg) 45%, #f8f4ed 100%);
+}
+
+.page {
+  max-width: 1180px;
+  margin: 0 auto;
+  padding: 48px 20px 72px;
+}
+
+.hero {
+  margin-bottom: 28px;
+}
+
+.eyebrow {
+  margin: 0 0 10px;
+  text-transform: uppercase;
+  letter-spacing: 0.16em;
+  color: var(--accent);
+  font-size: 0.78rem;
+  font-weight: 700;
+}
+
+h1 {
+  margin: 0;
+  font-size: clamp(2.2rem, 4vw, 4.2rem);
+  line-height: 0.98;
+}
+
+.lede {
+  max-width: 700px;
+  margin: 14px 0 0;
+  color: var(--muted);
+  font-size: 1.05rem;
+}
+
+.summary {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 14px;
+  margin-bottom: 28px;
+}
+
+.summary-card,
+.repo-card {
+  background: var(--panel);
+  border: 1px solid var(--border);
+  border-radius: 20px;
+  box-shadow: var(--shadow);
+}
+
+.summary-card {
+  padding: 18px 20px;
+}
+
+.summary-label {
+  display: block;
+  margin-bottom: 8px;
+  color: var(--muted);
+  font-size: 0.9rem;
+}
+
+.summary-card strong {
+  font-size: 1.8rem;
+}
+
+.repo-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 16px;
+}
+
+.repo-card {
+  padding: 18px 18px 16px;
+}
+
+.repo-card h2 {
+  margin: 0 0 10px;
+  font-size: 1.2rem;
+}
+
+.status-pill {
+  display: inline-flex;
+  align-items: center;
+  border-radius: 999px;
+  padding: 6px 11px;
+  font-size: 0.82rem;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+}
+
+.status-passed {
+  background: rgba(12, 124, 89, 0.12);
+  color: var(--accent);
+}
+
+.status-failed {
+  background: rgba(179, 58, 58, 0.12);
+  color: var(--danger);
+}
+
+.status-pending {
+  background: rgba(95, 91, 80, 0.12);
+  color: #5f5b50;
+}
+
+.repo-meta {
+  margin-top: 14px;
+  display: grid;
+  gap: 8px;
+  color: var(--muted);
+  font-size: 0.94rem;
+}
+
+.repo-meta span {
+  display: block;
+}
+
+.commit {
+  font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+  font-size: 0.82rem;
+}
+
+@media (max-width: 640px) {
+  .page {
+    padding: 36px 16px 56px;
+  }
+}

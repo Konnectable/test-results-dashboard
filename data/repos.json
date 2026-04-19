@@ -1,0 +1,54 @@
+{
+  "repositories": [
+    {
+      "name": "Papieya-API-main",
+      "displayName": "Papieya-API-main",
+      "defaultBranch": "main"
+    },
+    {
+      "name": "Papieya-API-events",
+      "displayName": "Papieya-API-events",
+      "defaultBranch": "main"
+    },
+    {
+      "name": "Papieya-API-Restaurant",
+      "displayName": "Papieya-API-Restaurant",
+      "defaultBranch": "master"
+    },
+    {
+      "name": "Papieya-API-Users",
+      "displayName": "Papieya-API-Users",
+      "defaultBranch": "master"
+    },
+    {
+      "name": "Papieya-API-Orders",
+      "displayName": "Papieya-API-Orders",
+      "defaultBranch": "master"
+    },
+    {
+      "name": "Papieya-API-Cognito",
+      "displayName": "Papieya-API-Cognito",
+      "defaultBranch": "master"
+    },
+    {
+      "name": "Papieya-API-Websockets",
+      "displayName": "Papieya-API-Websockets",
+      "defaultBranch": "main"
+    },
+    {
+      "name": "papieya-api-menu",
+      "displayName": "papieya-api-menu",
+      "defaultBranch": "main"
+    },
+    {
+      "name": "papieya-api-demodata",
+      "displayName": "papieya-api-demodata",
+      "defaultBranch": "main"
+    },
+    {
+      "name": "papieya-api-stripe",
+      "displayName": "papieya-api-stripe",
+      "defaultBranch": "main"
+    }
+  ]
+}
