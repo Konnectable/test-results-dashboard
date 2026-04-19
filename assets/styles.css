@@ -248,6 +248,73 @@ h1 {
   color: var(--muted);
 }
 
+.coverage-section {
+  background: var(--panel);
+  border: 1px solid var(--border);
+  border-radius: 22px;
+  box-shadow: var(--shadow);
+  padding: 20px;
+}
+
+.coverage-section h2 {
+  margin: 0 0 14px;
+  font-size: 1.28rem;
+}
+
+.table-scroll {
+  overflow-x: auto;
+}
+
+.coverage-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.94rem;
+}
+
+.coverage-table th,
+.coverage-table td {
+  padding: 10px 12px;
+  border-bottom: 1px solid rgba(216, 198, 166, 0.7);
+  text-align: left;
+  vertical-align: top;
+}
+
+.coverage-table th {
+  color: var(--muted);
+  font-weight: 700;
+}
+
+.coverage-table tbody tr:last-child td {
+  border-bottom: 0;
+}
+
+.coverage-file {
+  min-width: 220px;
+}
+
+.coverage-metric-good {
+  color: var(--accent);
+  font-weight: 700;
+}
+
+.coverage-metric-warn {
+  color: #9c6b18;
+  font-weight: 700;
+}
+
+.coverage-metric-bad {
+  color: var(--danger);
+  font-weight: 700;
+}
+
+.coverage-uncovered {
+  min-width: 280px;
+  color: var(--muted);
+  font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+  font-size: 0.82rem;
+  white-space: pre-wrap;
+}
+
 @media (max-width: 640px) {
   .page {
     padding: 36px 16px 56px;

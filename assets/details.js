@@ -112,6 +112,77 @@ function createSuiteCard(suite) {
   return article;
 }
 
+function metricClass(value) {
+  if (typeof value !== "number") {
+    return "";
+  }
+  if (value >= 80) {
+    return "coverage-metric-good";
+  }
+  if (value >= 50) {
+    return "coverage-metric-warn";
+  }
+  return "coverage-metric-bad";
+}
+
+function formatPercent(value) {
+  return typeof value === "number" ? `${value.toFixed(2)}%` : "-";
+}
+
+function createCoverageSection(coverage) {
+  const section = document.createElement("section");
+  section.className = "coverage-section";
+
+  const title = document.createElement("h2");
+  title.textContent = "Coverage";
+  section.appendChild(title);
+
+  if (!coverage?.available) {
+    const empty = document.createElement("div");
+    empty.className = "empty-state";
+    empty.textContent = coverage?.message || "Coverage was not published for this repository.";
+    section.appendChild(empty);
+    return section;
+  }
+
+  const scroll = document.createElement("div");
+  scroll.className = "table-scroll";
+
+  const table = document.createElement("table");
+  table.className = "coverage-table";
+  table.innerHTML = `
+    <thead>
+      <tr>
+        <th>File</th>
+        <th>% Stmts</th>
+        <th>% Branch</th>
+        <th>% Funcs</th>
+        <th>% Lines</th>
+        <th>Uncovered Line #s</th>
+      </tr>
+    </thead>
+  `;
+
+  const tbody = document.createElement("tbody");
+  for (const row of coverage.rows || []) {
+    const tr = document.createElement("tr");
+    tr.innerHTML = `
+      <td class="coverage-file">${row.file}</td>
+      <td class="${metricClass(row.statementsPct)}">${formatPercent(row.statementsPct)}</td>
+      <td class="${metricClass(row.branchesPct)}">${formatPercent(row.branchesPct)}</td>
+      <td class="${metricClass(row.functionsPct)}">${formatPercent(row.functionsPct)}</td>
+      <td class="${metricClass(row.linesPct)}">${formatPercent(row.linesPct)}</td>
+      <td class="coverage-uncovered">${row.uncoveredLines?.length ? row.uncoveredLines.join(", ") : "-"}</td>
+    `;
+    tbody.appendChild(tr);
+  }
+
+  table.appendChild(tbody);
+  scroll.appendChild(table);
+  section.appendChild(scroll);
+  return section;
+}
+
 async function loadDetails() {
   const params = new URLSearchParams(window.location.search);
   const repo = params.get("repo");
@@ -128,9 +199,13 @@ async function loadDetails() {
 
   title.textContent = repo;
 
-  const [summary, details] = await Promise.all([
+  const [summary, details, coverage] = await Promise.all([
     fetchJson(`./results/${repo}/summary.json`),
-    fetchJson(`./results/${repo}/details.json`)
+    fetchJson(`./results/${repo}/details.json`),
+    fetchJson(`./results/${repo}/coverage.json`).catch(() => ({
+      available: false,
+      message: "Coverage was not published for this repository."
+    }))
   ]);
 
   subtitle.textContent = `Updated ${formatDate(summary.updatedAt)} on branch ${summary.branch}.`;
@@ -148,9 +223,12 @@ async function loadDetails() {
   }
 
   if (!details.suites || details.suites.length === 0) {
-    contentRoot.innerHTML = '<section class="empty-state">No suite details were published for this run.</section>';
+    contentRoot.appendChild(createCoverageSection(coverage));
+    contentRoot.innerHTML += '<section class="empty-state">No suite details were published for this run.</section>';
     return;
   }
+
+  contentRoot.appendChild(createCoverageSection(coverage));
 
   details.suites.forEach((suite) => {
     contentRoot.appendChild(createSuiteCard(suite));
