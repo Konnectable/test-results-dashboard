@@ -2,12 +2,12 @@
   "repo": "Papieya-API-events",
   "status": "passed",
   "suites": 1,
-  "tests": 5,
+  "tests": 9,
   "failures": 0,
   "errors": 0,
   "skipped": 0,
   "branch": "master",
-  "commit": "0e3ab26b0f99465fc8bf38eadc9bdfe6eacf2969",
-  "runUrl": "https://github.com/Konnectable/Papieya-API-events/actions/runs/24638031685",
-  "updatedAt": "2026-04-19T20:09:14.250Z"
+  "commit": "1b80320b279e85f512d0e28389f0a30e2f2d3672",
+  "runUrl": "https://github.com/Konnectable/Papieya-API-events/actions/runs/24638479944",
+  "updatedAt": "2026-04-19T20:32:03.442Z"
 }
