@@ -1,0 +1,13 @@
+{
+  "repo": "Papieya-API-Restaurant",
+  "status": "passed",
+  "suites": 6,
+  "tests": 142,
+  "failures": 0,
+  "errors": 0,
+  "skipped": 0,
+  "branch": "master",
+  "commit": "218390926c80f81c08089c58fb1f35a10470a16c",
+  "runUrl": "https://github.com/Konnectable/Papieya-API-Restaurant/actions/runs/24619375996",
+  "updatedAt": "2026-04-19T02:47:58.523Z"
+}
