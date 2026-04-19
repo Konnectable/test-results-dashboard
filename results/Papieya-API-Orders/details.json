@@ -1,8 +1,8 @@
 {
   "repo": "Papieya-API-Orders",
   "status": "passed",
-  "updatedAt": "2026-04-19T03:01:32.544Z",
-  "runUrl": "https://github.com/Konnectable/Papieya-API-Orders/actions/runs/24619582490",
+  "updatedAt": "2026-04-19T20:09:51.350Z",
+  "runUrl": "https://github.com/Konnectable/Papieya-API-Orders/actions/runs/24638035108",
   "suites": [
     {
       "name": "OrdersService validateOrderType accepts standard and custom",
