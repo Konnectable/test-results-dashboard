@@ -1,8 +1,8 @@
 {
   "repo": "Papieya-API-Users",
   "status": "passed",
-  "updatedAt": "2026-04-19T03:01:37.828Z",
-  "runUrl": "https://github.com/Konnectable/Papieya-API-Users/actions/runs/24619586343",
+  "updatedAt": "2026-04-19T20:09:51.401Z",
+  "runUrl": "https://github.com/Konnectable/Papieya-API-Users/actions/runs/24638038691",
   "suites": [
     {
       "name": "UsersService getRestaurantUserInfo should return user info successfully",
