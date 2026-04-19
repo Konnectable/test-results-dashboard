@@ -1,8 +1,8 @@
 {
   "repo": "Papieya-API-Restaurant",
   "status": "passed",
-  "updatedAt": "2026-04-19T03:01:37.147Z",
-  "runUrl": "https://github.com/Konnectable/Papieya-API-Restaurant/actions/runs/24619583777",
+  "updatedAt": "2026-04-19T03:03:48.749Z",
+  "runUrl": "https://github.com/Konnectable/Papieya-API-Restaurant/actions/runs/24619619293",
   "suites": [
     {
       "name": "RestaurantService getRestaurantInfo returns only floor data for merchant floor-only requests",
