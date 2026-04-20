@@ -1,40 +1,40 @@
 # test-results-dashboard
 
-Public GitHub Pages site for sanitized test summaries from Papieya backend repositories.
+Static dashboard repo for publishing sanitized test results from the Papieya backend repositories.
 
-## What This Repo Publishes
+## What this repo does
 
-This dashboard is intended to publish only non-sensitive test metadata:
+- hosts the GitHub Pages dashboard UI in `index.html`, `details.html`, and `assets/`
+- stores the repo registry in `data/repos.json`
+- publishes per-repo sanitized summaries under `results/<repo>/`
+- intentionally avoids pulling private source code into the public dashboard
 
-- repository name
-- latest pass or fail status
-- test and suite counts
-- branch name
-- commit SHA
-- updated timestamp
+This repo is the publishable dashboard. The separate workspace-only `local-test-dashboard/` folder is used for local aggregation during development.
 
-It does not need source code from the private repositories.
+## Local workflow
 
-## GitHub Setup
+1. Update the UI in `index.html`, `details.html`, or `assets/` when the dashboard layout or rendering changes.
+2. Update `data/repos.json` when a repo should appear in the dashboard.
+3. Add or refresh sanitized result payloads under `results/` when onboarding or testing a repo locally.
+4. Review the pages in a browser before pushing changes.
 
-1. Create a public GitHub repository named `test-results-dashboard`.
-2. Push this folder to that repository.
-3. In GitHub, enable Pages for this repository and set the source to `GitHub Actions`.
-4. In each private service repository, add:
-   - repository secret `TEST_RESULTS_DASHBOARD_TOKEN`
-   - optional repository variable `TEST_RESULTS_DASHBOARD_REPO`
+## Verification
 
-Use `TEST_RESULTS_DASHBOARD_REPO=Konnectable/test-results-dashboard` unless the dashboard repository name changes.
+- There is no automated test suite in this repo.
+- Verify by opening `index.html` and `details.html` locally and confirming the expected repos and result summaries render.
+- The source data should stay sanitized: repo name, status, counts, branch, commit SHA, and timestamps are fine. Source code and secrets are not.
 
-## Token Scope
+## Ideal development process
 
-Create a fine-grained personal access token with write access only to the public dashboard repository. Store it as `TEST_RESULTS_DASHBOARD_TOKEN` in each private repository that should publish results.
+1. Make the service repo produce `test-results/` artifacts.
+2. Publish only sanitized metadata into this repo's `results/` directory.
+3. Keep `data/repos.json` aligned with the repos that are expected to publish.
+4. Review the rendered dashboard before merging.
+5. Enable or maintain GitHub Pages deployment from `main`.
 
-## Published File Layout
+## Onboarding a new backend repo
 
-- `data/repos.json`: dashboard repo list
-- `results/<repo>/summary.json`: latest sanitized summary from each private repo
-
-## Pages Workflow
-
-This repo includes a Pages workflow that deploys the static dashboard after each push to `main`.
+- make sure the source repo can generate `junit.xml` and any summary data it needs
+- add the repo to `data/repos.json` if it should appear in the dashboard
+- publish a sanitized `results/<repo>/summary.json`
+- verify the repo shows up in the dashboard UI
