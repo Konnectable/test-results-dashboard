@@ -1,8 +1,8 @@
 {
   "repo": "Papieya-API-main",
   "status": "passed",
-  "updatedAt": "2026-04-20T07:25:24.695Z",
-  "runUrl": "https://github.com/Konnectable/Papieya-API-main/actions/runs/24653861166",
+  "updatedAt": "2026-04-20T07:52:54.889Z",
+  "runUrl": "https://github.com/Konnectable/Papieya-API-main/actions/runs/24654943613",
   "suites": [
     {
       "name": "ImageDetailsService",
