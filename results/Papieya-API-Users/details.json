@@ -1,99 +1,9 @@
 {
   "repo": "Papieya-API-Users",
   "status": "passed",
-  "updatedAt": "2026-04-20T01:13:26.080Z",
-  "runUrl": "https://github.com/Konnectable/Papieya-API-Users/actions/runs/24643885257",
+  "updatedAt": "2026-04-20T01:23:01.551Z",
+  "runUrl": "https://github.com/Konnectable/Papieya-API-Users/actions/runs/24644103721",
   "suites": [
-    {
-      "name": "UsersService mutation flows updateRestaurantUserInfo should update policy acknowledgement",
-      "tests": [
-        {
-          "name": "UsersService mutation flows updateRestaurantUserInfo should update policy acknowledgement",
-          "status": "passed",
-          "failureMessage": ""
-        }
-      ]
-    },
-    {
-      "name": "UsersService mutation flows updateRestaurantUserInfo should sanitize update payload before building the set clause",
-      "tests": [
-        {
-          "name": "UsersService mutation flows updateRestaurantUserInfo should sanitize update payload before building the set clause",
-          "status": "passed",
-          "failureMessage": ""
-        }
-      ]
-    },
-    {
-      "name": "UsersService mutation flows updateRestaurantUserInfo should force group tip method for owner updates before persisting",
-      "tests": [
-        {
-          "name": "UsersService mutation flows updateRestaurantUserInfo should force group tip method for owner updates before persisting",
-          "status": "passed",
-          "failureMessage": ""
-        }
-      ]
-    },
-    {
-      "name": "UsersService mutation flows updateRestaurantUserInfo should delete roles when roleCds is explicitly set to empty",
-      "tests": [
-        {
-          "name": "UsersService mutation flows updateRestaurantUserInfo should delete roles when roleCds is explicitly set to empty",
-          "status": "passed",
-          "failureMessage": ""
-        }
-      ]
-    },
-    {
-      "name": "UsersService mutation flows addRestaurantUserInfo should add new user successfully",
-      "tests": [
-        {
-          "name": "UsersService mutation flows addRestaurantUserInfo should add new user successfully",
-          "status": "passed",
-          "failureMessage": ""
-        }
-      ]
-    },
-    {
-      "name": "UsersService mutation flows addRestaurantUserInfo should allow adding a user when roleCds is omitted",
-      "tests": [
-        {
-          "name": "UsersService mutation flows addRestaurantUserInfo should allow adding a user when roleCds is omitted",
-          "status": "passed",
-          "failureMessage": ""
-        }
-      ]
-    },
-    {
-      "name": "UsersService mutation flows markDeleteRestaurantUser should mark user as deleted",
-      "tests": [
-        {
-          "name": "UsersService mutation flows markDeleteRestaurantUser should mark user as deleted",
-          "status": "passed",
-          "failureMessage": ""
-        }
-      ]
-    },
-    {
-      "name": "UsersService mutation flows updateEmailAddress should update email address",
-      "tests": [
-        {
-          "name": "UsersService mutation flows updateEmailAddress should update email address",
-          "status": "passed",
-          "failureMessage": ""
-        }
-      ]
-    },
-    {
-      "name": "UsersService mutation flows updateLastLoginTime should update last login time",
-      "tests": [
-        {
-          "name": "UsersService mutation flows updateLastLoginTime should update last login time",
-          "status": "passed",
-          "failureMessage": ""
-        }
-      ]
-    },
     {
       "name": "users helpers getNanoId returns a six-character uppercase id",
       "tests": [
@@ -185,6 +95,46 @@
       ]
     },
     {
+      "name": "UsersService updateRestaurantUserInfo should update policy acknowledgement",
+      "tests": [
+        {
+          "name": "UsersService updateRestaurantUserInfo should update policy acknowledgement",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "UsersService updateRestaurantUserInfo should sanitize update payload before building the set clause",
+      "tests": [
+        {
+          "name": "UsersService updateRestaurantUserInfo should sanitize update payload before building the set clause",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "UsersService updateRestaurantUserInfo should force group tip method for owner updates before persisting",
+      "tests": [
+        {
+          "name": "UsersService updateRestaurantUserInfo should force group tip method for owner updates before persisting",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "UsersService updateRestaurantUserInfo should delete roles when roleCds is explicitly set to empty",
+      "tests": [
+        {
+          "name": "UsersService updateRestaurantUserInfo should delete roles when roleCds is explicitly set to empty",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
       "name": "UsersService read flows getRestaurantUserInfo should return user info successfully",
       "tests": [
         {
@@ -239,6 +189,26 @@
       "tests": [
         {
           "name": "UsersService read flows checkIfUserBelongsToOWnerGroup should check if user is owner",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "UsersService addRestaurantUserInfo should add new user successfully",
+      "tests": [
+        {
+          "name": "UsersService addRestaurantUserInfo should add new user successfully",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "UsersService addRestaurantUserInfo should allow adding a user when roleCds is omitted",
+      "tests": [
+        {
+          "name": "UsersService addRestaurantUserInfo should allow adding a user when roleCds is omitted",
           "status": "passed",
           "failureMessage": ""
         }
@@ -399,6 +369,36 @@
       "tests": [
         {
           "name": "users handler delegates switchRestaurantAdminAccount to the service factory",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "UsersService markDeleteRestaurantUser should mark user as deleted",
+      "tests": [
+        {
+          "name": "UsersService markDeleteRestaurantUser should mark user as deleted",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "UsersService account activity should update email address",
+      "tests": [
+        {
+          "name": "UsersService account activity should update email address",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "UsersService account activity should update last login time",
+      "tests": [
+        {
+          "name": "UsersService account activity should update last login time",
           "status": "passed",
           "failureMessage": ""
         }
