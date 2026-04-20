@@ -1,99 +1,9 @@
 {
   "repo": "Papieya-API-main",
   "status": "passed",
-  "updatedAt": "2026-04-20T01:09:28.129Z",
-  "runUrl": "https://github.com/Konnectable/Papieya-API-main/actions/runs/24643794550",
+  "updatedAt": "2026-04-20T01:22:54.093Z",
+  "runUrl": "https://github.com/Konnectable/Papieya-API-main/actions/runs/24644099345",
   "suites": [
-    {
-      "name": "CustomerService creates a customer",
-      "tests": [
-        {
-          "name": "CustomerService creates a customer",
-          "status": "passed",
-          "failureMessage": ""
-        }
-      ]
-    },
-    {
-      "name": "CustomerService logs a customer in and enriches the response",
-      "tests": [
-        {
-          "name": "CustomerService logs a customer in and enriches the response",
-          "status": "passed",
-          "failureMessage": ""
-        }
-      ]
-    },
-    {
-      "name": "CustomerService falls back to phone lookup and returns 404 when no customer exists",
-      "tests": [
-        {
-          "name": "CustomerService falls back to phone lookup and returns 404 when no customer exists",
-          "status": "passed",
-          "failureMessage": ""
-        }
-      ]
-    },
-    {
-      "name": "CustomerService updates a customer and respects policy acknowledgement",
-      "tests": [
-        {
-          "name": "CustomerService updates a customer and respects policy acknowledgement",
-          "status": "passed",
-          "failureMessage": ""
-        }
-      ]
-    },
-    {
-      "name": "CustomerService fetches customers with a restaurant filter",
-      "tests": [
-        {
-          "name": "CustomerService fetches customers with a restaurant filter",
-          "status": "passed",
-          "failureMessage": ""
-        }
-      ]
-    },
-    {
-      "name": "CustomerService adds and removes customer favourites",
-      "tests": [
-        {
-          "name": "CustomerService adds and removes customer favourites",
-          "status": "passed",
-          "failureMessage": ""
-        }
-      ]
-    },
-    {
-      "name": "CustomerService marks a user deleted and invokes the cognito cleanup",
-      "tests": [
-        {
-          "name": "CustomerService marks a user deleted and invokes the cognito cleanup",
-          "status": "passed",
-          "failureMessage": ""
-        }
-      ]
-    },
-    {
-      "name": "CustomerService creates, updates and deletes notifications",
-      "tests": [
-        {
-          "name": "CustomerService creates, updates and deletes notifications",
-          "status": "passed",
-          "failureMessage": ""
-        }
-      ]
-    },
-    {
-      "name": "CustomerService signs a customer out",
-      "tests": [
-        {
-          "name": "CustomerService signs a customer out",
-          "status": "passed",
-          "failureMessage": ""
-        }
-      ]
-    },
     {
       "name": "ImageDetailsService uploads image details and replaces chef images",
       "tests": [
@@ -159,6 +69,56 @@
       "tests": [
         {
           "name": "ImageDetailsService rejects invalid banner types and updates valid banners",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "CustomerService account flows creates a customer",
+      "tests": [
+        {
+          "name": "CustomerService account flows creates a customer",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "CustomerService account flows logs a customer in and enriches the response",
+      "tests": [
+        {
+          "name": "CustomerService account flows logs a customer in and enriches the response",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "CustomerService account flows falls back to phone lookup and returns 404 when no customer exists",
+      "tests": [
+        {
+          "name": "CustomerService account flows falls back to phone lookup and returns 404 when no customer exists",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "CustomerService account flows updates a customer and respects policy acknowledgement",
+      "tests": [
+        {
+          "name": "CustomerService account flows updates a customer and respects policy acknowledgement",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "CustomerService account flows signs a customer out",
+      "tests": [
+        {
+          "name": "CustomerService account flows signs a customer out",
           "status": "passed",
           "failureMessage": ""
         }
@@ -460,6 +420,36 @@
       ]
     },
     {
+      "name": "CustomerService favourites and notifications fetches customers with a restaurant filter",
+      "tests": [
+        {
+          "name": "CustomerService favourites and notifications fetches customers with a restaurant filter",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "CustomerService favourites and notifications adds and removes customer favourites",
+      "tests": [
+        {
+          "name": "CustomerService favourites and notifications adds and removes customer favourites",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "CustomerService favourites and notifications creates, updates and deletes notifications",
+      "tests": [
+        {
+          "name": "CustomerService favourites and notifications creates, updates and deletes notifications",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
       "name": "commons/S3CommonService deletes the image from s3 and the image table",
       "tests": [
         {
@@ -604,6 +594,16 @@
       "tests": [
         {
           "name": "EmailService returns a 500 wrapper when SES fails",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "CustomerService deletion marks a user deleted and invokes the cognito cleanup",
+      "tests": [
+        {
+          "name": "CustomerService deletion marks a user deleted and invokes the cognito cleanup",
           "status": "passed",
           "failureMessage": ""
         }
