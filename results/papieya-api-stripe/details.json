@@ -1,8 +1,8 @@
 {
   "repo": "papieya-api-stripe",
   "status": "passed",
-  "updatedAt": "2026-04-20T01:13:35.117Z",
-  "runUrl": "https://github.com/Konnectable/papieya-api-stripe/actions/runs/24643886833",
+  "updatedAt": "2026-04-20T01:23:04.016Z",
+  "runUrl": "https://github.com/Konnectable/papieya-api-stripe/actions/runs/24644102374",
   "suites": [
     {
       "name": "handler delegation { name: &apos;listTransactions&apos;, fn: [Function] } delegates to the matching service",
@@ -565,276 +565,6 @@
       ]
     },
     {
-      "name": "stripeRestaurantService calculates payout fees",
-      "tests": [
-        {
-          "name": "stripeRestaurantService calculates payout fees",
-          "status": "passed",
-          "failureMessage": ""
-        }
-      ]
-    },
-    {
-      "name": "stripeRestaurantService returns transfer and payout fees",
-      "tests": [
-        {
-          "name": "stripeRestaurantService returns transfer and payout fees",
-          "status": "passed",
-          "failureMessage": ""
-        }
-      ]
-    },
-    {
-      "name": "stripeRestaurantService checks stripe account active state",
-      "tests": [
-        {
-          "name": "stripeRestaurantService checks stripe account active state",
-          "status": "passed",
-          "failureMessage": ""
-        }
-      ]
-    },
-    {
-      "name": "stripeRestaurantService creates connected accounts and onboarding links",
-      "tests": [
-        {
-          "name": "stripeRestaurantService creates connected accounts and onboarding links",
-          "status": "passed",
-          "failureMessage": ""
-        }
-      ]
-    },
-    {
-      "name": "stripeRestaurantService returns empty connected account details when no account id exists",
-      "tests": [
-        {
-          "name": "stripeRestaurantService returns empty connected account details when no account id exists",
-          "status": "passed",
-          "failureMessage": ""
-        }
-      ]
-    },
-    {
-      "name": "stripeRestaurantService looks up connected accounts with a parameterized query",
-      "tests": [
-        {
-          "name": "stripeRestaurantService looks up connected accounts with a parameterized query",
-          "status": "passed",
-          "failureMessage": ""
-        }
-      ]
-    },
-    {
-      "name": "stripeRestaurantService rejects invalid connected account lookup input before querying",
-      "tests": [
-        {
-          "name": "stripeRestaurantService rejects invalid connected account lookup input before querying",
-          "status": "passed",
-          "failureMessage": ""
-        }
-      ]
-    },
-    {
-      "name": "stripeRestaurantService replaces restaurant cards and updates base payments",
-      "tests": [
-        {
-          "name": "stripeRestaurantService replaces restaurant cards and updates base payments",
-          "status": "passed",
-          "failureMessage": ""
-        }
-      ]
-    },
-    {
-      "name": "stripeRestaurantService creates base payments internally",
-      "tests": [
-        {
-          "name": "stripeRestaurantService creates base payments internally",
-          "status": "passed",
-          "failureMessage": ""
-        }
-      ]
-    },
-    {
-      "name": "stripeRestaurantService updates payout schedules",
-      "tests": [
-        {
-          "name": "stripeRestaurantService updates payout schedules",
-          "status": "passed",
-          "failureMessage": ""
-        }
-      ]
-    },
-    {
-      "name": "stripeCustomerService creates a stripe customer",
-      "tests": [
-        {
-          "name": "stripeCustomerService creates a stripe customer",
-          "status": "passed",
-          "failureMessage": ""
-        }
-      ]
-    },
-    {
-      "name": "stripeCustomerService lists a single customer when customerId is provided",
-      "tests": [
-        {
-          "name": "stripeCustomerService lists a single customer when customerId is provided",
-          "status": "passed",
-          "failureMessage": ""
-        }
-      ]
-    },
-    {
-      "name": "stripeCustomerService lists payment methods and validates input",
-      "tests": [
-        {
-          "name": "stripeCustomerService lists payment methods and validates input",
-          "status": "passed",
-          "failureMessage": ""
-        }
-      ]
-    },
-    {
-      "name": "stripeCustomerService attaches and detaches payment methods",
-      "tests": [
-        {
-          "name": "stripeCustomerService attaches and detaches payment methods",
-          "status": "passed",
-          "failureMessage": ""
-        }
-      ]
-    },
-    {
-      "name": "stripeCustomerService reads payment info and sheet details",
-      "tests": [
-        {
-          "name": "stripeCustomerService reads payment info and sheet details",
-          "status": "passed",
-          "failureMessage": ""
-        }
-      ]
-    },
-    {
-      "name": "stripeCustomerService gets card setup details and customer helpers",
-      "tests": [
-        {
-          "name": "stripeCustomerService gets card setup details and customer helpers",
-          "status": "passed",
-          "failureMessage": ""
-        }
-      ]
-    },
-    {
-      "name": "stripeCustomerService loads and updates local customers",
-      "tests": [
-        {
-          "name": "stripeCustomerService loads and updates local customers",
-          "status": "passed",
-          "failureMessage": ""
-        }
-      ]
-    },
-    {
-      "name": "stripePaymentService creates orders and retrieves payments",
-      "tests": [
-        {
-          "name": "stripePaymentService creates orders and retrieves payments",
-          "status": "passed",
-          "failureMessage": ""
-        }
-      ]
-    },
-    {
-      "name": "stripePaymentService calculates taxes and balances",
-      "tests": [
-        {
-          "name": "stripePaymentService calculates taxes and balances",
-          "status": "passed",
-          "failureMessage": ""
-        }
-      ]
-    },
-    {
-      "name": "stripePaymentService handles cancelation-related actions",
-      "tests": [
-        {
-          "name": "stripePaymentService handles cancelation-related actions",
-          "status": "passed",
-          "failureMessage": ""
-        }
-      ]
-    },
-    {
-      "name": "stripePaymentService creates test payment methods and transfers",
-      "tests": [
-        {
-          "name": "stripePaymentService creates test payment methods and transfers",
-          "status": "passed",
-          "failureMessage": ""
-        }
-      ]
-    },
-    {
-      "name": "stripePaymentService returns pending canceled reservations",
-      "tests": [
-        {
-          "name": "stripePaymentService returns pending canceled reservations",
-          "status": "passed",
-          "failureMessage": ""
-        }
-      ]
-    },
-    {
-      "name": "stripeWebhookService verifies raw webhook payloads before handling them",
-      "tests": [
-        {
-          "name": "stripeWebhookService verifies raw webhook payloads before handling them",
-          "status": "passed",
-          "failureMessage": ""
-        }
-      ]
-    },
-    {
-      "name": "stripeWebhookService dispatches payment intent success events",
-      "tests": [
-        {
-          "name": "stripeWebhookService dispatches payment intent success events",
-          "status": "passed",
-          "failureMessage": ""
-        }
-      ]
-    },
-    {
-      "name": "stripeWebhookService verifies connect webhooks with base64 encoded raw bodies",
-      "tests": [
-        {
-          "name": "stripeWebhookService verifies connect webhooks with base64 encoded raw bodies",
-          "status": "passed",
-          "failureMessage": ""
-        }
-      ]
-    },
-    {
-      "name": "stripeWebhookService rejects requests with invalid webhook signatures",
-      "tests": [
-        {
-          "name": "stripeWebhookService rejects requests with invalid webhook signatures",
-          "status": "passed",
-          "failureMessage": ""
-        }
-      ]
-    },
-    {
-      "name": "stripeWebhookService fails closed when the webhook secret is missing",
-      "tests": [
-        {
-          "name": "stripeWebhookService fails closed when the webhook secret is missing",
-          "status": "passed",
-          "failureMessage": ""
-        }
-      ]
-    },
-    {
       "name": "stripeReaderService creates locations and readers",
       "tests": [
         {
@@ -849,6 +579,126 @@
       "tests": [
         {
           "name": "stripeReaderService updates a payment intent for a reader",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "stripeRestaurantService accounts calculates payout fees",
+      "tests": [
+        {
+          "name": "stripeRestaurantService accounts calculates payout fees",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "stripeRestaurantService accounts returns transfer and payout fees",
+      "tests": [
+        {
+          "name": "stripeRestaurantService accounts returns transfer and payout fees",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "stripeRestaurantService accounts checks stripe account active state",
+      "tests": [
+        {
+          "name": "stripeRestaurantService accounts checks stripe account active state",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "stripeRestaurantService accounts creates connected accounts and onboarding links",
+      "tests": [
+        {
+          "name": "stripeRestaurantService accounts creates connected accounts and onboarding links",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "stripeRestaurantService accounts returns empty connected account details when no account id exists",
+      "tests": [
+        {
+          "name": "stripeRestaurantService accounts returns empty connected account details when no account id exists",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "stripeRestaurantService accounts looks up connected accounts with a parameterized query",
+      "tests": [
+        {
+          "name": "stripeRestaurantService accounts looks up connected accounts with a parameterized query",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "stripeRestaurantService accounts rejects invalid connected account lookup input before querying",
+      "tests": [
+        {
+          "name": "stripeRestaurantService accounts rejects invalid connected account lookup input before querying",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "stripeRestaurantService accounts updates payout schedules",
+      "tests": [
+        {
+          "name": "stripeRestaurantService accounts updates payout schedules",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "stripePaymentService core flows creates orders and retrieves payments",
+      "tests": [
+        {
+          "name": "stripePaymentService core flows creates orders and retrieves payments",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "stripePaymentService core flows calculates taxes and balances",
+      "tests": [
+        {
+          "name": "stripePaymentService core flows calculates taxes and balances",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "stripePaymentService core flows creates test payment methods and transfers",
+      "tests": [
+        {
+          "name": "stripePaymentService core flows creates test payment methods and transfers",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "stripePaymentService core flows returns pending canceled reservations",
+      "tests": [
+        {
+          "name": "stripePaymentService core flows returns pending canceled reservations",
           "status": "passed",
           "failureMessage": ""
         }
@@ -925,6 +775,76 @@
       ]
     },
     {
+      "name": "stripeWebhookService handle verifies raw webhook payloads before handling them",
+      "tests": [
+        {
+          "name": "stripeWebhookService handle verifies raw webhook payloads before handling them",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "stripeWebhookService handle dispatches payment intent success events",
+      "tests": [
+        {
+          "name": "stripeWebhookService handle dispatches payment intent success events",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "stripeWebhookService handle rejects requests with invalid webhook signatures",
+      "tests": [
+        {
+          "name": "stripeWebhookService handle rejects requests with invalid webhook signatures",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "stripeWebhookService handle fails closed when the webhook secret is missing",
+      "tests": [
+        {
+          "name": "stripeWebhookService handle fails closed when the webhook secret is missing",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "stripeCustomerService customers creates a stripe customer",
+      "tests": [
+        {
+          "name": "stripeCustomerService customers creates a stripe customer",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "stripeCustomerService customers lists a single customer when customerId is provided",
+      "tests": [
+        {
+          "name": "stripeCustomerService customers lists a single customer when customerId is provided",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "stripeCustomerService customers loads and updates local customers",
+      "tests": [
+        {
+          "name": "stripeCustomerService customers loads and updates local customers",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
       "name": "commons/S3CommonService skips delete work when the key is empty",
       "tests": [
         {
@@ -965,6 +885,76 @@
       ]
     },
     {
+      "name": "stripeCustomerService payment sheet reads payment info and sheet details",
+      "tests": [
+        {
+          "name": "stripeCustomerService payment sheet reads payment info and sheet details",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "stripeCustomerService payment sheet gets card setup details and customer helpers",
+      "tests": [
+        {
+          "name": "stripeCustomerService payment sheet gets card setup details and customer helpers",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "stripePaymentService cancelations handles cancelation-related actions",
+      "tests": [
+        {
+          "name": "stripePaymentService cancelations handles cancelation-related actions",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "stripeRestaurantService payments replaces restaurant cards and updates base payments",
+      "tests": [
+        {
+          "name": "stripeRestaurantService payments replaces restaurant cards and updates base payments",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "stripeRestaurantService payments creates base payments internally",
+      "tests": [
+        {
+          "name": "stripeRestaurantService payments creates base payments internally",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "stripeCustomerService payment methods lists payment methods and validates input",
+      "tests": [
+        {
+          "name": "stripeCustomerService payment methods lists payment methods and validates input",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "stripeCustomerService payment methods attaches and detaches payment methods",
+      "tests": [
+        {
+          "name": "stripeCustomerService payment methods attaches and detaches payment methods",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
       "name": "paymentCalcService calculates totals for shared items",
       "tests": [
         {
@@ -979,6 +969,16 @@
       "tests": [
         {
           "name": "paymentCalcService builds broken totals objects",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "stripeWebhookService connect verifies connect webhooks with base64 encoded raw bodies",
+      "tests": [
+        {
+          "name": "stripeWebhookService connect verifies connect webhooks with base64 encoded raw bodies",
           "status": "passed",
           "failureMessage": ""
         }
