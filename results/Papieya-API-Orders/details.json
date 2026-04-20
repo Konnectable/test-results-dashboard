@@ -1,814 +1,469 @@
 {
   "repo": "Papieya-API-Orders",
   "status": "passed",
-  "updatedAt": "2026-04-20T01:23:02.280Z",
-  "runUrl": "https://github.com/Konnectable/Papieya-API-Orders/actions/runs/24644100547",
+  "updatedAt": "2026-04-20T03:16:07.323Z",
+  "runUrl": "https://github.com/Konnectable/Papieya-API-Orders/actions/runs/24646721432",
   "suites": [
     {
-      "name": "handler wiring delegates createOrders to the matching service method",
+      "name": "handler wiring",
       "tests": [
         {
-          "name": "handler wiring delegates createOrders to the matching service method",
+          "name": "handler wiring",
           "status": "passed",
           "failureMessage": ""
-        }
-      ]
-    },
-    {
-      "name": "handler wiring delegates getOrders to the matching service method",
-      "tests": [
+        },
         {
-          "name": "handler wiring delegates getOrders to the matching service method",
+          "name": "handler wiring",
           "status": "passed",
           "failureMessage": ""
-        }
-      ]
-    },
-    {
-      "name": "handler wiring delegates deleteOrders to the matching service method",
-      "tests": [
+        },
         {
-          "name": "handler wiring delegates deleteOrders to the matching service method",
+          "name": "handler wiring",
           "status": "passed",
           "failureMessage": ""
-        }
-      ]
-    },
-    {
-      "name": "handler wiring delegates shareUnshare to the matching service method",
-      "tests": [
+        },
         {
-          "name": "handler wiring delegates shareUnshare to the matching service method",
+          "name": "handler wiring",
           "status": "passed",
           "failureMessage": ""
-        }
-      ]
-    },
-    {
-      "name": "handler wiring delegates updateOrders to the matching service method",
-      "tests": [
+        },
         {
-          "name": "handler wiring delegates updateOrders to the matching service method",
+          "name": "handler wiring",
           "status": "passed",
           "failureMessage": ""
-        }
-      ]
-    },
-    {
-      "name": "handler wiring delegates updatePurchaser to the matching service method",
-      "tests": [
+        },
         {
-          "name": "handler wiring delegates updatePurchaser to the matching service method",
+          "name": "handler wiring",
           "status": "passed",
           "failureMessage": ""
-        }
-      ]
-    },
-    {
-      "name": "handler wiring delegates addReservationInfo to the matching service method",
-      "tests": [
+        },
         {
-          "name": "handler wiring delegates addReservationInfo to the matching service method",
+          "name": "handler wiring",
           "status": "passed",
           "failureMessage": ""
-        }
-      ]
-    },
-    {
-      "name": "handler wiring delegates addReservationInfoFromMerchant to the matching service method",
-      "tests": [
+        },
         {
-          "name": "handler wiring delegates addReservationInfoFromMerchant to the matching service method",
+          "name": "handler wiring",
           "status": "passed",
           "failureMessage": ""
-        }
-      ]
-    },
-    {
-      "name": "handler wiring delegates removeGuestFromReservationByMerchant to the matching service method",
-      "tests": [
+        },
         {
-          "name": "handler wiring delegates removeGuestFromReservationByMerchant to the matching service method",
+          "name": "handler wiring",
           "status": "passed",
           "failureMessage": ""
-        }
-      ]
-    },
-    {
-      "name": "handler wiring delegates approveDeclineInvite to the matching service method",
-      "tests": [
+        },
         {
-          "name": "handler wiring delegates approveDeclineInvite to the matching service method",
+          "name": "handler wiring",
           "status": "passed",
           "failureMessage": ""
-        }
-      ]
-    },
-    {
-      "name": "handler wiring delegates joinInviteReservation to the matching service method",
-      "tests": [
+        },
         {
-          "name": "handler wiring delegates joinInviteReservation to the matching service method",
+          "name": "handler wiring",
           "status": "passed",
           "failureMessage": ""
-        }
-      ]
-    },
-    {
-      "name": "handler wiring delegates getReservationsInfo to the matching service method",
-      "tests": [
+        },
         {
-          "name": "handler wiring delegates getReservationsInfo to the matching service method",
+          "name": "handler wiring",
           "status": "passed",
           "failureMessage": ""
-        }
-      ]
-    },
-    {
-      "name": "handler wiring delegates getReservationsInfoFromMerchant to the matching service method",
-      "tests": [
+        },
         {
-          "name": "handler wiring delegates getReservationsInfoFromMerchant to the matching service method",
+          "name": "handler wiring",
           "status": "passed",
           "failureMessage": ""
-        }
-      ]
-    },
-    {
-      "name": "handler wiring delegates getReservationsInfoFromWeb to the matching service method",
-      "tests": [
+        },
         {
-          "name": "handler wiring delegates getReservationsInfoFromWeb to the matching service method",
+          "name": "handler wiring",
           "status": "passed",
           "failureMessage": ""
-        }
-      ]
-    },
-    {
-      "name": "handler wiring delegates changeHost to the matching service method",
-      "tests": [
+        },
         {
-          "name": "handler wiring delegates changeHost to the matching service method",
+          "name": "handler wiring",
           "status": "passed",
           "failureMessage": ""
-        }
-      ]
-    },
-    {
-      "name": "handler wiring delegates updateReservationsInfo to the matching service method",
-      "tests": [
+        },
         {
-          "name": "handler wiring delegates updateReservationsInfo to the matching service method",
+          "name": "handler wiring",
           "status": "passed",
           "failureMessage": ""
-        }
-      ]
-    },
-    {
-      "name": "handler wiring delegates updateReservationEndTime to the matching service method",
-      "tests": [
+        },
         {
-          "name": "handler wiring delegates updateReservationEndTime to the matching service method",
+          "name": "handler wiring",
           "status": "passed",
           "failureMessage": ""
-        }
-      ]
-    },
-    {
-      "name": "handler wiring delegates updateServerOnReservation to the matching service method",
-      "tests": [
+        },
         {
-          "name": "handler wiring delegates updateServerOnReservation to the matching service method",
+          "name": "handler wiring",
           "status": "passed",
           "failureMessage": ""
-        }
-      ]
-    },
-    {
-      "name": "handler wiring delegates updateReservationStatusNotify to the matching service method",
-      "tests": [
+        },
         {
-          "name": "handler wiring delegates updateReservationStatusNotify to the matching service method",
+          "name": "handler wiring",
           "status": "passed",
           "failureMessage": ""
-        }
-      ]
-    },
-    {
-      "name": "handler wiring delegates updateTableOnReservation to the matching service method",
-      "tests": [
+        },
         {
-          "name": "handler wiring delegates updateTableOnReservation to the matching service method",
+          "name": "handler wiring",
           "status": "passed",
           "failureMessage": ""
-        }
-      ]
-    },
-    {
-      "name": "handler wiring delegates updateMassOrders to the matching service method",
-      "tests": [
+        },
         {
-          "name": "handler wiring delegates updateMassOrders to the matching service method",
+          "name": "handler wiring",
           "status": "passed",
           "failureMessage": ""
-        }
-      ]
-    },
-    {
-      "name": "handler wiring delegates updateTip to the matching service method",
-      "tests": [
+        },
         {
-          "name": "handler wiring delegates updateTip to the matching service method",
+          "name": "handler wiring",
           "status": "passed",
           "failureMessage": ""
-        }
-      ]
-    },
-    {
-      "name": "handler wiring delegates updatePaymentCard to the matching service method",
-      "tests": [
+        },
         {
-          "name": "handler wiring delegates updatePaymentCard to the matching service method",
+          "name": "handler wiring",
           "status": "passed",
           "failureMessage": ""
-        }
-      ]
-    },
-    {
-      "name": "handler wiring delegates getUpdateTimestampsFromMerchant to the matching service method",
-      "tests": [
+        },
         {
-          "name": "handler wiring delegates getUpdateTimestampsFromMerchant to the matching service method",
+          "name": "handler wiring",
           "status": "passed",
           "failureMessage": ""
-        }
-      ]
-    },
-    {
-      "name": "handler wiring delegates getUpdateTimestamps to the matching service method",
-      "tests": [
+        },
         {
-          "name": "handler wiring delegates getUpdateTimestamps to the matching service method",
+          "name": "handler wiring",
           "status": "passed",
           "failureMessage": ""
-        }
-      ]
-    },
-    {
-      "name": "handler wiring delegates getServerTip to the matching service method",
-      "tests": [
+        },
         {
-          "name": "handler wiring delegates getServerTip to the matching service method",
+          "name": "handler wiring",
           "status": "passed",
           "failureMessage": ""
-        }
-      ]
-    },
-    {
-      "name": "handler wiring delegates removeServerFromReservations to the matching service method",
-      "tests": [
+        },
         {
-          "name": "handler wiring delegates removeServerFromReservations to the matching service method",
+          "name": "handler wiring",
           "status": "passed",
           "failureMessage": ""
-        }
-      ]
-    },
-    {
-      "name": "handler wiring delegates updateTableRequiresAttn to the matching service method",
-      "tests": [
+        },
         {
-          "name": "handler wiring delegates updateTableRequiresAttn to the matching service method",
+          "name": "handler wiring",
           "status": "passed",
           "failureMessage": ""
-        }
-      ]
-    },
-    {
-      "name": "handler wiring delegates addDummyUserToReservation to the matching service method",
-      "tests": [
+        },
         {
-          "name": "handler wiring delegates addDummyUserToReservation to the matching service method",
+          "name": "handler wiring",
           "status": "passed",
           "failureMessage": ""
-        }
-      ]
-    },
-    {
-      "name": "handler wiring delegates addUserToReservation to the matching service method",
-      "tests": [
+        },
         {
-          "name": "handler wiring delegates addUserToReservation to the matching service method",
+          "name": "handler wiring",
           "status": "passed",
           "failureMessage": ""
-        }
-      ]
-    },
-    {
-      "name": "handler wiring delegates transferUserOrders to the matching service method",
-      "tests": [
+        },
         {
-          "name": "handler wiring delegates transferUserOrders to the matching service method",
+          "name": "handler wiring",
           "status": "passed",
           "failureMessage": ""
-        }
-      ]
-    },
-    {
-      "name": "handler wiring delegates getCustomerReservationTotals to the matching service method",
-      "tests": [
+        },
         {
-          "name": "handler wiring delegates getCustomerReservationTotals to the matching service method",
+          "name": "handler wiring",
           "status": "passed",
           "failureMessage": ""
-        }
-      ]
-    },
-    {
-      "name": "handler wiring delegates updateResrvCompletionAcknowledged to the matching service method",
-      "tests": [
+        },
         {
-          "name": "handler wiring delegates updateResrvCompletionAcknowledged to the matching service method",
+          "name": "handler wiring",
           "status": "passed",
           "failureMessage": ""
-        }
-      ]
-    },
-    {
-      "name": "handler wiring delegates addSelfOrderReservation to the matching service method",
-      "tests": [
+        },
         {
-          "name": "handler wiring delegates addSelfOrderReservation to the matching service method",
+          "name": "handler wiring",
           "status": "passed",
           "failureMessage": ""
-        }
-      ]
-    },
-    {
-      "name": "handler wiring delegates calculateSelfOrderTotals to the matching service method",
-      "tests": [
+        },
         {
-          "name": "handler wiring delegates calculateSelfOrderTotals to the matching service method",
+          "name": "handler wiring",
           "status": "passed",
           "failureMessage": ""
-        }
-      ]
-    },
-    {
-      "name": "handler wiring delegates updateSharedOrder to the matching service method",
-      "tests": [
+        },
         {
-          "name": "handler wiring delegates updateSharedOrder to the matching service method",
+          "name": "handler wiring",
           "status": "passed",
           "failureMessage": ""
         }
       ]
     },
     {
-      "name": "helpers generates a 6 character uppercase nanoid",
+      "name": "helpers",
       "tests": [
         {
-          "name": "helpers generates a 6 character uppercase nanoid",
+          "name": "helpers",
           "status": "passed",
           "failureMessage": ""
-        }
-      ]
-    },
-    {
-      "name": "helpers detects empty values",
-      "tests": [
+        },
         {
-          "name": "helpers detects empty values",
+          "name": "helpers",
           "status": "passed",
           "failureMessage": ""
-        }
-      ]
-    },
-    {
-      "name": "helpers returns a structured error response",
-      "tests": [
+        },
         {
-          "name": "helpers returns a structured error response",
+          "name": "helpers",
           "status": "passed",
           "failureMessage": ""
-        }
-      ]
-    },
-    {
-      "name": "helpers parses event bodies and throws for invalid json",
-      "tests": [
+        },
         {
-          "name": "helpers parses event bodies and throws for invalid json",
+          "name": "helpers",
           "status": "passed",
           "failureMessage": ""
-        }
-      ]
-    },
-    {
-      "name": "helpers formats API responses",
-      "tests": [
+        },
         {
-          "name": "helpers formats API responses",
+          "name": "helpers",
           "status": "passed",
           "failureMessage": ""
-        }
-      ]
-    },
-    {
-      "name": "helpers formats customer data arrays",
-      "tests": [
+        },
         {
-          "name": "helpers formats customer data arrays",
+          "name": "helpers",
           "status": "passed",
           "failureMessage": ""
-        }
-      ]
-    },
-    {
-      "name": "helpers builds parameterized set clauses",
-      "tests": [
+        },
         {
-          "name": "helpers builds parameterized set clauses",
+          "name": "helpers",
           "status": "passed",
           "failureMessage": ""
-        }
-      ]
-    },
-    {
-      "name": "helpers rejects invalid SQL field names",
-      "tests": [
+        },
         {
-          "name": "helpers rejects invalid SQL field names",
+          "name": "helpers",
           "status": "passed",
           "failureMessage": ""
-        }
-      ]
-    },
-    {
-      "name": "helpers splits SQL list inputs",
-      "tests": [
+        },
         {
-          "name": "helpers splits SQL list inputs",
+          "name": "helpers",
           "status": "passed",
           "failureMessage": ""
-        }
-      ]
-    },
-    {
-      "name": "helpers validates 24 hour time strings",
-      "tests": [
+        },
         {
-          "name": "helpers validates 24 hour time strings",
+          "name": "helpers",
           "status": "passed",
           "failureMessage": ""
-        }
-      ]
-    },
-    {
-      "name": "helpers formats numbers and booleans",
-      "tests": [
+        },
         {
-          "name": "helpers formats numbers and booleans",
+          "name": "helpers",
           "status": "passed",
           "failureMessage": ""
-        }
-      ]
-    },
-    {
-      "name": "helpers formats dates and times",
-      "tests": [
+        },
         {
-          "name": "helpers formats dates and times",
+          "name": "helpers",
           "status": "passed",
           "failureMessage": ""
-        }
-      ]
-    },
-    {
-      "name": "helpers rounds minutes down to the nearest quarter",
-      "tests": [
+        },
         {
-          "name": "helpers rounds minutes down to the nearest quarter",
+          "name": "helpers",
           "status": "passed",
           "failureMessage": ""
-        }
-      ]
-    },
-    {
-      "name": "helpers fetches stripe cards through the stripe lambda bridge",
-      "tests": [
+        },
         {
-          "name": "helpers fetches stripe cards through the stripe lambda bridge",
+          "name": "helpers",
           "status": "passed",
           "failureMessage": ""
-        }
-      ]
-    },
-    {
-      "name": "helpers returns no stripe cards for empty customers",
-      "tests": [
+        },
         {
-          "name": "helpers returns no stripe cards for empty customers",
+          "name": "helpers",
           "status": "passed",
           "failureMessage": ""
         }
       ]
     },
     {
-      "name": "OrdersService update flows updatePurchaser updates purchaser details and notifies the reservation",
+      "name": "OrdersService update flows",
       "tests": [
         {
-          "name": "OrdersService update flows updatePurchaser updates purchaser details and notifies the reservation",
+          "name": "OrdersService update flows",
           "status": "passed",
           "failureMessage": ""
-        }
-      ]
-    },
-    {
-      "name": "OrdersService update flows updateTip rejects invalid tip values",
-      "tests": [
+        },
         {
-          "name": "OrdersService update flows updateTip rejects invalid tip values",
+          "name": "OrdersService update flows",
           "status": "passed",
           "failureMessage": ""
-        }
-      ]
-    },
-    {
-      "name": "OrdersService update flows updatePaymentCard updates the payment card id",
-      "tests": [
+        },
         {
-          "name": "OrdersService update flows updatePaymentCard updates the payment card id",
+          "name": "OrdersService update flows",
           "status": "passed",
           "failureMessage": ""
-        }
-      ]
-    },
-    {
-      "name": "OrdersService update flows transferUserOrders moves the orders and removes the dummy user",
-      "tests": [
+        },
         {
-          "name": "OrdersService update flows transferUserOrders moves the orders and removes the dummy user",
+          "name": "OrdersService update flows",
           "status": "passed",
           "failureMessage": ""
-        }
-      ]
-    },
-    {
-      "name": "OrdersService update flows updateMassOrders rejects invalid field names",
-      "tests": [
+        },
         {
-          "name": "OrdersService update flows updateMassOrders rejects invalid field names",
+          "name": "OrdersService update flows",
           "status": "passed",
           "failureMessage": ""
-        }
-      ]
-    },
-    {
-      "name": "OrdersService update flows updateSharedOrder rejects multi-customer shared orders",
-      "tests": [
+        },
         {
-          "name": "OrdersService update flows updateSharedOrder rejects multi-customer shared orders",
+          "name": "OrdersService update flows",
           "status": "passed",
           "failureMessage": ""
         }
       ]
     },
     {
-      "name": "ReservationsService - addReservationInfo should successfully add a reservation and send email notifications",
+      "name": "ReservationsService - addReservationInfo",
       "tests": [
         {
-          "name": "ReservationsService - addReservationInfo should successfully add a reservation and send email notifications",
+          "name": "ReservationsService - addReservationInfo",
           "status": "passed",
           "failureMessage": ""
-        }
-      ]
-    },
-    {
-      "name": "ReservationsService - addReservationInfo should throw an error if paymentMethodId is missing",
-      "tests": [
+        },
         {
-          "name": "ReservationsService - addReservationInfo should throw an error if paymentMethodId is missing",
+          "name": "ReservationsService - addReservationInfo",
           "status": "passed",
           "failureMessage": ""
         }
       ]
     },
     {
-      "name": "OrdersService createOrders getPaymentStatus returns the payment status",
+      "name": "OrdersService createOrders",
       "tests": [
         {
-          "name": "OrdersService createOrders getPaymentStatus returns the payment status",
+          "name": "OrdersService createOrders",
           "status": "passed",
           "failureMessage": ""
-        }
-      ]
-    },
-    {
-      "name": "OrdersService createOrders createOrders returns a 200 response on success",
-      "tests": [
+        },
         {
-          "name": "OrdersService createOrders createOrders returns a 200 response on success",
+          "name": "OrdersService createOrders",
           "status": "passed",
           "failureMessage": ""
-        }
-      ]
-    },
-    {
-      "name": "OrdersService createOrders createOrders returns an error when payment is already completed",
-      "tests": [
+        },
         {
-          "name": "OrdersService createOrders createOrders returns an error when payment is already completed",
+          "name": "OrdersService createOrders",
           "status": "passed",
           "failureMessage": ""
-        }
-      ]
-    },
-    {
-      "name": "OrdersService createOrders createOrdersInternal creates a standard order",
-      "tests": [
+        },
         {
-          "name": "OrdersService createOrders createOrdersInternal creates a standard order",
+          "name": "OrdersService createOrders",
           "status": "passed",
           "failureMessage": ""
-        }
-      ]
-    },
-    {
-      "name": "OrdersService createOrders createOrdersInternal rejects invalid shared order quantities",
-      "tests": [
+        },
         {
-          "name": "OrdersService createOrders createOrdersInternal rejects invalid shared order quantities",
+          "name": "OrdersService createOrders",
           "status": "passed",
           "failureMessage": ""
         }
       ]
     },
     {
-      "name": "SelfOrderService adds a self order reservation and returns the reservation payload",
+      "name": "SelfOrderService",
       "tests": [
         {
-          "name": "SelfOrderService adds a self order reservation and returns the reservation payload",
+          "name": "SelfOrderService",
           "status": "passed",
           "failureMessage": ""
-        }
-      ]
-    },
-    {
-      "name": "SelfOrderService calculates self order totals",
-      "tests": [
+        },
         {
-          "name": "SelfOrderService calculates self order totals",
+          "name": "SelfOrderService",
           "status": "passed",
           "failureMessage": ""
         }
       ]
     },
     {
-      "name": "OrdersService validation validateOrderType accepts standard and custom",
+      "name": "OrdersService validation",
       "tests": [
         {
-          "name": "OrdersService validation validateOrderType accepts standard and custom",
+          "name": "OrdersService validation",
           "status": "passed",
           "failureMessage": ""
-        }
-      ]
-    },
-    {
-      "name": "OrdersService validation validateOrderType rejects unknown order types",
-      "tests": [
+        },
         {
-          "name": "OrdersService validation validateOrderType rejects unknown order types",
+          "name": "OrdersService validation",
           "status": "passed",
           "failureMessage": ""
-        }
-      ]
-    },
-    {
-      "name": "OrdersService validation formatOrders normalizes order payloads",
-      "tests": [
+        },
         {
-          "name": "OrdersService validation formatOrders normalizes order payloads",
+          "name": "OrdersService validation",
           "status": "passed",
           "failureMessage": ""
         }
       ]
     },
     {
-      "name": "ReservationsService getReservationInfo delegates to the internal lookup",
+      "name": "ReservationsService",
       "tests": [
         {
-          "name": "ReservationsService getReservationInfo delegates to the internal lookup",
+          "name": "ReservationsService",
           "status": "passed",
           "failureMessage": ""
-        }
-      ]
-    },
-    {
-      "name": "ReservationsService getReservationsInfoFromWeb returns the cors wrapped payload",
-      "tests": [
+        },
         {
-          "name": "ReservationsService getReservationsInfoFromWeb returns the cors wrapped payload",
+          "name": "ReservationsService",
           "status": "passed",
           "failureMessage": ""
         }
       ]
     },
     {
-      "name": "OrdersService reads and cleanup getOrders returns shared and individual order buckets",
+      "name": "OrdersService reads and cleanup",
       "tests": [
         {
-          "name": "OrdersService reads and cleanup getOrders returns shared and individual order buckets",
+          "name": "OrdersService reads and cleanup",
           "status": "passed",
           "failureMessage": ""
-        }
-      ]
-    },
-    {
-      "name": "OrdersService reads and cleanup deleteOrderByIds issues deletes for all related tables",
-      "tests": [
+        },
         {
-          "name": "OrdersService reads and cleanup deleteOrderByIds issues deletes for all related tables",
+          "name": "OrdersService reads and cleanup",
           "status": "passed",
           "failureMessage": ""
         }
       ]
     },
     {
-      "name": "PaymentCalcService calculates broken totals for fulfilled and all orders",
+      "name": "PaymentCalcService",
       "tests": [
         {
-          "name": "PaymentCalcService calculates broken totals for fulfilled and all orders",
+          "name": "PaymentCalcService",
           "status": "passed",
           "failureMessage": ""
-        }
-      ]
-    },
-    {
-      "name": "PaymentCalcService calculates a grouped totals map",
-      "tests": [
+        },
         {
-          "name": "PaymentCalcService calculates a grouped totals map",
+          "name": "PaymentCalcService",
           "status": "passed",
           "failureMessage": ""
         }
       ]
     },
     {
-      "name": "ChargeService returns a server tip total for a restaurant",
+      "name": "ChargeService",
       "tests": [
         {
-          "name": "ChargeService returns a server tip total for a restaurant",
+          "name": "ChargeService",
           "status": "passed",
           "failureMessage": ""
-        }
-      ]
-    },
-    {
-      "name": "ChargeService returns an error when neither serverId nor restaurantId is provided",
-      "tests": [
+        },
         {
-          "name": "ChargeService returns an error when neither serverId nor restaurantId is provided",
+          "name": "ChargeService",
           "status": "passed",
           "failureMessage": ""
         }
       ]
     },
     {
-      "name": "Email Module should validate a correct email format",
+      "name": "Email Module",
       "tests": [
         {
-          "name": "Email Module should validate a correct email format",
+          "name": "Email Module",
           "status": "passed",
           "failureMessage": ""
-        }
-      ]
-    },
-    {
-      "name": "Email Module should invalidate an incorrect email format",
-      "tests": [
+        },
         {
-          "name": "Email Module should invalidate an incorrect email format",
+          "name": "Email Module",
           "status": "passed",
           "failureMessage": ""
-        }
-      ]
-    },
-    {
-      "name": "Email Module should return false for empty email",
-      "tests": [
+        },
         {
-          "name": "Email Module should return false for empty email",
+          "name": "Email Module",
           "status": "passed",
           "failureMessage": ""
-        }
-      ]
-    },
-    {
-      "name": "Email Module should send an email through SES",
-      "tests": [
+        },
         {
-          "name": "Email Module should send an email through SES",
+          "name": "Email Module",
           "status": "passed",
           "failureMessage": ""
         }
