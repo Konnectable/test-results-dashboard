@@ -1,8 +1,8 @@
 {
   "repo": "papieya-api-stripe",
   "status": "passed",
-  "updatedAt": "2026-04-19T23:55:24.022Z",
-  "runUrl": "https://github.com/Konnectable/papieya-api-stripe/actions/runs/24642228191",
+  "updatedAt": "2026-04-20T00:04:33.624Z",
+  "runUrl": "https://github.com/Konnectable/papieya-api-stripe/actions/runs/24642398765",
   "suites": [
     {
       "name": "handler delegation { name: &apos;listTransactions&apos;, fn: [Function] } delegates to the matching service",
@@ -765,6 +765,56 @@
       ]
     },
     {
+      "name": "stripeWebhookService verifies raw webhook payloads before handling them",
+      "tests": [
+        {
+          "name": "stripeWebhookService verifies raw webhook payloads before handling them",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "stripeWebhookService dispatches payment intent success events",
+      "tests": [
+        {
+          "name": "stripeWebhookService dispatches payment intent success events",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "stripeWebhookService verifies connect webhooks with base64 encoded raw bodies",
+      "tests": [
+        {
+          "name": "stripeWebhookService verifies connect webhooks with base64 encoded raw bodies",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "stripeWebhookService rejects requests with invalid webhook signatures",
+      "tests": [
+        {
+          "name": "stripeWebhookService rejects requests with invalid webhook signatures",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "stripeWebhookService fails closed when the webhook secret is missing",
+      "tests": [
+        {
+          "name": "stripeWebhookService fails closed when the webhook secret is missing",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
       "name": "stripeReaderService creates locations and readers",
       "tests": [
         {
@@ -889,36 +939,6 @@
       "tests": [
         {
           "name": "commons/S3CommonService reads config data from s3",
-          "status": "passed",
-          "failureMessage": ""
-        }
-      ]
-    },
-    {
-      "name": "stripeWebhookService handles an unrecognized event type",
-      "tests": [
-        {
-          "name": "stripeWebhookService handles an unrecognized event type",
-          "status": "passed",
-          "failureMessage": ""
-        }
-      ]
-    },
-    {
-      "name": "stripeWebhookService dispatches payment intent success events",
-      "tests": [
-        {
-          "name": "stripeWebhookService dispatches payment intent success events",
-          "status": "passed",
-          "failureMessage": ""
-        }
-      ]
-    },
-    {
-      "name": "stripeWebhookService handles connect webhooks",
-      "tests": [
-        {
-          "name": "stripeWebhookService handles connect webhooks",
           "status": "passed",
           "failureMessage": ""
         }
