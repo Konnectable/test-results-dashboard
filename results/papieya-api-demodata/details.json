@@ -1,174 +1,104 @@
 {
   "repo": "papieya-api-demodata",
   "status": "passed",
-  "updatedAt": "2026-04-20T03:00:50.827Z",
-  "runUrl": "https://github.com/Konnectable/papieya-api-demodata/actions/runs/24646360606",
+  "updatedAt": "2026-04-20T03:15:51.579Z",
+  "runUrl": "https://github.com/Konnectable/papieya-api-demodata/actions/runs/24646717662",
   "suites": [
     {
-      "name": "deleteDataService regressions deleteAllRestaurantData rejects invalid ids instead of defaulting to 0",
+      "name": "deleteDataService regressions",
       "tests": [
         {
-          "name": "deleteDataService regressions deleteAllRestaurantData rejects invalid ids instead of defaulting to 0",
+          "name": "deleteDataService regressions",
+          "status": "passed",
+          "failureMessage": ""
+        },
+        {
+          "name": "deleteDataService regressions",
+          "status": "passed",
+          "failureMessage": ""
+        },
+        {
+          "name": "deleteDataService regressions",
+          "status": "passed",
+          "failureMessage": ""
+        },
+        {
+          "name": "deleteDataService regressions",
+          "status": "passed",
+          "failureMessage": ""
+        },
+        {
+          "name": "deleteDataService regressions",
+          "status": "passed",
+          "failureMessage": ""
+        },
+        {
+          "name": "deleteDataService regressions",
+          "status": "passed",
+          "failureMessage": ""
+        },
+        {
+          "name": "deleteDataService regressions",
+          "status": "passed",
+          "failureMessage": ""
+        },
+        {
+          "name": "deleteDataService regressions",
+          "status": "passed",
+          "failureMessage": ""
+        },
+        {
+          "name": "deleteDataService regressions",
+          "status": "passed",
+          "failureMessage": ""
+        },
+        {
+          "name": "deleteDataService regressions",
           "status": "passed",
           "failureMessage": ""
         }
       ]
     },
     {
-      "name": "deleteDataService regressions deleteAllRestaurantData passes a validated numeric id to each delete step",
+      "name": "demoDataService validation",
       "tests": [
         {
-          "name": "deleteDataService regressions deleteAllRestaurantData passes a validated numeric id to each delete step",
+          "name": "demoDataService validation",
+          "status": "passed",
+          "failureMessage": ""
+        },
+        {
+          "name": "demoDataService validation",
+          "status": "passed",
+          "failureMessage": ""
+        },
+        {
+          "name": "demoDataService validation",
+          "status": "passed",
+          "failureMessage": ""
+        },
+        {
+          "name": "demoDataService validation",
+          "status": "passed",
+          "failureMessage": ""
+        },
+        {
+          "name": "demoDataService validation",
           "status": "passed",
           "failureMessage": ""
         }
       ]
     },
     {
-      "name": "deleteDataService regressions deleteAllRestaurantData blocks SQL injection strings before any delete step runs",
+      "name": "demoDataService reservations and orders",
       "tests": [
         {
-          "name": "deleteDataService regressions deleteAllRestaurantData blocks SQL injection strings before any delete step runs",
+          "name": "demoDataService reservations and orders",
           "status": "passed",
           "failureMessage": ""
-        }
-      ]
-    },
-    {
-      "name": "deleteDataService regressions deleteCustomers returns success without awaiting a result set",
-      "tests": [
+        },
         {
-          "name": "deleteDataService regressions deleteCustomers returns success without awaiting a result set",
-          "status": "passed",
-          "failureMessage": ""
-        }
-      ]
-    },
-    {
-      "name": "deleteDataService regressions deleteReservations removes orders before reservations",
-      "tests": [
-        {
-          "name": "deleteDataService regressions deleteReservations removes orders before reservations",
-          "status": "passed",
-          "failureMessage": ""
-        }
-      ]
-    },
-    {
-      "name": "deleteDataService regressions deleteTableInformation clears each table-related collection",
-      "tests": [
-        {
-          "name": "deleteDataService regressions deleteTableInformation clears each table-related collection",
-          "status": "passed",
-          "failureMessage": ""
-        }
-      ]
-    },
-    {
-      "name": "deleteDataService regressions deleteTabsAndMenus clears pairings before menus and tabs",
-      "tests": [
-        {
-          "name": "deleteDataService regressions deleteTabsAndMenus clears pairings before menus and tabs",
-          "status": "passed",
-          "failureMessage": ""
-        }
-      ]
-    },
-    {
-      "name": "deleteDataService regressions deleteTeamMembers deletes member-linked rows and calls the helper per member",
-      "tests": [
-        {
-          "name": "deleteDataService regressions deleteTeamMembers deletes member-linked rows and calls the helper per member",
-          "status": "passed",
-          "failureMessage": ""
-        }
-      ]
-    },
-    {
-      "name": "deleteDataService regressions deleteAllRestaurantData returns a 503 when a delete step throws unexpectedly",
-      "tests": [
-        {
-          "name": "deleteDataService regressions deleteAllRestaurantData returns a 503 when a delete step throws unexpectedly",
-          "status": "passed",
-          "failureMessage": ""
-        }
-      ]
-    },
-    {
-      "name": "deleteDataService regressions deleteTabsAndMenus returns a 503 envelope on query failures",
-      "tests": [
-        {
-          "name": "deleteDataService regressions deleteTabsAndMenus returns a 503 envelope on query failures",
-          "status": "passed",
-          "failureMessage": ""
-        }
-      ]
-    },
-    {
-      "name": "demoDataService validation createStandardMenu rejects invalid restaurant ids instead of coercing to 0",
-      "tests": [
-        {
-          "name": "demoDataService validation createStandardMenu rejects invalid restaurant ids instead of coercing to 0",
-          "status": "passed",
-          "failureMessage": ""
-        }
-      ]
-    },
-    {
-      "name": "demoDataService validation createCustomMenu rejects invalid restaurant ids instead of coercing to 0",
-      "tests": [
-        {
-          "name": "demoDataService validation createCustomMenu rejects invalid restaurant ids instead of coercing to 0",
-          "status": "passed",
-          "failureMessage": ""
-        }
-      ]
-    },
-    {
-      "name": "demoDataService validation updateDemoReservations rejects a malicious restaurant id before building SQL",
-      "tests": [
-        {
-          "name": "demoDataService validation updateDemoReservations rejects a malicious restaurant id before building SQL",
-          "status": "passed",
-          "failureMessage": ""
-        }
-      ]
-    },
-    {
-      "name": "demoDataService validation addDemoOrders rejects a malicious restaurant id before interpolating it",
-      "tests": [
-        {
-          "name": "demoDataService validation addDemoOrders rejects a malicious restaurant id before interpolating it",
-          "status": "passed",
-          "failureMessage": ""
-        }
-      ]
-    },
-    {
-      "name": "demoDataService validation updateDemoOrders rejects a malicious restaurant id before interpolating it",
-      "tests": [
-        {
-          "name": "demoDataService validation updateDemoOrders rejects a malicious restaurant id before interpolating it",
-          "status": "passed",
-          "failureMessage": ""
-        }
-      ]
-    },
-    {
-      "name": "demoDataService reservations and orders updateDemoReservations skips reservation updates when there are no future reservations",
-      "tests": [
-        {
-          "name": "demoDataService reservations and orders updateDemoReservations skips reservation updates when there are no future reservations",
-          "status": "passed",
-          "failureMessage": ""
-        }
-      ]
-    },
-    {
-      "name": "demoDataService reservations and orders updateDemoOrders does not query Orders with an empty IN clause",
-      "tests": [
-        {
-          "name": "demoDataService reservations and orders updateDemoOrders does not query Orders with an empty IN clause",
+          "name": "demoDataService reservations and orders",
           "status": "passed",
           "failureMessage": ""
         }
