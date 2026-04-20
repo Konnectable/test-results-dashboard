@@ -1,8 +1,8 @@
 {
   "repo": "papieya-api-demodata",
   "status": "passed",
-  "updatedAt": "2026-04-20T01:22:43.424Z",
-  "runUrl": "https://github.com/Konnectable/papieya-api-demodata/actions/runs/24644098377",
+  "updatedAt": "2026-04-20T03:00:50.827Z",
+  "runUrl": "https://github.com/Konnectable/papieya-api-demodata/actions/runs/24646360606",
   "suites": [
     {
       "name": "deleteDataService regressions deleteAllRestaurantData rejects invalid ids instead of defaulting to 0",
