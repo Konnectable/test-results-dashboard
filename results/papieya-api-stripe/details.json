@@ -1,8 +1,8 @@
 {
   "repo": "papieya-api-stripe",
   "status": "passed",
-  "updatedAt": "2026-04-20T00:04:33.624Z",
-  "runUrl": "https://github.com/Konnectable/papieya-api-stripe/actions/runs/24642398765",
+  "updatedAt": "2026-04-20T00:14:30.824Z",
+  "runUrl": "https://github.com/Konnectable/papieya-api-stripe/actions/runs/24642603301",
   "suites": [
     {
       "name": "handler delegation { name: &apos;listTransactions&apos;, fn: [Function] } delegates to the matching service",
@@ -565,6 +565,106 @@
       ]
     },
     {
+      "name": "stripeRestaurantService calculates payout fees",
+      "tests": [
+        {
+          "name": "stripeRestaurantService calculates payout fees",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "stripeRestaurantService returns transfer and payout fees",
+      "tests": [
+        {
+          "name": "stripeRestaurantService returns transfer and payout fees",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "stripeRestaurantService checks stripe account active state",
+      "tests": [
+        {
+          "name": "stripeRestaurantService checks stripe account active state",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "stripeRestaurantService creates connected accounts and onboarding links",
+      "tests": [
+        {
+          "name": "stripeRestaurantService creates connected accounts and onboarding links",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "stripeRestaurantService returns empty connected account details when no account id exists",
+      "tests": [
+        {
+          "name": "stripeRestaurantService returns empty connected account details when no account id exists",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "stripeRestaurantService looks up connected accounts with a parameterized query",
+      "tests": [
+        {
+          "name": "stripeRestaurantService looks up connected accounts with a parameterized query",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "stripeRestaurantService rejects invalid connected account lookup input before querying",
+      "tests": [
+        {
+          "name": "stripeRestaurantService rejects invalid connected account lookup input before querying",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "stripeRestaurantService replaces restaurant cards and updates base payments",
+      "tests": [
+        {
+          "name": "stripeRestaurantService replaces restaurant cards and updates base payments",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "stripeRestaurantService creates base payments internally",
+      "tests": [
+        {
+          "name": "stripeRestaurantService creates base payments internally",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "stripeRestaurantService updates payout schedules",
+      "tests": [
+        {
+          "name": "stripeRestaurantService updates payout schedules",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
       "name": "stripeCustomerService creates a stripe customer",
       "tests": [
         {
@@ -679,86 +779,6 @@
       "tests": [
         {
           "name": "stripePaymentService returns pending canceled reservations",
-          "status": "passed",
-          "failureMessage": ""
-        }
-      ]
-    },
-    {
-      "name": "stripeRestaurantService calculates payout fees",
-      "tests": [
-        {
-          "name": "stripeRestaurantService calculates payout fees",
-          "status": "passed",
-          "failureMessage": ""
-        }
-      ]
-    },
-    {
-      "name": "stripeRestaurantService returns transfer and payout fees",
-      "tests": [
-        {
-          "name": "stripeRestaurantService returns transfer and payout fees",
-          "status": "passed",
-          "failureMessage": ""
-        }
-      ]
-    },
-    {
-      "name": "stripeRestaurantService checks stripe account active state",
-      "tests": [
-        {
-          "name": "stripeRestaurantService checks stripe account active state",
-          "status": "passed",
-          "failureMessage": ""
-        }
-      ]
-    },
-    {
-      "name": "stripeRestaurantService creates connected accounts and onboarding links",
-      "tests": [
-        {
-          "name": "stripeRestaurantService creates connected accounts and onboarding links",
-          "status": "passed",
-          "failureMessage": ""
-        }
-      ]
-    },
-    {
-      "name": "stripeRestaurantService returns empty connected account details when no account id exists",
-      "tests": [
-        {
-          "name": "stripeRestaurantService returns empty connected account details when no account id exists",
-          "status": "passed",
-          "failureMessage": ""
-        }
-      ]
-    },
-    {
-      "name": "stripeRestaurantService replaces restaurant cards and updates base payments",
-      "tests": [
-        {
-          "name": "stripeRestaurantService replaces restaurant cards and updates base payments",
-          "status": "passed",
-          "failureMessage": ""
-        }
-      ]
-    },
-    {
-      "name": "stripeRestaurantService creates base payments internally",
-      "tests": [
-        {
-          "name": "stripeRestaurantService creates base payments internally",
-          "status": "passed",
-          "failureMessage": ""
-        }
-      ]
-    },
-    {
-      "name": "stripeRestaurantService updates payout schedules",
-      "tests": [
-        {
-          "name": "stripeRestaurantService updates payout schedules",
           "status": "passed",
           "failureMessage": ""
         }
