@@ -1,8 +1,8 @@
 {
   "repo": "papieya-api-menu",
   "status": "passed",
-  "updatedAt": "2026-04-20T00:14:38.934Z",
-  "runUrl": "https://github.com/Konnectable/papieya-api-menu/actions/runs/24642609439",
+  "updatedAt": "2026-04-20T01:09:35.181Z",
+  "runUrl": "https://github.com/Konnectable/papieya-api-menu/actions/runs/24643796300",
   "suites": [
     {
       "name": "database skips connection ping in test mode and promisifies query helpers",

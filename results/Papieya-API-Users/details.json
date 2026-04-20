@@ -1,8 +1,8 @@
 {
   "repo": "Papieya-API-Users",
   "status": "passed",
-  "updatedAt": "2026-04-20T00:23:16.760Z",
-  "runUrl": "https://github.com/Konnectable/Papieya-API-Users/actions/runs/24642797548",
+  "updatedAt": "2026-04-20T01:09:50.060Z",
+  "runUrl": "https://github.com/Konnectable/Papieya-API-Users/actions/runs/24643804476",
   "suites": [
     {
       "name": "UsersService mutation flows updateRestaurantUserInfo should update policy acknowledgement",
