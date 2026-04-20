@@ -1,13 +1,13 @@
 {
   "repo": "Papieya-API-Restaurant",
   "status": "passed",
-  "suites": 6,
+  "suites": 17,
   "tests": 142,
   "failures": 0,
   "errors": 0,
   "skipped": 0,
   "branch": "master",
-  "commit": "6583c47e8693fa60557d5b1b3bb9fe5f82f2f7e2",
-  "runUrl": "https://github.com/Konnectable/Papieya-API-Restaurant/actions/runs/24643889018",
-  "updatedAt": "2026-04-20T01:13:43.282Z"
+  "commit": "908d7493aa871688b3d0ddf3c40104f71a17410d",
+  "runUrl": "https://github.com/Konnectable/Papieya-API-Restaurant/actions/runs/24644101449",
+  "updatedAt": "2026-04-20T01:23:05.517Z"
 }
