@@ -4,20 +4,20 @@
   "rows": [
     {
       "file": "All files",
-      "statementsPct": 92.16,
-      "branchesPct": 67.74,
+      "statementsPct": 92.22,
+      "branchesPct": 68.75,
       "functionsPct": 100,
-      "linesPct": 92.16,
+      "linesPct": 92.22,
       "uncoveredLines": []
     },
     {
       "file": "commons/helpers.js",
-      "statementsPct": 98.68,
-      "branchesPct": 79.31,
+      "statementsPct": 98.72,
+      "branchesPct": 80.65,
       "functionsPct": 100,
-      "linesPct": 98.68,
+      "linesPct": 98.72,
       "uncoveredLines": [
-        66
+        68
       ]
     },
     {
@@ -89,12 +89,12 @@
     },
     {
       "file": "service/pushNotificationsService.js",
-      "statementsPct": 97.78,
-      "branchesPct": 64.29,
+      "statementsPct": 97.83,
+      "branchesPct": 66.67,
       "functionsPct": 100,
-      "linesPct": 97.78,
+      "linesPct": 97.83,
       "uncoveredLines": [
-        146
+        147
       ]
     },
     {
