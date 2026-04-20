@@ -1,404 +1,269 @@
 {
   "repo": "Papieya-API-Users",
   "status": "passed",
-  "updatedAt": "2026-04-20T01:23:01.551Z",
-  "runUrl": "https://github.com/Konnectable/Papieya-API-Users/actions/runs/24644103721",
+  "updatedAt": "2026-04-20T03:16:01.275Z",
+  "runUrl": "https://github.com/Konnectable/Papieya-API-Users/actions/runs/24646724437",
   "suites": [
     {
-      "name": "users helpers getNanoId returns a six-character uppercase id",
+      "name": "users helpers",
       "tests": [
         {
-          "name": "users helpers getNanoId returns a six-character uppercase id",
+          "name": "users helpers",
+          "status": "passed",
+          "failureMessage": ""
+        },
+        {
+          "name": "users helpers",
+          "status": "passed",
+          "failureMessage": ""
+        },
+        {
+          "name": "users helpers",
+          "status": "passed",
+          "failureMessage": ""
+        },
+        {
+          "name": "users helpers",
+          "status": "passed",
+          "failureMessage": ""
+        },
+        {
+          "name": "users helpers",
+          "status": "passed",
+          "failureMessage": ""
+        },
+        {
+          "name": "users helpers",
+          "status": "passed",
+          "failureMessage": ""
+        },
+        {
+          "name": "users helpers",
+          "status": "passed",
+          "failureMessage": ""
+        },
+        {
+          "name": "users helpers",
+          "status": "passed",
+          "failureMessage": ""
+        },
+        {
+          "name": "users helpers",
           "status": "passed",
           "failureMessage": ""
         }
       ]
     },
     {
-      "name": "users helpers isEmpty and getErrorResponse capture edge values",
+      "name": "UsersService updateRestaurantUserInfo",
       "tests": [
         {
-          "name": "users helpers isEmpty and getErrorResponse capture edge values",
+          "name": "UsersService updateRestaurantUserInfo",
+          "status": "passed",
+          "failureMessage": ""
+        },
+        {
+          "name": "UsersService updateRestaurantUserInfo",
+          "status": "passed",
+          "failureMessage": ""
+        },
+        {
+          "name": "UsersService updateRestaurantUserInfo",
+          "status": "passed",
+          "failureMessage": ""
+        },
+        {
+          "name": "UsersService updateRestaurantUserInfo",
           "status": "passed",
           "failureMessage": ""
         }
       ]
     },
     {
-      "name": "users helpers validateEventBody and returnResponse preserve the legacy contract",
+      "name": "UsersService read flows getRestaurantUserInfo",
       "tests": [
         {
-          "name": "users helpers validateEventBody and returnResponse preserve the legacy contract",
+          "name": "UsersService read flows getRestaurantUserInfo",
+          "status": "passed",
+          "failureMessage": ""
+        },
+        {
+          "name": "UsersService read flows getRestaurantUserInfo",
           "status": "passed",
           "failureMessage": ""
         }
       ]
     },
     {
-      "name": "users helpers formats customer, number, dates, and push payloads",
+      "name": "UsersService read flows getRestaurantUserNotifications",
       "tests": [
         {
-          "name": "users helpers formats customer, number, dates, and push payloads",
+          "name": "UsersService read flows getRestaurantUserNotifications",
           "status": "passed",
           "failureMessage": ""
         }
       ]
     },
     {
-      "name": "users helpers createConnectedAccount unwraps the lambda payload id",
+      "name": "UsersService read flows getAvailableRoles",
       "tests": [
         {
-          "name": "users helpers createConnectedAccount unwraps the lambda payload id",
+          "name": "UsersService read flows getAvailableRoles",
           "status": "passed",
           "failureMessage": ""
         }
       ]
     },
     {
-      "name": "users helpers getConnectedAccountDetails returns parsed output and skips blank identifiers",
+      "name": "UsersService read flows getLastLoginTime",
       "tests": [
         {
-          "name": "users helpers getConnectedAccountDetails returns parsed output and skips blank identifiers",
+          "name": "UsersService read flows getLastLoginTime",
           "status": "passed",
           "failureMessage": ""
         }
       ]
     },
     {
-      "name": "users helpers should omit id and normalize empty values to null",
+      "name": "UsersService read flows checkIfUserBelongsToOWnerGroup",
       "tests": [
         {
-          "name": "users helpers should omit id and normalize empty values to null",
+          "name": "UsersService read flows checkIfUserBelongsToOWnerGroup",
           "status": "passed",
           "failureMessage": ""
         }
       ]
     },
     {
-      "name": "users helpers should preserve falsy but meaningful values",
+      "name": "UsersService addRestaurantUserInfo",
       "tests": [
         {
-          "name": "users helpers should preserve falsy but meaningful values",
+          "name": "UsersService addRestaurantUserInfo",
+          "status": "passed",
+          "failureMessage": ""
+        },
+        {
+          "name": "UsersService addRestaurantUserInfo",
           "status": "passed",
           "failureMessage": ""
         }
       ]
     },
     {
-      "name": "users helpers should return an object with a null prototype for empty input",
+      "name": "UsersService notification flows updateMemberNotifications",
       "tests": [
         {
-          "name": "users helpers should return an object with a null prototype for empty input",
+          "name": "UsersService notification flows updateMemberNotifications",
+          "status": "passed",
+          "failureMessage": ""
+        },
+        {
+          "name": "UsersService notification flows updateMemberNotifications",
           "status": "passed",
           "failureMessage": ""
         }
       ]
     },
     {
-      "name": "UsersService updateRestaurantUserInfo should update policy acknowledgement",
+      "name": "UsersService notification flows deleteMemberNotifications",
       "tests": [
         {
-          "name": "UsersService updateRestaurantUserInfo should update policy acknowledgement",
+          "name": "UsersService notification flows deleteMemberNotifications",
           "status": "passed",
           "failureMessage": ""
         }
       ]
     },
     {
-      "name": "UsersService updateRestaurantUserInfo should sanitize update payload before building the set clause",
+      "name": "users handler",
       "tests": [
         {
-          "name": "UsersService updateRestaurantUserInfo should sanitize update payload before building the set clause",
+          "name": "users handler",
+          "status": "passed",
+          "failureMessage": ""
+        },
+        {
+          "name": "users handler",
+          "status": "passed",
+          "failureMessage": ""
+        },
+        {
+          "name": "users handler",
+          "status": "passed",
+          "failureMessage": ""
+        },
+        {
+          "name": "users handler",
+          "status": "passed",
+          "failureMessage": ""
+        },
+        {
+          "name": "users handler",
+          "status": "passed",
+          "failureMessage": ""
+        },
+        {
+          "name": "users handler",
+          "status": "passed",
+          "failureMessage": ""
+        },
+        {
+          "name": "users handler",
+          "status": "passed",
+          "failureMessage": ""
+        },
+        {
+          "name": "users handler",
+          "status": "passed",
+          "failureMessage": ""
+        },
+        {
+          "name": "users handler",
+          "status": "passed",
+          "failureMessage": ""
+        },
+        {
+          "name": "users handler",
+          "status": "passed",
+          "failureMessage": ""
+        },
+        {
+          "name": "users handler",
+          "status": "passed",
+          "failureMessage": ""
+        },
+        {
+          "name": "users handler",
+          "status": "passed",
+          "failureMessage": ""
+        },
+        {
+          "name": "users handler",
           "status": "passed",
           "failureMessage": ""
         }
       ]
     },
     {
-      "name": "UsersService updateRestaurantUserInfo should force group tip method for owner updates before persisting",
+      "name": "UsersService markDeleteRestaurantUser",
       "tests": [
         {
-          "name": "UsersService updateRestaurantUserInfo should force group tip method for owner updates before persisting",
+          "name": "UsersService markDeleteRestaurantUser",
           "status": "passed",
           "failureMessage": ""
         }
       ]
     },
     {
-      "name": "UsersService updateRestaurantUserInfo should delete roles when roleCds is explicitly set to empty",
+      "name": "UsersService account activity",
       "tests": [
         {
-          "name": "UsersService updateRestaurantUserInfo should delete roles when roleCds is explicitly set to empty",
+          "name": "UsersService account activity",
           "status": "passed",
           "failureMessage": ""
-        }
-      ]
-    },
-    {
-      "name": "UsersService read flows getRestaurantUserInfo should return user info successfully",
-      "tests": [
+        },
         {
-          "name": "UsersService read flows getRestaurantUserInfo should return user info successfully",
-          "status": "passed",
-          "failureMessage": ""
-        }
-      ]
-    },
-    {
-      "name": "UsersService read flows getRestaurantUserInfo should handle errors",
-      "tests": [
-        {
-          "name": "UsersService read flows getRestaurantUserInfo should handle errors",
-          "status": "passed",
-          "failureMessage": ""
-        }
-      ]
-    },
-    {
-      "name": "UsersService read flows getRestaurantUserNotifications should return notifications",
-      "tests": [
-        {
-          "name": "UsersService read flows getRestaurantUserNotifications should return notifications",
-          "status": "passed",
-          "failureMessage": ""
-        }
-      ]
-    },
-    {
-      "name": "UsersService read flows getAvailableRoles should return available roles",
-      "tests": [
-        {
-          "name": "UsersService read flows getAvailableRoles should return available roles",
-          "status": "passed",
-          "failureMessage": ""
-        }
-      ]
-    },
-    {
-      "name": "UsersService read flows getLastLoginTime should get last login time",
-      "tests": [
-        {
-          "name": "UsersService read flows getLastLoginTime should get last login time",
-          "status": "passed",
-          "failureMessage": ""
-        }
-      ]
-    },
-    {
-      "name": "UsersService read flows checkIfUserBelongsToOWnerGroup should check if user is owner",
-      "tests": [
-        {
-          "name": "UsersService read flows checkIfUserBelongsToOWnerGroup should check if user is owner",
-          "status": "passed",
-          "failureMessage": ""
-        }
-      ]
-    },
-    {
-      "name": "UsersService addRestaurantUserInfo should add new user successfully",
-      "tests": [
-        {
-          "name": "UsersService addRestaurantUserInfo should add new user successfully",
-          "status": "passed",
-          "failureMessage": ""
-        }
-      ]
-    },
-    {
-      "name": "UsersService addRestaurantUserInfo should allow adding a user when roleCds is omitted",
-      "tests": [
-        {
-          "name": "UsersService addRestaurantUserInfo should allow adding a user when roleCds is omitted",
-          "status": "passed",
-          "failureMessage": ""
-        }
-      ]
-    },
-    {
-      "name": "UsersService notification flows updateMemberNotifications should update notifications using the computed set clause",
-      "tests": [
-        {
-          "name": "UsersService notification flows updateMemberNotifications should update notifications using the computed set clause",
-          "status": "passed",
-          "failureMessage": ""
-        }
-      ]
-    },
-    {
-      "name": "UsersService notification flows updateMemberNotifications should bypass the set clause helper when marking all read",
-      "tests": [
-        {
-          "name": "UsersService notification flows updateMemberNotifications should bypass the set clause helper when marking all read",
-          "status": "passed",
-          "failureMessage": ""
-        }
-      ]
-    },
-    {
-      "name": "UsersService notification flows deleteMemberNotifications should delete notifications",
-      "tests": [
-        {
-          "name": "UsersService notification flows deleteMemberNotifications should delete notifications",
-          "status": "passed",
-          "failureMessage": ""
-        }
-      ]
-    },
-    {
-      "name": "users handler delegates getRestaurantUserInfo to the service factory",
-      "tests": [
-        {
-          "name": "users handler delegates getRestaurantUserInfo to the service factory",
-          "status": "passed",
-          "failureMessage": ""
-        }
-      ]
-    },
-    {
-      "name": "users handler delegates updateRestaurantUserInfo to the service factory",
-      "tests": [
-        {
-          "name": "users handler delegates updateRestaurantUserInfo to the service factory",
-          "status": "passed",
-          "failureMessage": ""
-        }
-      ]
-    },
-    {
-      "name": "users handler delegates addRestaurantUserInfo to the service factory",
-      "tests": [
-        {
-          "name": "users handler delegates addRestaurantUserInfo to the service factory",
-          "status": "passed",
-          "failureMessage": ""
-        }
-      ]
-    },
-    {
-      "name": "users handler delegates getAvailableRoles to the service factory",
-      "tests": [
-        {
-          "name": "users handler delegates getAvailableRoles to the service factory",
-          "status": "passed",
-          "failureMessage": ""
-        }
-      ]
-    },
-    {
-      "name": "users handler delegates markDeleteRestaurantUser to the service factory",
-      "tests": [
-        {
-          "name": "users handler delegates markDeleteRestaurantUser to the service factory",
-          "status": "passed",
-          "failureMessage": ""
-        }
-      ]
-    },
-    {
-      "name": "users handler delegates updateEmailAddress to the service factory",
-      "tests": [
-        {
-          "name": "users handler delegates updateEmailAddress to the service factory",
-          "status": "passed",
-          "failureMessage": ""
-        }
-      ]
-    },
-    {
-      "name": "users handler delegates getLastLoginTime to the service factory",
-      "tests": [
-        {
-          "name": "users handler delegates getLastLoginTime to the service factory",
-          "status": "passed",
-          "failureMessage": ""
-        }
-      ]
-    },
-    {
-      "name": "users handler delegates updateLastLoginTime to the service factory",
-      "tests": [
-        {
-          "name": "users handler delegates updateLastLoginTime to the service factory",
-          "status": "passed",
-          "failureMessage": ""
-        }
-      ]
-    },
-    {
-      "name": "users handler delegates checkIfUserBelongsToOWnerGroup to the service factory",
-      "tests": [
-        {
-          "name": "users handler delegates checkIfUserBelongsToOWnerGroup to the service factory",
-          "status": "passed",
-          "failureMessage": ""
-        }
-      ]
-    },
-    {
-      "name": "users handler delegates updateMemberNotifications to the service factory",
-      "tests": [
-        {
-          "name": "users handler delegates updateMemberNotifications to the service factory",
-          "status": "passed",
-          "failureMessage": ""
-        }
-      ]
-    },
-    {
-      "name": "users handler delegates deleteMemberNotifications to the service factory",
-      "tests": [
-        {
-          "name": "users handler delegates deleteMemberNotifications to the service factory",
-          "status": "passed",
-          "failureMessage": ""
-        }
-      ]
-    },
-    {
-      "name": "users handler delegates getRestaurantUserNotifications to the service factory",
-      "tests": [
-        {
-          "name": "users handler delegates getRestaurantUserNotifications to the service factory",
-          "status": "passed",
-          "failureMessage": ""
-        }
-      ]
-    },
-    {
-      "name": "users handler delegates switchRestaurantAdminAccount to the service factory",
-      "tests": [
-        {
-          "name": "users handler delegates switchRestaurantAdminAccount to the service factory",
-          "status": "passed",
-          "failureMessage": ""
-        }
-      ]
-    },
-    {
-      "name": "UsersService markDeleteRestaurantUser should mark user as deleted",
-      "tests": [
-        {
-          "name": "UsersService markDeleteRestaurantUser should mark user as deleted",
-          "status": "passed",
-          "failureMessage": ""
-        }
-      ]
-    },
-    {
-      "name": "UsersService account activity should update email address",
-      "tests": [
-        {
-          "name": "UsersService account activity should update email address",
-          "status": "passed",
-          "failureMessage": ""
-        }
-      ]
-    },
-    {
-      "name": "UsersService account activity should update last login time",
-      "tests": [
-        {
-          "name": "UsersService account activity should update last login time",
+          "name": "UsersService account activity",
           "status": "passed",
           "failureMessage": ""
         }
