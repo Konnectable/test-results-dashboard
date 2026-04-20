@@ -1,8 +1,8 @@
 {
   "repo": "Papieya-API-Users",
   "status": "passed",
-  "updatedAt": "2026-04-20T07:53:15.971Z",
-  "runUrl": "https://github.com/Konnectable/Papieya-API-Users/actions/runs/24654958045",
+  "updatedAt": "2026-04-20T07:56:33.234Z",
+  "runUrl": "https://github.com/Konnectable/Papieya-API-Users/actions/runs/24655091221",
   "suites": [
     {
       "name": "users helpers",
