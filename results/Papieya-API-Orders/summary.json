@@ -1,13 +1,13 @@
 {
   "repo": "Papieya-API-Orders",
   "status": "passed",
-  "suites": 9,
+  "suites": 10,
   "tests": 81,
   "failures": 0,
   "errors": 0,
   "skipped": 0,
   "branch": "master",
-  "commit": "a27ae5a5ff7b0c86fd745c8e2542c277009f4384",
-  "runUrl": "https://github.com/Konnectable/Papieya-API-Orders/actions/runs/24642241186",
-  "updatedAt": "2026-04-19T23:56:02.631Z"
+  "commit": "f446d348708b541f0ec48adbee04ff1a95634fcb",
+  "runUrl": "https://github.com/Konnectable/Papieya-API-Orders/actions/runs/24642625954",
+  "updatedAt": "2026-04-20T00:15:32.340Z"
 }

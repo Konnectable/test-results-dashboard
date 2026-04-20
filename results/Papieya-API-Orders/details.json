@@ -1,164 +1,104 @@
 {
   "repo": "Papieya-API-Orders",
   "status": "passed",
-  "updatedAt": "2026-04-19T23:56:02.631Z",
-  "runUrl": "https://github.com/Konnectable/Papieya-API-Orders/actions/runs/24642241186",
+  "updatedAt": "2026-04-20T00:15:32.340Z",
+  "runUrl": "https://github.com/Konnectable/Papieya-API-Orders/actions/runs/24642625954",
   "suites": [
     {
-      "name": "OrdersService validateOrderType accepts standard and custom",
+      "name": "OrdersService core flows validateOrderType accepts standard and custom",
       "tests": [
         {
-          "name": "OrdersService validateOrderType accepts standard and custom",
+          "name": "OrdersService core flows validateOrderType accepts standard and custom",
           "status": "passed",
           "failureMessage": ""
         }
       ]
     },
     {
-      "name": "OrdersService validateOrderType rejects unknown order types",
+      "name": "OrdersService core flows validateOrderType rejects unknown order types",
       "tests": [
         {
-          "name": "OrdersService validateOrderType rejects unknown order types",
+          "name": "OrdersService core flows validateOrderType rejects unknown order types",
           "status": "passed",
           "failureMessage": ""
         }
       ]
     },
     {
-      "name": "OrdersService formatOrders normalizes order payloads",
+      "name": "OrdersService core flows formatOrders normalizes order payloads",
       "tests": [
         {
-          "name": "OrdersService formatOrders normalizes order payloads",
+          "name": "OrdersService core flows formatOrders normalizes order payloads",
           "status": "passed",
           "failureMessage": ""
         }
       ]
     },
     {
-      "name": "OrdersService getPaymentStatus returns the payment status",
+      "name": "OrdersService core flows getPaymentStatus returns the payment status",
       "tests": [
         {
-          "name": "OrdersService getPaymentStatus returns the payment status",
+          "name": "OrdersService core flows getPaymentStatus returns the payment status",
           "status": "passed",
           "failureMessage": ""
         }
       ]
     },
     {
-      "name": "OrdersService createOrders returns a 200 response on success",
+      "name": "OrdersService core flows createOrders returns a 200 response on success",
       "tests": [
         {
-          "name": "OrdersService createOrders returns a 200 response on success",
+          "name": "OrdersService core flows createOrders returns a 200 response on success",
           "status": "passed",
           "failureMessage": ""
         }
       ]
     },
     {
-      "name": "OrdersService createOrders returns an error when payment is already completed",
+      "name": "OrdersService core flows createOrders returns an error when payment is already completed",
       "tests": [
         {
-          "name": "OrdersService createOrders returns an error when payment is already completed",
+          "name": "OrdersService core flows createOrders returns an error when payment is already completed",
           "status": "passed",
           "failureMessage": ""
         }
       ]
     },
     {
-      "name": "OrdersService createOrdersInternal creates a standard order",
+      "name": "OrdersService core flows createOrdersInternal creates a standard order",
       "tests": [
         {
-          "name": "OrdersService createOrdersInternal creates a standard order",
+          "name": "OrdersService core flows createOrdersInternal creates a standard order",
           "status": "passed",
           "failureMessage": ""
         }
       ]
     },
     {
-      "name": "OrdersService createOrdersInternal rejects invalid shared order quantities",
+      "name": "OrdersService core flows createOrdersInternal rejects invalid shared order quantities",
       "tests": [
         {
-          "name": "OrdersService createOrdersInternal rejects invalid shared order quantities",
+          "name": "OrdersService core flows createOrdersInternal rejects invalid shared order quantities",
           "status": "passed",
           "failureMessage": ""
         }
       ]
     },
     {
-      "name": "OrdersService getOrders returns shared and individual order buckets",
+      "name": "OrdersService core flows getOrders returns shared and individual order buckets",
       "tests": [
         {
-          "name": "OrdersService getOrders returns shared and individual order buckets",
+          "name": "OrdersService core flows getOrders returns shared and individual order buckets",
           "status": "passed",
           "failureMessage": ""
         }
       ]
     },
     {
-      "name": "OrdersService deleteOrderByIds issues deletes for all related tables",
+      "name": "OrdersService core flows deleteOrderByIds issues deletes for all related tables",
       "tests": [
         {
-          "name": "OrdersService deleteOrderByIds issues deletes for all related tables",
-          "status": "passed",
-          "failureMessage": ""
-        }
-      ]
-    },
-    {
-      "name": "OrdersService updatePurchaser updates purchaser details and notifies the reservation",
-      "tests": [
-        {
-          "name": "OrdersService updatePurchaser updates purchaser details and notifies the reservation",
-          "status": "passed",
-          "failureMessage": ""
-        }
-      ]
-    },
-    {
-      "name": "OrdersService updateTip rejects invalid tip values",
-      "tests": [
-        {
-          "name": "OrdersService updateTip rejects invalid tip values",
-          "status": "passed",
-          "failureMessage": ""
-        }
-      ]
-    },
-    {
-      "name": "OrdersService updatePaymentCard updates the payment card id",
-      "tests": [
-        {
-          "name": "OrdersService updatePaymentCard updates the payment card id",
-          "status": "passed",
-          "failureMessage": ""
-        }
-      ]
-    },
-    {
-      "name": "OrdersService transferUserOrders moves the orders and removes the dummy user",
-      "tests": [
-        {
-          "name": "OrdersService transferUserOrders moves the orders and removes the dummy user",
-          "status": "passed",
-          "failureMessage": ""
-        }
-      ]
-    },
-    {
-      "name": "OrdersService updateMassOrders rejects invalid field names",
-      "tests": [
-        {
-          "name": "OrdersService updateMassOrders rejects invalid field names",
-          "status": "passed",
-          "failureMessage": ""
-        }
-      ]
-    },
-    {
-      "name": "OrdersService updateSharedOrder rejects multi-customer shared orders",
-      "tests": [
-        {
-          "name": "OrdersService updateSharedOrder rejects multi-customer shared orders",
+          "name": "OrdersService core flows deleteOrderByIds issues deletes for all related tables",
           "status": "passed",
           "failureMessage": ""
         }
@@ -669,6 +609,66 @@
       "tests": [
         {
           "name": "helpers returns no stripe cards for empty customers",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "OrdersService update flows updatePurchaser updates purchaser details and notifies the reservation",
+      "tests": [
+        {
+          "name": "OrdersService update flows updatePurchaser updates purchaser details and notifies the reservation",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "OrdersService update flows updateTip rejects invalid tip values",
+      "tests": [
+        {
+          "name": "OrdersService update flows updateTip rejects invalid tip values",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "OrdersService update flows updatePaymentCard updates the payment card id",
+      "tests": [
+        {
+          "name": "OrdersService update flows updatePaymentCard updates the payment card id",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "OrdersService update flows transferUserOrders moves the orders and removes the dummy user",
+      "tests": [
+        {
+          "name": "OrdersService update flows transferUserOrders moves the orders and removes the dummy user",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "OrdersService update flows updateMassOrders rejects invalid field names",
+      "tests": [
+        {
+          "name": "OrdersService update flows updateMassOrders rejects invalid field names",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "OrdersService update flows updateSharedOrder rejects multi-customer shared orders",
+      "tests": [
+        {
+          "name": "OrdersService update flows updateSharedOrder rejects multi-customer shared orders",
           "status": "passed",
           "failureMessage": ""
         }

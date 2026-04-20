@@ -4,10 +4,10 @@
   "rows": [
     {
       "file": "All files",
-      "statementsPct": 93.55,
+      "statementsPct": 93.64,
       "branchesPct": 81.25,
       "functionsPct": 100,
-      "linesPct": 93.48,
+      "linesPct": 93.58,
       "uncoveredLines": []
     },
     {
@@ -25,13 +25,14 @@
     },
     {
       "file": "database.js",
-      "statementsPct": 89.47,
+      "statementsPct": 91.67,
       "branchesPct": 66.67,
       "functionsPct": 100,
-      "linesPct": 88.89,
+      "linesPct": 91.43,
       "uncoveredLines": [
         18,
-        21
+        21,
+        57
       ]
     }
   ]

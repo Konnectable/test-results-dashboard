@@ -1,164 +1,74 @@
 {
   "repo": "Papieya-API-Users",
   "status": "passed",
-  "updatedAt": "2026-04-19T23:55:13.837Z",
-  "runUrl": "https://github.com/Konnectable/Papieya-API-Users/actions/runs/24642228942",
+  "updatedAt": "2026-04-20T00:23:16.760Z",
+  "runUrl": "https://github.com/Konnectable/Papieya-API-Users/actions/runs/24642797548",
   "suites": [
     {
-      "name": "UsersService getRestaurantUserInfo should return user info successfully",
+      "name": "UsersService mutation flows updateRestaurantUserInfo should update policy acknowledgement",
       "tests": [
         {
-          "name": "UsersService getRestaurantUserInfo should return user info successfully",
+          "name": "UsersService mutation flows updateRestaurantUserInfo should update policy acknowledgement",
           "status": "passed",
           "failureMessage": ""
         }
       ]
     },
     {
-      "name": "UsersService getRestaurantUserInfo should handle errors",
+      "name": "UsersService mutation flows updateRestaurantUserInfo should sanitize update payload before building the set clause",
       "tests": [
         {
-          "name": "UsersService getRestaurantUserInfo should handle errors",
+          "name": "UsersService mutation flows updateRestaurantUserInfo should sanitize update payload before building the set clause",
           "status": "passed",
           "failureMessage": ""
         }
       ]
     },
     {
-      "name": "UsersService getRestaurantUserNotifications should return notifications",
+      "name": "UsersService mutation flows updateRestaurantUserInfo should force group tip method for owner updates before persisting",
       "tests": [
         {
-          "name": "UsersService getRestaurantUserNotifications should return notifications",
+          "name": "UsersService mutation flows updateRestaurantUserInfo should force group tip method for owner updates before persisting",
           "status": "passed",
           "failureMessage": ""
         }
       ]
     },
     {
-      "name": "UsersService updateRestaurantUserInfo should update policy acknowledgement",
+      "name": "UsersService mutation flows addRestaurantUserInfo should add new user successfully",
       "tests": [
         {
-          "name": "UsersService updateRestaurantUserInfo should update policy acknowledgement",
+          "name": "UsersService mutation flows addRestaurantUserInfo should add new user successfully",
           "status": "passed",
           "failureMessage": ""
         }
       ]
     },
     {
-      "name": "UsersService updateRestaurantUserInfo should sanitize update payload before building the set clause",
+      "name": "UsersService mutation flows markDeleteRestaurantUser should mark user as deleted",
       "tests": [
         {
-          "name": "UsersService updateRestaurantUserInfo should sanitize update payload before building the set clause",
+          "name": "UsersService mutation flows markDeleteRestaurantUser should mark user as deleted",
           "status": "passed",
           "failureMessage": ""
         }
       ]
     },
     {
-      "name": "UsersService updateRestaurantUserInfo should force group tip method for owner updates before persisting",
+      "name": "UsersService mutation flows updateEmailAddress should update email address",
       "tests": [
         {
-          "name": "UsersService updateRestaurantUserInfo should force group tip method for owner updates before persisting",
+          "name": "UsersService mutation flows updateEmailAddress should update email address",
           "status": "passed",
           "failureMessage": ""
         }
       ]
     },
     {
-      "name": "UsersService addRestaurantUserInfo should add new user successfully",
+      "name": "UsersService mutation flows updateLastLoginTime should update last login time",
       "tests": [
         {
-          "name": "UsersService addRestaurantUserInfo should add new user successfully",
-          "status": "passed",
-          "failureMessage": ""
-        }
-      ]
-    },
-    {
-      "name": "UsersService getAvailableRoles should return available roles",
-      "tests": [
-        {
-          "name": "UsersService getAvailableRoles should return available roles",
-          "status": "passed",
-          "failureMessage": ""
-        }
-      ]
-    },
-    {
-      "name": "UsersService markDeleteRestaurantUser should mark user as deleted",
-      "tests": [
-        {
-          "name": "UsersService markDeleteRestaurantUser should mark user as deleted",
-          "status": "passed",
-          "failureMessage": ""
-        }
-      ]
-    },
-    {
-      "name": "UsersService updateEmailAddress should update email address",
-      "tests": [
-        {
-          "name": "UsersService updateEmailAddress should update email address",
-          "status": "passed",
-          "failureMessage": ""
-        }
-      ]
-    },
-    {
-      "name": "UsersService getLastLoginTime should get last login time",
-      "tests": [
-        {
-          "name": "UsersService getLastLoginTime should get last login time",
-          "status": "passed",
-          "failureMessage": ""
-        }
-      ]
-    },
-    {
-      "name": "UsersService updateLastLoginTime should update last login time",
-      "tests": [
-        {
-          "name": "UsersService updateLastLoginTime should update last login time",
-          "status": "passed",
-          "failureMessage": ""
-        }
-      ]
-    },
-    {
-      "name": "UsersService checkIfUserBelongsToOWnerGroup should check if user is owner",
-      "tests": [
-        {
-          "name": "UsersService checkIfUserBelongsToOWnerGroup should check if user is owner",
-          "status": "passed",
-          "failureMessage": ""
-        }
-      ]
-    },
-    {
-      "name": "UsersService updateMemberNotifications should update notifications using the computed set clause",
-      "tests": [
-        {
-          "name": "UsersService updateMemberNotifications should update notifications using the computed set clause",
-          "status": "passed",
-          "failureMessage": ""
-        }
-      ]
-    },
-    {
-      "name": "UsersService updateMemberNotifications should bypass the set clause helper when marking all read",
-      "tests": [
-        {
-          "name": "UsersService updateMemberNotifications should bypass the set clause helper when marking all read",
-          "status": "passed",
-          "failureMessage": ""
-        }
-      ]
-    },
-    {
-      "name": "UsersService deleteMemberNotifications should delete notifications",
-      "tests": [
-        {
-          "name": "UsersService deleteMemberNotifications should delete notifications",
+          "name": "UsersService mutation flows updateLastLoginTime should update last login time",
           "status": "passed",
           "failureMessage": ""
         }
@@ -249,6 +159,96 @@
       "tests": [
         {
           "name": "users helpers should return an object with a null prototype for empty input",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "UsersService read flows getRestaurantUserInfo should return user info successfully",
+      "tests": [
+        {
+          "name": "UsersService read flows getRestaurantUserInfo should return user info successfully",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "UsersService read flows getRestaurantUserInfo should handle errors",
+      "tests": [
+        {
+          "name": "UsersService read flows getRestaurantUserInfo should handle errors",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "UsersService read flows getRestaurantUserNotifications should return notifications",
+      "tests": [
+        {
+          "name": "UsersService read flows getRestaurantUserNotifications should return notifications",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "UsersService read flows getAvailableRoles should return available roles",
+      "tests": [
+        {
+          "name": "UsersService read flows getAvailableRoles should return available roles",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "UsersService read flows getLastLoginTime should get last login time",
+      "tests": [
+        {
+          "name": "UsersService read flows getLastLoginTime should get last login time",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "UsersService read flows checkIfUserBelongsToOWnerGroup should check if user is owner",
+      "tests": [
+        {
+          "name": "UsersService read flows checkIfUserBelongsToOWnerGroup should check if user is owner",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "UsersService notification flows updateMemberNotifications should update notifications using the computed set clause",
+      "tests": [
+        {
+          "name": "UsersService notification flows updateMemberNotifications should update notifications using the computed set clause",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "UsersService notification flows updateMemberNotifications should bypass the set clause helper when marking all read",
+      "tests": [
+        {
+          "name": "UsersService notification flows updateMemberNotifications should bypass the set clause helper when marking all read",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "UsersService notification flows deleteMemberNotifications should delete notifications",
+      "tests": [
+        {
+          "name": "UsersService notification flows deleteMemberNotifications should delete notifications",
           "status": "passed",
           "failureMessage": ""
         }
