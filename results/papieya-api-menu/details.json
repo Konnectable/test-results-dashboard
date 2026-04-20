@@ -1,8 +1,8 @@
 {
   "repo": "papieya-api-menu",
   "status": "passed",
-  "updatedAt": "2026-04-20T01:09:35.181Z",
-  "runUrl": "https://github.com/Konnectable/papieya-api-menu/actions/runs/24643796300",
+  "updatedAt": "2026-04-20T01:13:44.409Z",
+  "runUrl": "https://github.com/Konnectable/papieya-api-menu/actions/runs/24643892987",
   "suites": [
     {
       "name": "database skips connection ping in test mode and promisifies query helpers",
@@ -79,6 +79,36 @@
       "tests": [
         {
           "name": "service/menuService update flows updateMenuEntry builds the update with escaped identifiers before pairings refresh",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "service/menuService delete flows deleteOrderByIds wraps standalone deletes in a transaction-aware db handle",
+      "tests": [
+        {
+          "name": "service/menuService delete flows deleteOrderByIds wraps standalone deletes in a transaction-aware db handle",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "service/menuService delete flows forceDelete entry keeps reservation event name and notifies captured customers after commit",
+      "tests": [
+        {
+          "name": "service/menuService delete flows forceDelete entry keeps reservation event name and notifies captured customers after commit",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "service/menuService delete flows forceDelete skips external notifications when transactional deletes fail",
+      "tests": [
+        {
+          "name": "service/menuService delete flows forceDelete skips external notifications when transactional deletes fail",
           "status": "passed",
           "failureMessage": ""
         }

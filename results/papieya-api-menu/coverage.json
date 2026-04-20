@@ -4,22 +4,21 @@
   "rows": [
     {
       "file": "All files",
-      "statementsPct": 93.64,
-      "branchesPct": 81.25,
+      "statementsPct": 94.55,
+      "branchesPct": 84.38,
       "functionsPct": 100,
-      "linesPct": 93.58,
+      "linesPct": 94.5,
       "uncoveredLines": []
     },
     {
       "file": "commons/helpers.js",
-      "statementsPct": 94.59,
-      "branchesPct": 90,
+      "statementsPct": 95.95,
+      "branchesPct": 95,
       "functionsPct": 100,
-      "linesPct": 94.59,
+      "linesPct": 95.95,
       "uncoveredLines": [
         34,
         35,
-        50,
         187
       ]
     },
