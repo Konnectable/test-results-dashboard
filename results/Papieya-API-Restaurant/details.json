@@ -1,1424 +1,799 @@
 {
   "repo": "Papieya-API-Restaurant",
   "status": "passed",
-  "updatedAt": "2026-04-20T01:23:05.517Z",
-  "runUrl": "https://github.com/Konnectable/Papieya-API-Restaurant/actions/runs/24644101449",
+  "updatedAt": "2026-04-20T03:15:35.907Z",
+  "runUrl": "https://github.com/Konnectable/Papieya-API-Restaurant/actions/runs/24646708924",
   "suites": [
     {
-      "name": "handler getTableAvailability delegates to the correct service method",
+      "name": "handler",
       "tests": [
         {
-          "name": "handler getTableAvailability delegates to the correct service method",
+          "name": "handler",
           "status": "passed",
           "failureMessage": ""
-        }
-      ]
-    },
-    {
-      "name": "handler getLiveTableAvailability delegates to the correct service method",
-      "tests": [
+        },
         {
-          "name": "handler getLiveTableAvailability delegates to the correct service method",
+          "name": "handler",
           "status": "passed",
           "failureMessage": ""
-        }
-      ]
-    },
-    {
-      "name": "handler deleteTableHold delegates to the correct service method",
-      "tests": [
+        },
         {
-          "name": "handler deleteTableHold delegates to the correct service method",
+          "name": "handler",
           "status": "passed",
           "failureMessage": ""
-        }
-      ]
-    },
-    {
-      "name": "handler checkTableReserved delegates to the correct service method",
-      "tests": [
+        },
         {
-          "name": "handler checkTableReserved delegates to the correct service method",
+          "name": "handler",
           "status": "passed",
           "failureMessage": ""
-        }
-      ]
-    },
-    {
-      "name": "handler createRestaurant delegates to the correct service method",
-      "tests": [
+        },
         {
-          "name": "handler createRestaurant delegates to the correct service method",
+          "name": "handler",
           "status": "passed",
           "failureMessage": ""
-        }
-      ]
-    },
-    {
-      "name": "handler createRestaurantYelp delegates to the correct service method",
-      "tests": [
+        },
         {
-          "name": "handler createRestaurantYelp delegates to the correct service method",
+          "name": "handler",
           "status": "passed",
           "failureMessage": ""
-        }
-      ]
-    },
-    {
-      "name": "handler getAllRestaurants delegates to the correct service method",
-      "tests": [
+        },
         {
-          "name": "handler getAllRestaurants delegates to the correct service method",
+          "name": "handler",
           "status": "passed",
           "failureMessage": ""
-        }
-      ]
-    },
-    {
-      "name": "handler getRestaurantInfo delegates to the correct service method",
-      "tests": [
+        },
         {
-          "name": "handler getRestaurantInfo delegates to the correct service method",
+          "name": "handler",
           "status": "passed",
           "failureMessage": ""
-        }
-      ]
-    },
-    {
-      "name": "handler getRestaurantInfoFromMerchant delegates to the correct service method",
-      "tests": [
+        },
         {
-          "name": "handler getRestaurantInfoFromMerchant delegates to the correct service method",
+          "name": "handler",
           "status": "passed",
           "failureMessage": ""
-        }
-      ]
-    },
-    {
-      "name": "handler getRestaurantMenus delegates to the correct service method",
-      "tests": [
+        },
         {
-          "name": "handler getRestaurantMenus delegates to the correct service method",
+          "name": "handler",
           "status": "passed",
           "failureMessage": ""
-        }
-      ]
-    },
-    {
-      "name": "handler getRestaurantStats delegates to the correct service method",
-      "tests": [
+        },
         {
-          "name": "handler getRestaurantStats delegates to the correct service method",
+          "name": "handler",
           "status": "passed",
           "failureMessage": ""
-        }
-      ]
-    },
-    {
-      "name": "handler activateRestaurant delegates to the correct service method",
-      "tests": [
+        },
         {
-          "name": "handler activateRestaurant delegates to the correct service method",
+          "name": "handler",
           "status": "passed",
           "failureMessage": ""
-        }
-      ]
-    },
-    {
-      "name": "handler deactivateRestaurant delegates to the correct service method",
-      "tests": [
+        },
         {
-          "name": "handler deactivateRestaurant delegates to the correct service method",
+          "name": "handler",
           "status": "passed",
           "failureMessage": ""
-        }
-      ]
-    },
-    {
-      "name": "handler updateRestaurantName delegates to the correct service method",
-      "tests": [
+        },
         {
-          "name": "handler updateRestaurantName delegates to the correct service method",
+          "name": "handler",
           "status": "passed",
           "failureMessage": ""
-        }
-      ]
-    },
-    {
-      "name": "handler createTableTypes delegates to the correct service method",
-      "tests": [
+        },
         {
-          "name": "handler createTableTypes delegates to the correct service method",
+          "name": "handler",
           "status": "passed",
           "failureMessage": ""
-        }
-      ]
-    },
-    {
-      "name": "handler updateRestaurant delegates to the correct service method",
-      "tests": [
+        },
         {
-          "name": "handler updateRestaurant delegates to the correct service method",
+          "name": "handler",
           "status": "passed",
           "failureMessage": ""
-        }
-      ]
-    },
-    {
-      "name": "handler updateTableTypes delegates to the correct service method",
-      "tests": [
+        },
         {
-          "name": "handler updateTableTypes delegates to the correct service method",
+          "name": "handler",
           "status": "passed",
           "failureMessage": ""
-        }
-      ]
-    },
-    {
-      "name": "handler createTableInfo delegates to the correct service method",
-      "tests": [
+        },
         {
-          "name": "handler createTableInfo delegates to the correct service method",
+          "name": "handler",
           "status": "passed",
           "failureMessage": ""
-        }
-      ]
-    },
-    {
-      "name": "handler updateTableInfoArr delegates to the correct service method",
-      "tests": [
+        },
         {
-          "name": "handler updateTableInfoArr delegates to the correct service method",
+          "name": "handler",
           "status": "passed",
           "failureMessage": ""
-        }
-      ]
-    },
-    {
-      "name": "handler deleteTableTypes delegates to the correct service method",
-      "tests": [
+        },
         {
-          "name": "handler deleteTableTypes delegates to the correct service method",
+          "name": "handler",
           "status": "passed",
           "failureMessage": ""
-        }
-      ]
-    },
-    {
-      "name": "handler deleteTableInfo delegates to the correct service method",
-      "tests": [
+        },
         {
-          "name": "handler deleteTableInfo delegates to the correct service method",
+          "name": "handler",
           "status": "passed",
           "failureMessage": ""
-        }
-      ]
-    },
-    {
-      "name": "handler createFloor delegates to the correct service method",
-      "tests": [
+        },
         {
-          "name": "handler createFloor delegates to the correct service method",
+          "name": "handler",
           "status": "passed",
           "failureMessage": ""
-        }
-      ]
-    },
-    {
-      "name": "handler updateFloor delegates to the correct service method",
-      "tests": [
+        },
         {
-          "name": "handler updateFloor delegates to the correct service method",
+          "name": "handler",
           "status": "passed",
           "failureMessage": ""
-        }
-      ]
-    },
-    {
-      "name": "handler deleteFloor delegates to the correct service method",
-      "tests": [
+        },
         {
-          "name": "handler deleteFloor delegates to the correct service method",
+          "name": "handler",
           "status": "passed",
           "failureMessage": ""
-        }
-      ]
-    },
-    {
-      "name": "handler addRestaurantTabs delegates to the correct service method",
-      "tests": [
+        },
         {
-          "name": "handler addRestaurantTabs delegates to the correct service method",
+          "name": "handler",
           "status": "passed",
           "failureMessage": ""
-        }
-      ]
-    },
-    {
-      "name": "handler updateRestaurantTabs delegates to the correct service method",
-      "tests": [
+        },
         {
-          "name": "handler updateRestaurantTabs delegates to the correct service method",
+          "name": "handler",
           "status": "passed",
           "failureMessage": ""
-        }
-      ]
-    },
-    {
-      "name": "handler updateRestaurantTabsSortOrder delegates to the correct service method",
-      "tests": [
+        },
         {
-          "name": "handler updateRestaurantTabsSortOrder delegates to the correct service method",
+          "name": "handler",
           "status": "passed",
           "failureMessage": ""
-        }
-      ]
-    },
-    {
-      "name": "handler deleteRestaurantTabs delegates to the correct service method",
-      "tests": [
+        },
         {
-          "name": "handler deleteRestaurantTabs delegates to the correct service method",
+          "name": "handler",
           "status": "passed",
           "failureMessage": ""
-        }
-      ]
-    },
-    {
-      "name": "handler getAllRestIdsOnLoad delegates to the correct service method",
-      "tests": [
+        },
         {
-          "name": "handler getAllRestIdsOnLoad delegates to the correct service method",
+          "name": "handler",
           "status": "passed",
           "failureMessage": ""
-        }
-      ]
-    },
-    {
-      "name": "handler addCancelationPolicy delegates to the correct service method",
-      "tests": [
+        },
         {
-          "name": "handler addCancelationPolicy delegates to the correct service method",
+          "name": "handler",
           "status": "passed",
           "failureMessage": ""
-        }
-      ]
-    },
-    {
-      "name": "handler getCancelationPolicy delegates to the correct service method",
-      "tests": [
+        },
         {
-          "name": "handler getCancelationPolicy delegates to the correct service method",
+          "name": "handler",
           "status": "passed",
           "failureMessage": ""
-        }
-      ]
-    },
-    {
-      "name": "handler updateCancelationPolicy delegates to the correct service method",
-      "tests": [
+        },
         {
-          "name": "handler updateCancelationPolicy delegates to the correct service method",
+          "name": "handler",
           "status": "passed",
           "failureMessage": ""
-        }
-      ]
-    },
-    {
-      "name": "handler deleteInactivateCancelationPolicy delegates to the correct service method",
-      "tests": [
+        },
         {
-          "name": "handler deleteInactivateCancelationPolicy delegates to the correct service method",
+          "name": "handler",
           "status": "passed",
           "failureMessage": ""
-        }
-      ]
-    },
-    {
-      "name": "handler addTableHold delegates to the correct service method",
-      "tests": [
+        },
         {
-          "name": "handler addTableHold delegates to the correct service method",
+          "name": "handler",
           "status": "passed",
           "failureMessage": ""
-        }
-      ]
-    },
-    {
-      "name": "handler addTableBlock delegates to the correct service method",
-      "tests": [
+        },
         {
-          "name": "handler addTableBlock delegates to the correct service method",
+          "name": "handler",
           "status": "passed",
           "failureMessage": ""
-        }
-      ]
-    },
-    {
-      "name": "handler updateTableBlock delegates to the correct service method",
-      "tests": [
+        },
         {
-          "name": "handler updateTableBlock delegates to the correct service method",
+          "name": "handler",
           "status": "passed",
           "failureMessage": ""
-        }
-      ]
-    },
-    {
-      "name": "handler deleteTableBlock delegates to the correct service method",
-      "tests": [
+        },
         {
-          "name": "handler deleteTableBlock delegates to the correct service method",
+          "name": "handler",
           "status": "passed",
           "failureMessage": ""
-        }
-      ]
-    },
-    {
-      "name": "handler getRestaurantPaymentHistory delegates to the correct service method",
-      "tests": [
+        },
         {
-          "name": "handler getRestaurantPaymentHistory delegates to the correct service method",
+          "name": "handler",
           "status": "passed",
           "failureMessage": ""
-        }
-      ]
-    },
-    {
-      "name": "handler getReservationCountsForRestaurant delegates to the correct service method",
-      "tests": [
+        },
         {
-          "name": "handler getReservationCountsForRestaurant delegates to the correct service method",
+          "name": "handler",
           "status": "passed",
           "failureMessage": ""
-        }
-      ]
-    },
-    {
-      "name": "handler checkRestaurantOpenForReservation delegates to the correct service method",
-      "tests": [
+        },
         {
-          "name": "handler checkRestaurantOpenForReservation delegates to the correct service method",
+          "name": "handler",
           "status": "passed",
           "failureMessage": ""
-        }
-      ]
-    },
-    {
-      "name": "handler updatePincode delegates to the correct service method",
-      "tests": [
+        },
         {
-          "name": "handler updatePincode delegates to the correct service method",
+          "name": "handler",
           "status": "passed",
           "failureMessage": ""
-        }
-      ]
-    },
-    {
-      "name": "handler verifyPincode delegates to the correct service method",
-      "tests": [
+        },
         {
-          "name": "handler verifyPincode delegates to the correct service method",
+          "name": "handler",
           "status": "passed",
           "failureMessage": ""
-        }
-      ]
-    },
-    {
-      "name": "handler createTermsAndConditions delegates to the correct service method",
-      "tests": [
+        },
         {
-          "name": "handler createTermsAndConditions delegates to the correct service method",
+          "name": "handler",
           "status": "passed",
           "failureMessage": ""
-        }
-      ]
-    },
-    {
-      "name": "handler updateTermsAndConditions delegates to the correct service method",
-      "tests": [
+        },
         {
-          "name": "handler updateTermsAndConditions delegates to the correct service method",
+          "name": "handler",
           "status": "passed",
           "failureMessage": ""
-        }
-      ]
-    },
-    {
-      "name": "handler getTermsAndConditions delegates to the correct service method",
-      "tests": [
+        },
         {
-          "name": "handler getTermsAndConditions delegates to the correct service method",
+          "name": "handler",
           "status": "passed",
           "failureMessage": ""
-        }
-      ]
-    },
-    {
-      "name": "handler delegates getMenuByMenuId to the restaurant service",
-      "tests": [
+        },
         {
-          "name": "handler delegates getMenuByMenuId to the restaurant service",
+          "name": "handler",
           "status": "passed",
           "failureMessage": ""
-        }
-      ]
-    },
-    {
-      "name": "handler returns a warmup response for getMenuByMenuId warmup events",
-      "tests": [
+        },
         {
-          "name": "handler returns a warmup response for getMenuByMenuId warmup events",
+          "name": "handler",
           "status": "passed",
           "failureMessage": ""
         }
       ]
     },
     {
-      "name": "RestaurantService getRestaurantInfo returns only floor data for merchant floor-only requests",
+      "name": "RestaurantService getRestaurantInfo",
       "tests": [
         {
-          "name": "RestaurantService getRestaurantInfo returns only floor data for merchant floor-only requests",
+          "name": "RestaurantService getRestaurantInfo",
           "status": "passed",
           "failureMessage": ""
-        }
-      ]
-    },
-    {
-      "name": "RestaurantService getRestaurantInfo treats floorOnly=false as the full merchant info path",
-      "tests": [
+        },
         {
-          "name": "RestaurantService getRestaurantInfo treats floorOnly=false as the full merchant info path",
+          "name": "RestaurantService getRestaurantInfo",
           "status": "passed",
           "failureMessage": ""
-        }
-      ]
-    },
-    {
-      "name": "RestaurantService getRestaurantInfo returns full merchant restaurant info with payout details",
-      "tests": [
+        },
         {
-          "name": "RestaurantService getRestaurantInfo returns full merchant restaurant info with payout details",
+          "name": "RestaurantService getRestaurantInfo",
           "status": "passed",
           "failureMessage": ""
-        }
-      ]
-    },
-    {
-      "name": "RestaurantService getRestaurantInfo returns an error response when the restaurant is not found",
-      "tests": [
+        },
         {
-          "name": "RestaurantService getRestaurantInfo returns an error response when the restaurant is not found",
+          "name": "RestaurantService getRestaurantInfo",
           "status": "passed",
           "failureMessage": ""
         }
       ]
     },
     {
-      "name": "RestaurantService menus and reads drops blank restaurant ids when filtering getAllRestaurants",
+      "name": "RestaurantService menus and reads",
       "tests": [
         {
-          "name": "RestaurantService menus and reads drops blank restaurant ids when filtering getAllRestaurants",
+          "name": "RestaurantService menus and reads",
           "status": "passed",
           "failureMessage": ""
-        }
-      ]
-    },
-    {
-      "name": "RestaurantService menus and reads gets all restaurants and hydrates timestamps and attributes",
-      "tests": [
+        },
         {
-          "name": "RestaurantService menus and reads gets all restaurants and hydrates timestamps and attributes",
+          "name": "RestaurantService menus and reads",
           "status": "passed",
           "failureMessage": ""
-        }
-      ]
-    },
-    {
-      "name": "RestaurantService menus and reads gets SaaS payment info for a restaurant",
-      "tests": [
+        },
         {
-          "name": "RestaurantService menus and reads gets SaaS payment info for a restaurant",
+          "name": "RestaurantService menus and reads",
           "status": "passed",
           "failureMessage": ""
-        }
-      ]
-    },
-    {
-      "name": "RestaurantService menus and reads gets the active cancelation policy when present",
-      "tests": [
+        },
         {
-          "name": "RestaurantService menus and reads gets the active cancelation policy when present",
+          "name": "RestaurantService menus and reads",
           "status": "passed",
           "failureMessage": ""
-        }
-      ]
-    },
-    {
-      "name": "RestaurantService menus and reads gets restaurant menus through the wrapper endpoint",
-      "tests": [
+        },
         {
-          "name": "RestaurantService menus and reads gets restaurant menus through the wrapper endpoint",
+          "name": "RestaurantService menus and reads",
           "status": "passed",
           "failureMessage": ""
-        }
-      ]
-    },
-    {
-      "name": "RestaurantService menus and reads returns 503 from getRestaurantMenus when getMenu throws",
-      "tests": [
+        },
         {
-          "name": "RestaurantService menus and reads returns 503 from getRestaurantMenus when getMenu throws",
+          "name": "RestaurantService menus and reads",
           "status": "passed",
           "failureMessage": ""
-        }
-      ]
-    },
-    {
-      "name": "RestaurantService menus and reads builds nested menu data",
-      "tests": [
+        },
         {
-          "name": "RestaurantService menus and reads builds nested menu data",
+          "name": "RestaurantService menus and reads",
           "status": "passed",
           "failureMessage": ""
-        }
-      ]
-    },
-    {
-      "name": "RestaurantService menus and reads gets a menu by id",
-      "tests": [
+        },
         {
-          "name": "RestaurantService menus and reads gets a menu by id",
+          "name": "RestaurantService menus and reads",
           "status": "passed",
           "failureMessage": ""
-        }
-      ]
-    },
-    {
-      "name": "RestaurantService menus and reads gets a menu by menuId event wrapper",
-      "tests": [
+        },
         {
-          "name": "RestaurantService menus and reads gets a menu by menuId event wrapper",
+          "name": "RestaurantService menus and reads",
           "status": "passed",
           "failureMessage": ""
-        }
-      ]
-    },
-    {
-      "name": "RestaurantService menus and reads returns 503 from getMenuByMenuId when getMenuById throws",
-      "tests": [
+        },
         {
-          "name": "RestaurantService menus and reads returns 503 from getMenuByMenuId when getMenuById throws",
+          "name": "RestaurantService menus and reads",
           "status": "passed",
           "failureMessage": ""
         }
       ]
     },
     {
-      "name": "RestaurantService cancelation policies adds a cancelation policy",
+      "name": "RestaurantService cancelation policies",
       "tests": [
         {
-          "name": "RestaurantService cancelation policies adds a cancelation policy",
+          "name": "RestaurantService cancelation policies",
           "status": "passed",
           "failureMessage": ""
-        }
-      ]
-    },
-    {
-      "name": "RestaurantService cancelation policies gets a single cancelation policy by id",
-      "tests": [
+        },
         {
-          "name": "RestaurantService cancelation policies gets a single cancelation policy by id",
+          "name": "RestaurantService cancelation policies",
           "status": "passed",
           "failureMessage": ""
-        }
-      ]
-    },
-    {
-      "name": "RestaurantService cancelation policies returns empty object when a requested cancelation policy is missing",
-      "tests": [
+        },
         {
-          "name": "RestaurantService cancelation policies returns empty object when a requested cancelation policy is missing",
+          "name": "RestaurantService cancelation policies",
           "status": "passed",
           "failureMessage": ""
-        }
-      ]
-    },
-    {
-      "name": "RestaurantService cancelation policies gets all cancelation policies when no policy id is passed",
-      "tests": [
+        },
         {
-          "name": "RestaurantService cancelation policies gets all cancelation policies when no policy id is passed",
+          "name": "RestaurantService cancelation policies",
           "status": "passed",
           "failureMessage": ""
-        }
-      ]
-    },
-    {
-      "name": "RestaurantService cancelation policies updates a cancelation policy and applies it to the restaurant",
-      "tests": [
+        },
         {
-          "name": "RestaurantService cancelation policies updates a cancelation policy and applies it to the restaurant",
+          "name": "RestaurantService cancelation policies",
           "status": "passed",
           "failureMessage": ""
-        }
-      ]
-    },
-    {
-      "name": "RestaurantService cancelation policies deletes an unused cancelation policy",
-      "tests": [
+        },
         {
-          "name": "RestaurantService cancelation policies deletes an unused cancelation policy",
+          "name": "RestaurantService cancelation policies",
           "status": "passed",
           "failureMessage": ""
-        }
-      ]
-    },
-    {
-      "name": "RestaurantService cancelation policies inactivates a used cancelation policy instead of deleting it",
-      "tests": [
+        },
         {
-          "name": "RestaurantService cancelation policies inactivates a used cancelation policy instead of deleting it",
+          "name": "RestaurantService cancelation policies",
           "status": "passed",
           "failureMessage": ""
-        }
-      ]
-    },
-    {
-      "name": "RestaurantService cancelation policies validates cancelation policy input",
-      "tests": [
+        },
         {
-          "name": "RestaurantService cancelation policies validates cancelation policy input",
+          "name": "RestaurantService cancelation policies",
           "status": "passed",
           "failureMessage": ""
-        }
-      ]
-    },
-    {
-      "name": "RestaurantService cancelation policies rejects duplicate cancelation policy titles",
-      "tests": [
+        },
         {
-          "name": "RestaurantService cancelation policies rejects duplicate cancelation policy titles",
+          "name": "RestaurantService cancelation policies",
           "status": "passed",
           "failureMessage": ""
-        }
-      ]
-    },
-    {
-      "name": "RestaurantService cancelation policies rejects non-numeric amounts in cancelation policies",
-      "tests": [
+        },
         {
-          "name": "RestaurantService cancelation policies rejects non-numeric amounts in cancelation policies",
+          "name": "RestaurantService cancelation policies",
           "status": "passed",
           "failureMessage": ""
-        }
-      ]
-    },
-    {
-      "name": "RestaurantService cancelation policies rejects non-editable policy data changes",
-      "tests": [
+        },
         {
-          "name": "RestaurantService cancelation policies rejects non-editable policy data changes",
+          "name": "RestaurantService cancelation policies",
           "status": "passed",
           "failureMessage": ""
         }
       ]
     },
     {
-      "name": "commons/helpers generates a 6-character nano id",
+      "name": "commons/helpers",
       "tests": [
         {
-          "name": "commons/helpers generates a 6-character nano id",
+          "name": "commons/helpers",
           "status": "passed",
           "failureMessage": ""
-        }
-      ]
-    },
-    {
-      "name": "commons/helpers identifies empty values",
-      "tests": [
+        },
         {
-          "name": "commons/helpers identifies empty values",
+          "name": "commons/helpers",
           "status": "passed",
           "failureMessage": ""
-        }
-      ]
-    },
-    {
-      "name": "commons/helpers builds an error response object",
-      "tests": [
+        },
         {
-          "name": "commons/helpers builds an error response object",
+          "name": "commons/helpers",
           "status": "passed",
           "failureMessage": ""
-        }
-      ]
-    },
-    {
-      "name": "commons/helpers parses a valid event body",
-      "tests": [
+        },
         {
-          "name": "commons/helpers parses a valid event body",
+          "name": "commons/helpers",
           "status": "passed",
           "failureMessage": ""
-        }
-      ]
-    },
-    {
-      "name": "commons/helpers throws 10001 for invalid event body",
-      "tests": [
+        },
         {
-          "name": "commons/helpers throws 10001 for invalid event body",
+          "name": "commons/helpers",
           "status": "passed",
           "failureMessage": ""
-        }
-      ]
-    },
-    {
-      "name": "commons/helpers builds a standard response",
-      "tests": [
+        },
         {
-          "name": "commons/helpers builds a standard response",
-          "status": "passed",
-          "failureMessage": ""
-        }
-      ]
-    },
-    {
-      "name": "commons/helpers formats customer dietary preferences",
-      "tests": [
+          "name": "commons/helpers",
+          "status": "passed",
+          "failureMessage": ""
+        },
         {
-          "name": "commons/helpers formats customer dietary preferences",
+          "name": "commons/helpers",
           "status": "passed",
           "failureMessage": ""
-        }
-      ]
-    },
-    {
-      "name": "commons/helpers builds a SQL set clause",
-      "tests": [
+        },
         {
-          "name": "commons/helpers builds a SQL set clause",
+          "name": "commons/helpers",
           "status": "passed",
           "failureMessage": ""
-        }
-      ]
-    },
-    {
-      "name": "commons/helpers validates 24-hour time strings",
-      "tests": [
+        },
         {
-          "name": "commons/helpers validates 24-hour time strings",
+          "name": "commons/helpers",
           "status": "passed",
           "failureMessage": ""
-        }
-      ]
-    },
-    {
-      "name": "commons/helpers formats date and time helpers",
-      "tests": [
+        },
         {
-          "name": "commons/helpers formats date and time helpers",
+          "name": "commons/helpers",
           "status": "passed",
           "failureMessage": ""
-        }
-      ]
-    },
-    {
-      "name": "commons/helpers converts booleans to ints",
-      "tests": [
+        },
         {
-          "name": "commons/helpers converts booleans to ints",
+          "name": "commons/helpers",
           "status": "passed",
           "failureMessage": ""
-        }
-      ]
-    },
-    {
-      "name": "commons/helpers builds an APNS payload string",
-      "tests": [
+        },
         {
-          "name": "commons/helpers builds an APNS payload string",
+          "name": "commons/helpers",
           "status": "passed",
           "failureMessage": ""
-        }
-      ]
-    },
-    {
-      "name": "commons/helpers returns an empty card list when stripe customer id is missing",
-      "tests": [
+        },
         {
-          "name": "commons/helpers returns an empty card list when stripe customer id is missing",
+          "name": "commons/helpers",
           "status": "passed",
           "failureMessage": ""
-        }
-      ]
-    },
-    {
-      "name": "commons/helpers gets stripe cards through the lambda helper",
-      "tests": [
+        },
         {
-          "name": "commons/helpers gets stripe cards through the lambda helper",
+          "name": "commons/helpers",
           "status": "passed",
           "failureMessage": ""
-        }
-      ]
-    },
-    {
-      "name": "commons/helpers gets connected account details through lambda",
-      "tests": [
+        },
         {
-          "name": "commons/helpers gets connected account details through lambda",
+          "name": "commons/helpers",
           "status": "passed",
           "failureMessage": ""
-        }
-      ]
-    },
-    {
-      "name": "commons/helpers creates a connected account and returns the id",
-      "tests": [
+        },
         {
-          "name": "commons/helpers creates a connected account and returns the id",
+          "name": "commons/helpers",
           "status": "passed",
           "failureMessage": ""
-        }
-      ]
-    },
-    {
-      "name": "commons/helpers formats numbers to two decimals",
-      "tests": [
+        },
         {
-          "name": "commons/helpers formats numbers to two decimals",
+          "name": "commons/helpers",
           "status": "passed",
           "failureMessage": ""
-        }
-      ]
-    },
-    {
-      "name": "commons/helpers validates email addresses",
-      "tests": [
+        },
         {
-          "name": "commons/helpers validates email addresses",
+          "name": "commons/helpers",
           "status": "passed",
           "failureMessage": ""
         }
       ]
     },
     {
-      "name": "RestaurantService blocking adds a table block and unassigns overlapping reservations",
+      "name": "RestaurantService blocking",
       "tests": [
         {
-          "name": "RestaurantService blocking adds a table block and unassigns overlapping reservations",
+          "name": "RestaurantService blocking",
           "status": "passed",
           "failureMessage": ""
-        }
-      ]
-    },
-    {
-      "name": "RestaurantService blocking updates a table block",
-      "tests": [
+        },
         {
-          "name": "RestaurantService blocking updates a table block",
+          "name": "RestaurantService blocking",
           "status": "passed",
           "failureMessage": ""
-        }
-      ]
-    },
-    {
-      "name": "RestaurantService blocking deletes a table block",
-      "tests": [
+        },
         {
-          "name": "RestaurantService blocking deletes a table block",
+          "name": "RestaurantService blocking",
           "status": "passed",
           "failureMessage": ""
-        }
-      ]
-    },
-    {
-      "name": "RestaurantService blocking formats and validates block data",
-      "tests": [
+        },
         {
-          "name": "RestaurantService blocking formats and validates block data",
+          "name": "RestaurantService blocking",
           "status": "passed",
           "failureMessage": ""
-        }
-      ]
-    },
-    {
-      "name": "RestaurantService blocking rejects block data when a block already exists",
-      "tests": [
+        },
         {
-          "name": "RestaurantService blocking rejects block data when a block already exists",
+          "name": "RestaurantService blocking",
           "status": "passed",
           "failureMessage": ""
-        }
-      ]
-    },
-    {
-      "name": "RestaurantService blocking rejects block data when start time is after end time",
-      "tests": [
+        },
         {
-          "name": "RestaurantService blocking rejects block data when start time is after end time",
+          "name": "RestaurantService blocking",
           "status": "passed",
           "failureMessage": ""
-        }
-      ]
-    },
-    {
-      "name": "RestaurantService blocking unassigns reservations when a block overlaps them",
-      "tests": [
+        },
         {
-          "name": "RestaurantService blocking unassigns reservations when a block overlaps them",
+          "name": "RestaurantService blocking",
           "status": "passed",
           "failureMessage": ""
-        }
-      ]
-    },
-    {
-      "name": "RestaurantService blocking returns an empty array when no reservations overlap a block",
-      "tests": [
+        },
         {
-          "name": "RestaurantService blocking returns an empty array when no reservations overlap a block",
+          "name": "RestaurantService blocking",
           "status": "passed",
           "failureMessage": ""
         }
       ]
     },
     {
-      "name": "RestaurantService creation flows creates a restaurant and its default table type",
+      "name": "RestaurantService creation flows",
       "tests": [
         {
-          "name": "RestaurantService creation flows creates a restaurant and its default table type",
+          "name": "RestaurantService creation flows",
           "status": "passed",
           "failureMessage": ""
-        }
-      ]
-    },
-    {
-      "name": "RestaurantService creation flows creates a Yelp restaurant, default data, and admin user",
-      "tests": [
+        },
         {
-          "name": "RestaurantService creation flows creates a Yelp restaurant, default data, and admin user",
+          "name": "RestaurantService creation flows",
           "status": "passed",
           "failureMessage": ""
-        }
-      ]
-    },
-    {
-      "name": "RestaurantService creation flows returns a 503 response when Yelp primary email is invalid",
-      "tests": [
+        },
         {
-          "name": "RestaurantService creation flows returns a 503 response when Yelp primary email is invalid",
+          "name": "RestaurantService creation flows",
           "status": "passed",
           "failureMessage": ""
-        }
-      ]
-    },
-    {
-      "name": "RestaurantService creation flows creates an admin user via lambda",
-      "tests": [
+        },
         {
-          "name": "RestaurantService creation flows creates an admin user via lambda",
+          "name": "RestaurantService creation flows",
           "status": "passed",
           "failureMessage": ""
-        }
-      ]
-    },
-    {
-      "name": "RestaurantService creation flows creates the default floor, table type, and pickup table",
-      "tests": [
+        },
         {
-          "name": "RestaurantService creation flows creates the default floor, table type, and pickup table",
+          "name": "RestaurantService creation flows",
           "status": "passed",
           "failureMessage": ""
         }
       ]
     },
     {
-      "name": "RestaurantService lifecycle updates a restaurant",
+      "name": "RestaurantService lifecycle",
       "tests": [
         {
-          "name": "RestaurantService lifecycle updates a restaurant",
+          "name": "RestaurantService lifecycle",
           "status": "passed",
           "failureMessage": ""
-        }
-      ]
-    },
-    {
-      "name": "RestaurantService lifecycle activates a restaurant",
-      "tests": [
+        },
         {
-          "name": "RestaurantService lifecycle activates a restaurant",
+          "name": "RestaurantService lifecycle",
           "status": "passed",
           "failureMessage": ""
-        }
-      ]
-    },
-    {
-      "name": "RestaurantService lifecycle fails activation when connected bank details are missing",
-      "tests": [
+        },
         {
-          "name": "RestaurantService lifecycle fails activation when connected bank details are missing",
+          "name": "RestaurantService lifecycle",
           "status": "passed",
           "failureMessage": ""
-        }
-      ]
-    },
-    {
-      "name": "RestaurantService lifecycle deactivates a restaurant and updates future reservations",
-      "tests": [
+        },
         {
-          "name": "RestaurantService lifecycle deactivates a restaurant and updates future reservations",
+          "name": "RestaurantService lifecycle",
           "status": "passed",
           "failureMessage": ""
-        }
-      ]
-    },
-    {
-      "name": "RestaurantService lifecycle updates a restaurant name",
-      "tests": [
+        },
         {
-          "name": "RestaurantService lifecycle updates a restaurant name",
+          "name": "RestaurantService lifecycle",
           "status": "passed",
           "failureMessage": ""
         }
       ]
     },
     {
-      "name": "RestaurantService table info creates table info",
+      "name": "RestaurantService table info",
       "tests": [
         {
-          "name": "RestaurantService table info creates table info",
+          "name": "RestaurantService table info",
           "status": "passed",
           "failureMessage": ""
-        }
-      ]
-    },
-    {
-      "name": "RestaurantService table info updates a table info array",
-      "tests": [
+        },
         {
-          "name": "RestaurantService table info updates a table info array",
+          "name": "RestaurantService table info",
           "status": "passed",
           "failureMessage": ""
-        }
-      ]
-    },
-    {
-      "name": "RestaurantService table info unassigns reservations when a table item is deactivated in updateTableInfoArr",
-      "tests": [
+        },
         {
-          "name": "RestaurantService table info unassigns reservations when a table item is deactivated in updateTableInfoArr",
+          "name": "RestaurantService table info",
           "status": "passed",
           "failureMessage": ""
-        }
-      ]
-    },
-    {
-      "name": "RestaurantService table info updates reservations when a table is inactivated",
-      "tests": [
+        },
         {
-          "name": "RestaurantService table info updates reservations when a table is inactivated",
+          "name": "RestaurantService table info",
           "status": "passed",
           "failureMessage": ""
-        }
-      ]
-    },
-    {
-      "name": "RestaurantService table info deletes table info and unassigns reservations",
-      "tests": [
+        },
         {
-          "name": "RestaurantService table info deletes table info and unassigns reservations",
+          "name": "RestaurantService table info",
           "status": "passed",
           "failureMessage": ""
         }
       ]
     },
     {
-      "name": "commons/S3CommonService deletes an image from S3 and the database",
+      "name": "commons/S3CommonService",
       "tests": [
         {
-          "name": "commons/S3CommonService deletes an image from S3 and the database",
+          "name": "commons/S3CommonService",
           "status": "passed",
           "failureMessage": ""
-        }
-      ]
-    },
-    {
-      "name": "commons/S3CommonService skips image deletion when key is empty",
-      "tests": [
+        },
         {
-          "name": "commons/S3CommonService skips image deletion when key is empty",
+          "name": "commons/S3CommonService",
           "status": "passed",
           "failureMessage": ""
-        }
-      ]
-    },
-    {
-      "name": "commons/S3CommonService uploads an image to S3 and returns the location",
-      "tests": [
+        },
         {
-          "name": "commons/S3CommonService uploads an image to S3 and returns the location",
+          "name": "commons/S3CommonService",
           "status": "passed",
           "failureMessage": ""
-        }
-      ]
-    },
-    {
-      "name": "commons/S3CommonService loads config data from S3",
-      "tests": [
+        },
         {
-          "name": "commons/S3CommonService loads config data from S3",
+          "name": "commons/S3CommonService",
           "status": "passed",
           "failureMessage": ""
         }
       ]
     },
     {
-      "name": "RestaurantService pincode and terms updates a pincode",
+      "name": "RestaurantService pincode and terms",
       "tests": [
         {
-          "name": "RestaurantService pincode and terms updates a pincode",
+          "name": "RestaurantService pincode and terms",
           "status": "passed",
           "failureMessage": ""
-        }
-      ]
-    },
-    {
-      "name": "RestaurantService pincode and terms verifies a pincode",
-      "tests": [
+        },
         {
-          "name": "RestaurantService pincode and terms verifies a pincode",
+          "name": "RestaurantService pincode and terms",
           "status": "passed",
           "failureMessage": ""
-        }
-      ]
-    },
-    {
-      "name": "RestaurantService pincode and terms returns 503 when a pincode does not match",
-      "tests": [
+        },
         {
-          "name": "RestaurantService pincode and terms returns 503 when a pincode does not match",
+          "name": "RestaurantService pincode and terms",
           "status": "passed",
           "failureMessage": ""
-        }
-      ]
-    },
-    {
-      "name": "RestaurantService pincode and terms returns 503 when pincode verification data is invalid",
-      "tests": [
+        },
         {
-          "name": "RestaurantService pincode and terms returns 503 when pincode verification data is invalid",
+          "name": "RestaurantService pincode and terms",
           "status": "passed",
           "failureMessage": ""
-        }
-      ]
-    },
-    {
-      "name": "RestaurantService pincode and terms creates terms and conditions",
-      "tests": [
+        },
         {
-          "name": "RestaurantService pincode and terms creates terms and conditions",
+          "name": "RestaurantService pincode and terms",
           "status": "passed",
           "failureMessage": ""
-        }
-      ]
-    },
-    {
-      "name": "RestaurantService pincode and terms updates terms and conditions",
-      "tests": [
+        },
         {
-          "name": "RestaurantService pincode and terms updates terms and conditions",
+          "name": "RestaurantService pincode and terms",
           "status": "passed",
           "failureMessage": ""
         }
       ]
     },
     {
-      "name": "RestaurantService metadata gets restaurant attributes",
+      "name": "RestaurantService metadata",
       "tests": [
         {
-          "name": "RestaurantService metadata gets restaurant attributes",
+          "name": "RestaurantService metadata",
           "status": "passed",
           "failureMessage": ""
-        }
-      ]
-    },
-    {
-      "name": "RestaurantService metadata gets all restaurant ids on load",
-      "tests": [
+        },
         {
-          "name": "RestaurantService metadata gets all restaurant ids on load",
+          "name": "RestaurantService metadata",
           "status": "passed",
           "failureMessage": ""
-        }
-      ]
-    },
-    {
-      "name": "RestaurantService metadata gets restaurant stats",
-      "tests": [
+        },
         {
-          "name": "RestaurantService metadata gets restaurant stats",
+          "name": "RestaurantService metadata",
           "status": "passed",
           "failureMessage": ""
-        }
-      ]
-    },
-    {
-      "name": "RestaurantService metadata gets restaurant payment history",
-      "tests": [
+        },
         {
-          "name": "RestaurantService metadata gets restaurant payment history",
+          "name": "RestaurantService metadata",
           "status": "passed",
           "failureMessage": ""
-        }
-      ]
-    },
-    {
-      "name": "RestaurantService metadata gets reservation counts for a restaurant",
-      "tests": [
+        },
         {
-          "name": "RestaurantService metadata gets reservation counts for a restaurant",
+          "name": "RestaurantService metadata",
           "status": "passed",
           "failureMessage": ""
-        }
-      ]
-    },
-    {
-      "name": "RestaurantService metadata gets and decodes terms and conditions",
-      "tests": [
+        },
         {
-          "name": "RestaurantService metadata gets and decodes terms and conditions",
+          "name": "RestaurantService metadata",
           "status": "passed",
           "failureMessage": ""
         }
       ]
     },
     {
-      "name": "RestaurantService tabs and attributes adds restaurant tabs",
+      "name": "RestaurantService tabs and attributes",
       "tests": [
         {
-          "name": "RestaurantService tabs and attributes adds restaurant tabs",
+          "name": "RestaurantService tabs and attributes",
           "status": "passed",
           "failureMessage": ""
-        }
-      ]
-    },
-    {
-      "name": "RestaurantService tabs and attributes updates restaurant tabs",
-      "tests": [
+        },
         {
-          "name": "RestaurantService tabs and attributes updates restaurant tabs",
+          "name": "RestaurantService tabs and attributes",
           "status": "passed",
           "failureMessage": ""
-        }
-      ]
-    },
-    {
-      "name": "RestaurantService tabs and attributes updates restaurant tab sort order",
-      "tests": [
+        },
         {
-          "name": "RestaurantService tabs and attributes updates restaurant tab sort order",
+          "name": "RestaurantService tabs and attributes",
           "status": "passed",
           "failureMessage": ""
-        }
-      ]
-    },
-    {
-      "name": "RestaurantService tabs and attributes deletes restaurant tabs and resets submitted orders",
-      "tests": [
+        },
         {
-          "name": "RestaurantService tabs and attributes deletes restaurant tabs and resets submitted orders",
+          "name": "RestaurantService tabs and attributes",
           "status": "passed",
           "failureMessage": ""
-        }
-      ]
-    },
-    {
-      "name": "RestaurantService tabs and attributes replaces restaurant attributes",
-      "tests": [
+        },
         {
-          "name": "RestaurantService tabs and attributes replaces restaurant attributes",
+          "name": "RestaurantService tabs and attributes",
           "status": "passed",
           "failureMessage": ""
         }
       ]
     },
     {
-      "name": "RestaurantService floors creates a floor and notifies members",
+      "name": "RestaurantService floors",
       "tests": [
         {
-          "name": "RestaurantService floors creates a floor and notifies members",
+          "name": "RestaurantService floors",
           "status": "passed",
           "failureMessage": ""
-        }
-      ]
-    },
-    {
-      "name": "RestaurantService floors updates a floor",
-      "tests": [
+        },
         {
-          "name": "RestaurantService floors updates a floor",
+          "name": "RestaurantService floors",
           "status": "passed",
           "failureMessage": ""
-        }
-      ]
-    },
-    {
-      "name": "RestaurantService floors deletes a floor and updates linked tables",
-      "tests": [
+        },
         {
-          "name": "RestaurantService floors deletes a floor and updates linked tables",
+          "name": "RestaurantService floors",
           "status": "passed",
           "failureMessage": ""
         }
       ]
     },
     {
-      "name": "PushNotificationsService regression coverage ignores blank CSV ids in getUpdateTimestamps",
+      "name": "PushNotificationsService regression coverage",
       "tests": [
         {
-          "name": "PushNotificationsService regression coverage ignores blank CSV ids in getUpdateTimestamps",
+          "name": "PushNotificationsService regression coverage",
           "status": "passed",
           "failureMessage": ""
         }
       ]
     },
     {
-      "name": "TableService regression coverage drops blank restaurant ids before querying availability",
+      "name": "TableService regression coverage",
       "tests": [
         {
-          "name": "TableService regression coverage drops blank restaurant ids before querying availability",
+          "name": "TableService regression coverage",
           "status": "passed",
           "failureMessage": ""
         }
       ]
     },
     {
-      "name": "RestaurantService table types creates a table type",
+      "name": "RestaurantService table types",
       "tests": [
         {
-          "name": "RestaurantService table types creates a table type",
+          "name": "RestaurantService table types",
           "status": "passed",
           "failureMessage": ""
-        }
-      ]
-    },
-    {
-      "name": "RestaurantService table types updates a table type",
-      "tests": [
+        },
         {
-          "name": "RestaurantService table types updates a table type",
+          "name": "RestaurantService table types",
           "status": "passed",
           "failureMessage": ""
-        }
-      ]
-    },
-    {
-      "name": "RestaurantService table types deletes a table type",
-      "tests": [
+        },
         {
-          "name": "RestaurantService table types deletes a table type",
+          "name": "RestaurantService table types",
           "status": "passed",
           "failureMessage": ""
         }
