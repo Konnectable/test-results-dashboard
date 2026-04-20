@@ -1,9 +1,59 @@
 {
   "repo": "papieya-api-menu",
   "status": "passed",
-  "updatedAt": "2026-04-19T23:55:52.913Z",
-  "runUrl": "https://github.com/Konnectable/papieya-api-menu/actions/runs/24642239501",
+  "updatedAt": "2026-04-20T00:14:38.934Z",
+  "runUrl": "https://github.com/Konnectable/papieya-api-menu/actions/runs/24642609439",
   "suites": [
+    {
+      "name": "database skips connection ping in test mode and promisifies query helpers",
+      "tests": [
+        {
+          "name": "database skips connection ping in test mode and promisifies query helpers",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "database pings the database and releases the connection outside test mode",
+      "tests": [
+        {
+          "name": "database pings the database and releases the connection outside test mode",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "database logs connection failures outside test mode",
+      "tests": [
+        {
+          "name": "database logs connection failures outside test mode",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "database withTransaction commits successful work and releases the connection",
+      "tests": [
+        {
+          "name": "database withTransaction commits successful work and releases the connection",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "database withTransaction rolls back failed work and releases the connection",
+      "tests": [
+        {
+          "name": "database withTransaction rolls back failed work and releases the connection",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
     {
       "name": "service/menuService update flows updateMenu generates an escaped update clause and published timestamp branch",
       "tests": [
@@ -69,36 +119,6 @@
       "tests": [
         {
           "name": "commons/helpers.getSetClauseForUpdate deleteImages skips empty payloads and forwards valid payloads through lambda",
-          "status": "passed",
-          "failureMessage": ""
-        }
-      ]
-    },
-    {
-      "name": "database skips connection ping in test mode and promisifies query",
-      "tests": [
-        {
-          "name": "database skips connection ping in test mode and promisifies query",
-          "status": "passed",
-          "failureMessage": ""
-        }
-      ]
-    },
-    {
-      "name": "database pings the database and releases the connection outside test mode",
-      "tests": [
-        {
-          "name": "database pings the database and releases the connection outside test mode",
-          "status": "passed",
-          "failureMessage": ""
-        }
-      ]
-    },
-    {
-      "name": "database logs connection failures outside test mode",
-      "tests": [
-        {
-          "name": "database logs connection failures outside test mode",
           "status": "passed",
           "failureMessage": ""
         }
