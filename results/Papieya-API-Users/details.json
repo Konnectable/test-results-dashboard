@@ -1,8 +1,8 @@
 {
   "repo": "Papieya-API-Users",
   "status": "passed",
-  "updatedAt": "2026-04-20T01:09:50.060Z",
-  "runUrl": "https://github.com/Konnectable/Papieya-API-Users/actions/runs/24643804476",
+  "updatedAt": "2026-04-20T01:13:26.080Z",
+  "runUrl": "https://github.com/Konnectable/Papieya-API-Users/actions/runs/24643885257",
   "suites": [
     {
       "name": "UsersService mutation flows updateRestaurantUserInfo should update policy acknowledgement",
@@ -35,10 +35,30 @@
       ]
     },
     {
+      "name": "UsersService mutation flows updateRestaurantUserInfo should delete roles when roleCds is explicitly set to empty",
+      "tests": [
+        {
+          "name": "UsersService mutation flows updateRestaurantUserInfo should delete roles when roleCds is explicitly set to empty",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
       "name": "UsersService mutation flows addRestaurantUserInfo should add new user successfully",
       "tests": [
         {
           "name": "UsersService mutation flows addRestaurantUserInfo should add new user successfully",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "UsersService mutation flows addRestaurantUserInfo should allow adding a user when roleCds is omitted",
+      "tests": [
+        {
+          "name": "UsersService mutation flows addRestaurantUserInfo should allow adding a user when roleCds is omitted",
           "status": "passed",
           "failureMessage": ""
         }
