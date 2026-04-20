@@ -4,10 +4,10 @@
   "rows": [
     {
       "file": "All files",
-      "statementsPct": 91.45,
-      "branchesPct": 71.82,
-      "functionsPct": 94.2,
-      "linesPct": 91.42,
+      "statementsPct": 91.5,
+      "branchesPct": 72.32,
+      "functionsPct": 94.29,
+      "linesPct": 91.47,
       "uncoveredLines": []
     },
     {
@@ -20,27 +20,27 @@
     },
     {
       "file": "commons/helpers.js",
-      "statementsPct": 86.44,
-      "branchesPct": 77.5,
-      "functionsPct": 84,
-      "linesPct": 86.44,
+      "statementsPct": 86.67,
+      "branchesPct": 78.57,
+      "functionsPct": 84.62,
+      "linesPct": 86.67,
       "uncoveredLines": [
-        105,
-        118,
-        119,
+        107,
         120,
         121,
         122,
+        123,
         124,
-        128,
-        129,
-        223,
-        229,
-        304,
-        309,
-        313,
-        316,
-        317
+        126,
+        130,
+        131,
+        225,
+        231,
+        305,
+        310,
+        314,
+        317,
+        318
       ]
     },
     {
