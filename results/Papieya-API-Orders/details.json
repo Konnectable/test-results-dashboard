@@ -1,109 +1,9 @@
 {
   "repo": "Papieya-API-Orders",
   "status": "passed",
-  "updatedAt": "2026-04-20T01:13:43.661Z",
-  "runUrl": "https://github.com/Konnectable/Papieya-API-Orders/actions/runs/24643891593",
+  "updatedAt": "2026-04-20T01:23:02.280Z",
+  "runUrl": "https://github.com/Konnectable/Papieya-API-Orders/actions/runs/24644100547",
   "suites": [
-    {
-      "name": "OrdersService core flows validateOrderType accepts standard and custom",
-      "tests": [
-        {
-          "name": "OrdersService core flows validateOrderType accepts standard and custom",
-          "status": "passed",
-          "failureMessage": ""
-        }
-      ]
-    },
-    {
-      "name": "OrdersService core flows validateOrderType rejects unknown order types",
-      "tests": [
-        {
-          "name": "OrdersService core flows validateOrderType rejects unknown order types",
-          "status": "passed",
-          "failureMessage": ""
-        }
-      ]
-    },
-    {
-      "name": "OrdersService core flows formatOrders normalizes order payloads",
-      "tests": [
-        {
-          "name": "OrdersService core flows formatOrders normalizes order payloads",
-          "status": "passed",
-          "failureMessage": ""
-        }
-      ]
-    },
-    {
-      "name": "OrdersService core flows getPaymentStatus returns the payment status",
-      "tests": [
-        {
-          "name": "OrdersService core flows getPaymentStatus returns the payment status",
-          "status": "passed",
-          "failureMessage": ""
-        }
-      ]
-    },
-    {
-      "name": "OrdersService core flows createOrders returns a 200 response on success",
-      "tests": [
-        {
-          "name": "OrdersService core flows createOrders returns a 200 response on success",
-          "status": "passed",
-          "failureMessage": ""
-        }
-      ]
-    },
-    {
-      "name": "OrdersService core flows createOrders returns an error when payment is already completed",
-      "tests": [
-        {
-          "name": "OrdersService core flows createOrders returns an error when payment is already completed",
-          "status": "passed",
-          "failureMessage": ""
-        }
-      ]
-    },
-    {
-      "name": "OrdersService core flows createOrdersInternal creates a standard order",
-      "tests": [
-        {
-          "name": "OrdersService core flows createOrdersInternal creates a standard order",
-          "status": "passed",
-          "failureMessage": ""
-        }
-      ]
-    },
-    {
-      "name": "OrdersService core flows createOrdersInternal rejects invalid shared order quantities",
-      "tests": [
-        {
-          "name": "OrdersService core flows createOrdersInternal rejects invalid shared order quantities",
-          "status": "passed",
-          "failureMessage": ""
-        }
-      ]
-    },
-    {
-      "name": "OrdersService core flows getOrders returns shared and individual order buckets",
-      "tests": [
-        {
-          "name": "OrdersService core flows getOrders returns shared and individual order buckets",
-          "status": "passed",
-          "failureMessage": ""
-        }
-      ]
-    },
-    {
-      "name": "OrdersService core flows deleteOrderByIds issues deletes for all related tables",
-      "tests": [
-        {
-          "name": "OrdersService core flows deleteOrderByIds issues deletes for all related tables",
-          "status": "passed",
-          "failureMessage": ""
-        }
-      ]
-    },
     {
       "name": "handler wiring delegates createOrders to the matching service method",
       "tests": [
@@ -695,6 +595,56 @@
       ]
     },
     {
+      "name": "OrdersService createOrders getPaymentStatus returns the payment status",
+      "tests": [
+        {
+          "name": "OrdersService createOrders getPaymentStatus returns the payment status",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "OrdersService createOrders createOrders returns a 200 response on success",
+      "tests": [
+        {
+          "name": "OrdersService createOrders createOrders returns a 200 response on success",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "OrdersService createOrders createOrders returns an error when payment is already completed",
+      "tests": [
+        {
+          "name": "OrdersService createOrders createOrders returns an error when payment is already completed",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "OrdersService createOrders createOrdersInternal creates a standard order",
+      "tests": [
+        {
+          "name": "OrdersService createOrders createOrdersInternal creates a standard order",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "OrdersService createOrders createOrdersInternal rejects invalid shared order quantities",
+      "tests": [
+        {
+          "name": "OrdersService createOrders createOrdersInternal rejects invalid shared order quantities",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
       "name": "SelfOrderService adds a self order reservation and returns the reservation payload",
       "tests": [
         {
@@ -715,6 +665,36 @@
       ]
     },
     {
+      "name": "OrdersService validation validateOrderType accepts standard and custom",
+      "tests": [
+        {
+          "name": "OrdersService validation validateOrderType accepts standard and custom",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "OrdersService validation validateOrderType rejects unknown order types",
+      "tests": [
+        {
+          "name": "OrdersService validation validateOrderType rejects unknown order types",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "OrdersService validation formatOrders normalizes order payloads",
+      "tests": [
+        {
+          "name": "OrdersService validation formatOrders normalizes order payloads",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
       "name": "ReservationsService getReservationInfo delegates to the internal lookup",
       "tests": [
         {
@@ -729,6 +709,26 @@
       "tests": [
         {
           "name": "ReservationsService getReservationsInfoFromWeb returns the cors wrapped payload",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "OrdersService reads and cleanup getOrders returns shared and individual order buckets",
+      "tests": [
+        {
+          "name": "OrdersService reads and cleanup getOrders returns shared and individual order buckets",
+          "status": "passed",
+          "failureMessage": ""
+        }
+      ]
+    },
+    {
+      "name": "OrdersService reads and cleanup deleteOrderByIds issues deletes for all related tables",
+      "tests": [
+        {
+          "name": "OrdersService reads and cleanup deleteOrderByIds issues deletes for all related tables",
           "status": "passed",
           "failureMessage": ""
         }
