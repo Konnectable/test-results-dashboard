@@ -1,8 +1,8 @@
 {
   "repo": "papieya-api-stripe",
   "status": "passed",
-  "updatedAt": "2026-04-20T06:38:09.699Z",
-  "runUrl": "https://github.com/Konnectable/papieya-api-stripe/actions/runs/24652154588",
+  "updatedAt": "2026-04-20T07:56:38.366Z",
+  "runUrl": "https://github.com/Konnectable/papieya-api-stripe/actions/runs/24655089145",
   "suites": [
     {
       "name": "handler delegation",

@@ -1,8 +1,8 @@
 {
   "repo": "Papieya-API-Restaurant",
   "status": "passed",
-  "updatedAt": "2026-04-20T07:04:39.776Z",
-  "runUrl": "https://github.com/Konnectable/Papieya-API-Restaurant/actions/runs/24653098917",
+  "updatedAt": "2026-04-20T07:56:35.859Z",
+  "runUrl": "https://github.com/Konnectable/Papieya-API-Restaurant/actions/runs/24655086808",
   "suites": [
     {
       "name": "handler",
